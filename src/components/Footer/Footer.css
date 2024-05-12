@@ -1,0 +1,151 @@
+/* Estilos generales para el footer */
+footer {
+    background-color: #232323;
+    text-align: center;
+    color: white;
+}
+
+/* Estilos para el título */
+.Titulo {
+    color: white;
+    font-size: 1.2em; /* Tamaño del título predeterminado */
+    font-family: Futura;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+/* Estilos para los íconos de ubicación y correo */
+.IconoUbicacion,
+.IconoMail {
+    font-size: 1.5em; /* Tamaño de ícono predeterminado */
+}
+
+/* Estilos para el texto de ubicación y correo */
+.TextoUbicacion,
+.TextoMail {
+    color: white;
+    font-size: 0.8rem; /* Tamaño de texto predeterminado */
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/* Estilos para los íconos de redes sociales */
+.LogoInstagram,
+.LogoTwitter,
+.LogoFacebook {
+    font-size: 2.5rem; /* Tamaño de ícono predeterminado */
+    color: white !important;
+}
+
+/* Estilos para los avisos legales */
+.Avisos {
+    font-size: 0.8rem; /* Tamaño de texto predeterminado */
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/* Estilos para el texto de derechos de autor */
+.Copyright {
+    font-size: 0.7rem; /* Tamaño de texto predeterminado */
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+@media (max-width: 1024px) {
+    .Titulo {
+        font-size: 1.1em;
+    }
+    .IconoUbicacion,
+    .IconoMail {
+        font-size: 1.4em;
+    }
+    .TextoUbicacion,
+    .TextoMail {
+        font-size: 0.75rem;
+    }
+    .LogoInstagram,
+    .LogoTwitter,
+    .LogoFacebook {
+        font-size: 2.3rem;
+    }
+    .Avisos {
+        font-size: 0.75rem;
+    }
+    .Copyright {
+        font-size: 0.65rem;
+    }
+    .mb-between-rows {
+        margin-top: 1.5rem; /* Ajustar el margen entre filas */
+    }
+    .text-start.text-sm-center {
+        text-align: center !important;
+    }
+}
+
+/* Estilos para diferentes tamaños de pantalla */
+@media (max-width: 768px) {
+    /* Ajustes para dispositivos medianos y pequeños */
+    .Titulo {
+        font-size: 1em;
+    }
+    .IconoUbicacion,
+    .IconoMail {
+        font-size: 1.3em;
+    }
+    .TextoUbicacion,
+    .TextoMail {
+        font-size: 0.7rem;
+    }
+    .LogoInstagram,
+    .LogoTwitter,
+    .LogoFacebook {
+        font-size: 2rem;
+    }
+    .Avisos {
+        font-size: 0.7rem;
+    }
+    .Copyright {
+        font-size: 0.6rem;
+    }
+    .mb-between-rows {
+        margin-top: 2rem; /* Ajusta el margen entre las filas */
+    }
+    .text-start.text-sm-center {
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Ajustes para dispositivos pequeños */
+    .Titulo {
+        font-size: 0.9em;
+    }
+    .IconoUbicacion,
+    .IconoMail {
+        font-size: 1.1em;
+    }
+    .TextoUbicacion,
+    .TextoMail {
+        font-size: 0.6rem;
+    }
+    .LogoInstagram,
+    .LogoTwitter,
+    .LogoFacebook {
+        font-size: 1.8rem;
+    }
+    .Avisos {
+        font-size: 0.6rem;
+    }
+    .Copyright {
+        font-size: 0.5rem;
+    }
+    .mb-between-rows {
+        margin-top: 2rem; /* Ajusta el margen entre las filas */
+    }
+    .text-start.text-sm-center {
+        text-align: center !important;
+    }
+}

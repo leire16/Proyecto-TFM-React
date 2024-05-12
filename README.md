@@ -1,0 +1,1 @@
+Para ejecutar el proyecto comando : npm run dev

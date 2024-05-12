@@ -1,0 +1,105 @@
+/* Header */
+header {
+    background-color: #232323; /* Color de fondo del encabezado */
+    padding: 0.3125rem; /* Relleno del encabezado */
+    text-align: center; /* Alinear el contenido al centro */
+    color: white; /* Color del texto */
+}
+
+/* Estilos para el icono de menú tipo hamburguesa */
+.Hamburgesa .mdi {
+    font-size: 2.125rem; /* Tamaño del icono */
+}
+
+/* Estilos para el botón tipo hamburguesa */
+.Hamburgesa.btn {
+    border: 0.125rem solid white !important; /* Borde sólido blanco */
+}
+
+/* Cambiar el color del borde al hacer hover en el botón */
+.Hamburgesa.btn:hover {
+    border: 0.125rem solid #FFD700 !important; /* Cambiar el color del borde a dorado (#FFD700) */
+}
+
+/* Estilo para el icono personalizado */
+.custom-icon {
+    color: #FFD700 !important;
+}
+
+/* Cambiar el color del icono al hacer hover en el botón */
+.Hamburgesa:hover .custom-icon {
+    color: white !important; /* Cambiar el color del icono a blanco */
+}
+
+/* Estilos para la imagen dentro del encabezado */
+header img {
+    max-width: 100%; /* Ancho máximo de la imagen */
+    height: auto; /* Altura automática */
+}
+
+/* Estilos para el texto "AskartzaMartxa" */
+.AskartzaMartxa {
+    color: #FFD700; /* Color del texto */
+    font-size: 2rem; /* Tamaño del texto en dispositivos grandes */
+    font-family: Lato; /* Fuente del texto */
+    font-weight: 500; /* Grosor del texto */
+    word-wrap: break-word; /* Permitir el corte de palabras largas */
+}
+
+/* Estilos para el texto "Entradas" */
+.Entradas {
+    color: #FFD700; /* Color del texto */
+    font-size: 1.1875rem; /* Tamaño del texto en dispositivos grandes */
+    font-family: Inter; /* Fuente del texto */
+    font-weight: 700; /* Grosor del texto */
+    word-wrap: break-word; /* Permitir el corte de palabras largas */
+    text-align: center; /* Alinear el texto al centro */
+    line-height: 1.2rem; /* Altura de línea */
+}
+
+/* Estilos para el botón personalizado */
+.btn-custom {
+    background-color: #B02229 !important; /* Color de fondo del botón */
+}
+
+/* Cambiar el color del texto al hacer hover en el botón */
+.btn:hover .Entradas {
+    color: white; /* Cambiar el color del texto a blanco */
+}
+
+/* Media queries para dispositivos de diferentes tamaños */
+@media (max-width: 1024px) {
+    .AskartzaMartxa {
+        font-size: 1.5rem; /* Tamaño del texto en iPads */
+    }
+    .Entradas {
+        font-size: 1rem; /* Tamaño del texto en iPads */
+    }
+    .Hamburgesa .mdi {
+        font-size: 2rem; /* Tamaño del icono en iPads */
+    }
+}
+
+@media (max-width: 768px) {
+    .AskartzaMartxa {
+        font-size: 1.2rem; /* Tamaño del texto en dispositivos medianos */
+    }
+    .Entradas {
+        font-size: 1rem; /* Tamaño del texto en dispositivos medianos */
+    }
+    .Hamburgesa .mdi {
+        font-size: 1.8rem; /* Tamaño del icono en dispositivos medianos */
+    }
+}
+
+@media (max-width: 576px) {
+    .AskartzaMartxa {
+        font-size: 1rem; /* Tamaño del texto en dispositivos pequeños */
+    }
+    .Entradas {
+        font-size: 0.7rem; /* Tamaño del texto en dispositivos pequeños */
+    }
+    .Hamburgesa .mdi {
+        font-size: 1.5rem; /* Tamaño del icono en dispositivos pequeños */
+    }
+}

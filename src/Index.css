@@ -1,0 +1,119 @@
+/* Estilos para el cuerpo */
+#cuerpo {
+  background-color: #2B2B2B;
+  background-image: url('/assets/img/Vector Grande.png');
+  /* Imagen de fondo */
+  background-repeat: repeat-y;
+  /* Repetir la imagen verticalmente */
+  background-position-y: -10px;
+  /* Establecer la posición vertical de fondo */
+  background-size: 100% auto;
+  /* Ajustar la anchura de la imagen para cubrir completamente el contenedor */
+  padding: 2rem;
+  max-width: 100%;
+  /* Ancho máximo del cuerpo */
+  margin: 0 auto;
+  /* Centrar el contenido */
+  box-sizing: border-box;
+  /* Incluir relleno y borde en el ancho total */
+  position: relative;
+  /* Añadimos posición relativa para posicionar las imágenes de fondo */
+}
+
+/* Estilos para encabezados (h1, h2) */
+h1 {
+  color: #00FF00;
+  /* Color de texto verde */
+  font-size: 4rem;
+  /* Tamaño de fuente en dispositivos grandes */
+}
+
+h2 {
+  color: #FFD700;
+  /* Color de texto amarillo */
+  font-size: 2.5rem;
+  /* Tamaño de fuente en dispositivos grandes */
+}
+
+/* Estilos para párrafos y elementos de lista */
+p,
+li {
+  font-size: 1.125rem;
+  /* Tamaño de fuente en dispositivos grandes */
+  color: #FFFFFF;
+  /* Color de texto blanco */
+  text-align: justify;
+  /* Alinear el texto justificado */
+}
+
+/* Clase sin margen */
+.sin-margen {
+  margin-bottom: 0;
+  /* Eliminar margen inferior */
+}
+
+/* Estilos específicos para el texto que actúa como botón */
+.BotonTexto {
+  cursor: pointer;
+  /* Cambia el cursor a puntero */
+}
+
+/* Cambiar el color del texto al hacer hover */
+.BotonTexto:hover {
+  color: #FFD700;
+}
+
+/* Media queries para dispositivos de diferentes tamaños */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 3.5rem;
+    /* Tamaño de fuente en iPads */
+  }
+
+  h2 {
+    font-size: 2rem;
+    /* Tamaño de fuente en iPads */
+  }
+
+  p,
+  li {
+    font-size: 1rem;
+    /* Tamaño de fuente en iPads */
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+    /* Tamaño de fuente en dispositivos medianos */
+  }
+
+  h2 {
+    font-size: 2rem;
+    /* Tamaño de fuente en dispositivos medianos */
+  }
+
+  p,
+  li {
+    font-size: 1rem;
+    /* Tamaño de fuente en dispositivos medianos */
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2rem;
+    /* Tamaño de fuente en dispositivos pequeños */
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    /* Tamaño de fuente en dispositivos pequeños */
+  }
+
+  p,
+  li {
+    font-size: 0.875rem;
+    /* Tamaño de fuente en dispositivos pequeños */
+  }
+}

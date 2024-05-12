@@ -1,0 +1,73 @@
+/* Estilos generales para el menú vertical */
+.MenuVertical {
+    background-color: #232323; /* Color de fondo del menú */
+    color: white; /* Color del texto */
+    position: fixed; /* Fijar el menú en la pantalla */
+    top: 0; /* Posicionar en la parte superior PUDE QUE QUITAR ESTA PROPIEDAD*/
+    right: 0; /* Posicionar en el extremo derecho */
+    width: 20%; /* Ancho predeterminado del menú */
+    z-index: 1; /* height: 100%;       DUDA PONGO 100% o que ocupe solo el contenidoq ue tiene */
+}
+
+/* Estilos generales para el texto en el menú */
+.Texto {
+    text-align: justify; /* Alinear el texto justificado */
+    color: white; /* Color del texto */
+    font-size: 1.25rem; /* Tamaño del texto para dispositivos grandes */
+    font-family: Inter; /* Fuente del texto */
+    font-weight: 600; /* Grosor del texto */
+    word-wrap: break-word; /* Permitir el corte de palabras largas */
+    margin-bottom: 0.5rem; /* Margen inferior para separar los textos */
+}
+
+/* Estilos generales para el tamaño del icono */
+.LogoVuelta {
+    font-size: 2.5rem; /* Tamaño del icono para dispositivos grandes */
+    color: white !important; /* Cambiar el color del icono a blanco */
+}
+
+/* Cambiar el color del icono a dorado (#FFD700) al hacer hover */
+.LogoVuelta:hover {
+    color: #FFD700 !important;
+}
+
+/* Ocultar producciones por defecto */
+.oculto {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+/* Estilos específicos para diferentes tamaños de pantalla */
+@media (max-width: 1200px) {
+    .MenuVertical {
+        width: 30%;
+        /* Ancho del menú para iPads */
+    }
+}
+
+@media (max-width: 768px) {
+    .MenuVertical {
+        width: 50%;
+        /* Ancho del menú para dispositivos medianos y pequeños */
+    }
+}
+
+@media (max-width: 576px) {
+    .MenuVertical {
+        width: 100%;
+        /* Ancho del menú para dispositivos pequeños */
+    }
+
+    .Texto {
+        font-size: 1rem;
+        /* Tamaño del texto para dispositivos pequeños */
+    }
+
+    .LogoVuelta {
+        font-size: 2rem;
+        /* Tamaño del icono para dispositivos pequeños */
+    }
+}
