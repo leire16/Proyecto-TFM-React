@@ -1,5 +1,5 @@
 import React from 'react';
-import Preloader from '../../utils/Preloader'; // Ruta relativa desde index.jsx a Preloader.jsx
+// import Preloader from '../../utils/Preloader'; // Ruta relativa desde index.jsx a Preloader.jsx
 import Carousel from 'react-bootstrap/Carousel';
 
 const Inicio = () => {
