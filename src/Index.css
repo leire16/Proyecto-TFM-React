@@ -1,7 +1,7 @@
 /* Estilos para el cuerpo */
 #cuerpo {
   background-color: #2B2B2B;
-  background-image: url('/assets/img/Vector Grande.png');
+  background-image: url('./assets/img/Vector Grande.png');
   /* Imagen de fondo */
   background-repeat: repeat-y;
   /* Repetir la imagen verticalmente */
@@ -63,6 +63,22 @@ li {
   color: #FFD700;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  width: 4rem;
+  height: 4rem;
+}
+
+.carousel-control-prev {
+  width: auto;
+  left: -3.75rem; /* Ajusta el espacio a la izquierda */
+}
+
+.carousel-control-next {
+  width: auto;
+  right: -3.75rem; /* Ajusta el espacio a la derecha */
+}
+
+
 /* Media queries para dispositivos de diferentes tamaños */
 @media (max-width: 1024px) {
   h1 {
@@ -80,6 +96,11 @@ li {
     font-size: 1rem;
     /* Tamaño de fuente en iPads */
   }
+  .carousel-control-prev-icon, .carousel-control-next-icon{
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -98,6 +119,20 @@ li {
     font-size: 1rem;
     /* Tamaño de fuente en dispositivos medianos */
   }
+  .carousel-control-prev-icon, .carousel-control-next-icon{
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .carousel-control-prev {
+    width: auto;
+    left: -3.75rem; /* Ajusta el espacio a la izquierda */
+  }
+  
+  .carousel-control-next {
+    width: auto;
+    right: -3.75rem; /* Ajusta el espacio a la derecha */
+  }
 }
 
 @media (max-width: 576px) {
@@ -115,5 +150,19 @@ li {
   li {
     font-size: 0.875rem;
     /* Tamaño de fuente en dispositivos pequeños */
+  }
+  .carousel-control-prev-icon, .carousel-control-next-icon{
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  
+  .carousel-control-prev {
+    width: auto;
+    left: -2.5rem; /* Ajusta el espacio a la izquierda */
+  }
+  
+  .carousel-control-next {
+    width: auto;
+    right: -2.5rem; /* Ajusta el espacio a la derecha */
   }
 }

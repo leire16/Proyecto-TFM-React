@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import Header from './components/Header/Header.jsx';
 import Footer from './components/Footer/Footer.jsx';
-import Inicio from './components/Body/Body.jsx';
+import Inicio from './pages/Inicio/Inicio.jsx';
 import AvisoLegal from './pages/AvisoLegal/AvisoLegal.jsx';
 import PoliticaCookies from './pages/PoliticaCookies/PoliticaCookies.jsx';
 import PoliticaPrivacidad from './pages/PoliticaPrivacidad/PoliticaPrivacidad.jsx';
