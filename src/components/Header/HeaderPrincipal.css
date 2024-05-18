@@ -14,7 +14,6 @@
     text-align: justify; /* Alinear el texto justificado */
     color: white; /* Color del texto */
     font-size: 1.25rem; /* Tamaño del texto para dispositivos grandes */
-    font-family: Inter; /* Fuente del texto */
     font-weight: 600; /* Grosor del texto */
     word-wrap: break-word; /* Permitir el corte de palabras largas */
     margin-bottom: 0.5rem; /* Margen inferior para separar los textos */

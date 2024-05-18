@@ -1,23 +1,24 @@
 import React from 'react';
 import './Footer.css';
 
-const Footer = ({ onMostrarAvisoLegal, onMostrarPoliticaPrivacidad,onMostrarPoliticaCookies }) => {
+const Footer = ({ onMostrarAvisoLegal, onMostrarPoliticaPrivacidad, onMostrarPoliticaCookies }) => {
   return (
     <footer>
       <div className="text-white py-4 mb-0">
         <div className="container">
           <div className="row">
-            <div className="col-md-6 col-sm-12">
-              <div className="Titulo mb-2 text-start text-sm-center">CONTACTO</div>
-              <div className="mb-1 d-flex align-items-center">
+            <div className="col-md-6 col-sm-12 center">
+              <div className="Titulo mb-2 text-start text-md-start text-center">CONTACTO</div>
+              <div className="mb-1 d-flex align-items-center justify-content-start justify-content-md-start justify-content-center">
                 <span className="mdi mdi-google-maps me-2 IconoUbicacion"></span>
                 <div className="TextoUbicacion ms-1">Sarriena Auzoa, 173, 48940 Leioa, Vizcaya</div>
               </div>
-              <div className="mb-1 d-flex align-items-center ">
+              <div className="mb-1 d-flex align-items-center justify-content-start justify-content-md-start justify-content-center">
                 <span className="mdi mdi-email me-2 IconoMail"></span>
                 <div className="TextoMail ms-1">askartzamartxa@gmail.com</div>
               </div>
             </div>
+
             <div className="col-md-6 col-sm-12 mb-between-rows">
               <div className="Titulo mb-2 text-center">REDES SOCIALES</div>
               <div className="mb-1 d-flex justify-content-center">

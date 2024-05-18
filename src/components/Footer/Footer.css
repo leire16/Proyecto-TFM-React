@@ -9,7 +9,6 @@ footer {
 .Titulo {
     color: white;
     font-size: 1.2em; /* Tamaño del título predeterminado */
-    font-family: Futura;
     font-weight: 700;
     word-wrap: break-word;
 }
@@ -25,7 +24,6 @@ footer {
 .TextoMail {
     color: white;
     font-size: 0.8rem; /* Tamaño de texto predeterminado */
-    font-family: Inter;
     font-weight: 400;
     word-wrap: break-word;
 }
@@ -41,7 +39,6 @@ footer {
 /* Estilos para los avisos legales */
 .Avisos {
     font-size: 0.8rem; /* Tamaño de texto predeterminado */
-    font-family: Inter;
     font-weight: 400;
     word-wrap: break-word;
 }
@@ -49,7 +46,6 @@ footer {
 /* Estilos para el texto de derechos de autor */
 .Copyright {
     font-size: 0.7rem; /* Tamaño de texto predeterminado */
-    font-family: Inter;
     font-weight: 700;
     word-wrap: break-word;
 }
@@ -90,6 +86,7 @@ footer {
     /* Ajustes para dispositivos medianos y pequeños */
     .Titulo {
         font-size: 1em;
+        text-align: center;
     }
     .IconoUbicacion,
     .IconoMail {
@@ -98,6 +95,7 @@ footer {
     .TextoUbicacion,
     .TextoMail {
         font-size: 0.7rem;
+        text-align: center;
     }
     .LogoInstagram,
     .LogoTwitter,

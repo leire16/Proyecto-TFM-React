@@ -41,7 +41,6 @@ header img {
 .AskartzaMartxa {
     color: #FFD700; /* Color del texto */
     font-size: 2rem; /* Tamaño del texto en dispositivos grandes */
-    font-family: Lato; /* Fuente del texto */
     font-weight: 500; /* Grosor del texto */
     word-wrap: break-word; /* Permitir el corte de palabras largas */
 }
@@ -50,7 +49,7 @@ header img {
 .Entradas {
     color: #FFD700; /* Color del texto */
     font-size: 1.1875rem; /* Tamaño del texto en dispositivos grandes */
-    font-family: Inter; /* Fuente del texto */
+    
     font-weight: 700; /* Grosor del texto */
     word-wrap: break-word; /* Permitir el corte de palabras largas */
     text-align: center; /* Alinear el texto al centro */

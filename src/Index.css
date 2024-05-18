@@ -8,8 +8,6 @@
   background-position-y: -10px;
   /* Establecer la posición vertical de fondo */
   background-size: 100% auto;
-  /* Ajustar la anchura de la imagen para cubrir completamente el contenedor */
-  padding: 2rem;
   max-width: 100%;
   /* Ancho máximo del cuerpo */
   margin: 0 auto;
@@ -25,6 +23,7 @@ h1 {
   color: #00FF00;
   /* Color de texto verde */
   font-size: 4rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   /* Tamaño de fuente en dispositivos grandes */
 }
 
@@ -77,6 +76,35 @@ li {
   width: auto;
   right: -3.75rem; /* Ajusta el espacio a la derecha */
 }
+
+.bg-grey {
+  background-color: #393939; /* Gris claro */
+}
+
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.carousel-img-container {
+  position: relative;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.carousel-img-container:hover .centered-text {
+  display: block;
+}
+
 
 
 /* Media queries para dispositivos de diferentes tamaños */
