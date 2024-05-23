@@ -40,13 +40,13 @@ const Footer = ({ onMostrarAvisoLegal, onMostrarPoliticaPrivacidad, onMostrarPol
         <div className="container">
           <div className="row">
             <div className="col-md-4 col-sm-12 text-center">
-              <div className="Avisos ms-0 BotonTexto" onClick={onMostrarAvisoLegal}>Aviso Legal</div>
+              <div className="Avisos ms-0 pointer" onClick={onMostrarAvisoLegal}>Aviso Legal</div>
             </div>
             <div className="col-md-4 col-sm-12 text-center">
-              <div className="Avisos ms-0 BotonTexto" onClick={onMostrarPoliticaPrivacidad}>Política de Privacidad</div>
+              <div className="Avisos ms-0 pointer" onClick={onMostrarPoliticaPrivacidad}>Política de Privacidad</div>
             </div>
             <div className="col-md-4 col-sm-12 text-center">
-              <div className="Avisos ms-0 BotonTexto" onClick={onMostrarPoliticaCookies}>Política de Cookies</div>
+              <div className="Avisos ms-0 pointer" onClick={onMostrarPoliticaCookies}>Política de Cookies</div>
             </div>
           </div>
           <div className="row mt-4">

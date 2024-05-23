@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './HeaderPrincipal.css';
 
-const HeaderPrincipal = ({ mostrarIntranet, toggleHeaderPrincipal, onMostrarSeccion }) => {
+const HeaderPrincipal = ({ mostrarIntranet, toggleHeaderPrincipal, onMostrarSeccion, cambiarSeccionConParametros }) => {
   const [menuVisible, setMenuVisible] = useState(true);
   const [produccionesVisible, setProduccionesVisible] = useState(false);
   const [intranetVisible, setIntranetVisible] = useState(false); // Nuevo estado para controlar la visibilidad de Intranet
@@ -35,53 +35,62 @@ const HeaderPrincipal = ({ mostrarIntranet, toggleHeaderPrincipal, onMostrarSecc
     }
   };
 
-  const mostrarAccesoUsuarios = () => { 
-    // esta condicion cmabaira cuando el login este hecho
+  const mostrarAccesoUsuarios = () => {
+    // esta condicion cambiara cuando el login este hecho
     setIntranetVisible(true); // Al mostrar Intranet, asegúrate de que esté visible
+  };
+
+  const handleImageClick = (nombreProduccion) => {
+    cambiarSeccionConParametros('produccion', { nombre: nombreProduccion });
+    toggleHeaderPrincipal();
   };
 
   return (
     <div id="menuVertical" className={`MenuVertical bg-dark text-white py-4 mb-0 position-fixed ${menuVisible ? 'visible' : ''}`}>
       <div className="container-fluid h-100">
         <div className="row h-100">
-          <div id="menuPrincipal" className={`col-8 ${!produccionesVisible ? 'visible' : 'oculto'}`}>
-            <div className="mb-1 d-flex">
-              <div className="Texto ms-0 ms-2 BotonTexto" onClick={() => mostrarSeccion('inicio')}>Inicio</div>
-            </div>
-            <div className="mb-1 d-flex">
-              <div className="Texto ms-0 ms-2 BotonTexto" onClick={mostrarProducciones}>Producciones</div>
-            </div>
-            <div className="mb-1 d-flex">
-              <div className="Texto ms-0 ms-2 BotonTexto" onClick={() => toggleHeaderPrincipal()}>Dónde Estamos</div>
-            </div>
-            <div className="mb-1 d-flex">
-              <div className="Texto ms-0 ms-2 BotonTexto" onClick={() => toggleHeaderPrincipal()}>FAQ</div>
-            </div>
-            <div className="mb-1 d-flex">
-              <div className="Texto ms-0 ms-2 BotonTexto" onClick={() => toggleHeaderPrincipal()}>Opiniones</div>
-            </div>
-            <div className="mb-1 d-flex">
-              {intranetVisible && <div className="Texto ms-0 ms-2 BotonTexto" onClick={mostrarIntranet}>Intranet</div>}
-            </div>
-            <div className="mb-1 d-flex">
-              <div className="Texto ms-0 ms-2 BotonTexto Intranet" onClick={mostrarAccesoUsuarios}>Acceso usuarios</div>
-            </div>
-          </div>
-          <div id="producciones" className={`col-md-9 col-sm-12 ${produccionesVisible ? 'visible' : 'oculto'}`}>
-            <div className="mb-1 d-flex">
-              <div className="Texto ms-0 ms-2 BotonTexto" onClick={() => toggleHeaderPrincipal()}>El Rey Leon</div>
-            </div>
-            <div className="mb-1 d-flex">
-              <div className="Texto ms-0 ms-2 BotonTexto" onClick={() => toggleHeaderPrincipal()}>Mamma Mia</div>
-            </div>
-            <div className="mb-1 d-flex">
-              <div className="Texto ms-0 ms-2 BotonTexto" onClick={() => toggleHeaderPrincipal()}>Jesucristo SuperStar</div>
-            </div>
-            <div className="mb-1 d-flex">
-              <div className="Texto ms-0 ms-2 BotonTexto" onClick={() => toggleHeaderPrincipal()}>Grease</div>
+          <div className={`col-10 col-md-8 ${menuVisible ? 'd-flex' : 'd-none'} flex-column`}>
+            <div id="menuPrincipal" className={`${!produccionesVisible ? 'visible' : 'oculto'}`}>
+              <div className="mb-1 d-flex">
+                <div className="Texto ms-0 ms-2 pointer" onClick={() => mostrarSeccion('inicio')}>Inicio</div>
+              </div>
+              <div className="mb-1 d-flex">
+                <div className="Texto ms-0 ms-2 pointer" onClick={mostrarProducciones}>Producciones</div>
+              </div>
+              <div className="mb-1 d-flex">
+                <div className="Texto ms-0 ms-2 pointer" onClick={() => toggleHeaderPrincipal()}>Dónde Estamos</div>
+              </div>
+              <div className="mb-1 d-flex">
+                <div className="Texto ms-0 ms-2 pointer" onClick={() => toggleHeaderPrincipal()}>FAQ</div>
+              </div>
+              <div className="mb-1 d-flex">
+                <div className="Texto ms-0 ms-2 pointer" onClick={() => toggleHeaderPrincipal()}>Opiniones</div>
+              </div>
+              <div className="mb-1 d-flex">
+                {intranetVisible && <div className="Texto ms-0 ms-2 pointer" onClick={mostrarIntranet}>Intranet</div>}
+              </div>
+              <div className="mb-1 d-flex">
+                <div className="Texto ms-0 ms-2 pointer Intranet" onClick={mostrarAccesoUsuarios}>Acceso usuarios</div>
+              </div>
             </div>
           </div>
-          <div className="col-4 d-flex align-items-start">
+          <div className={`col-10 col-md-8 ${produccionesVisible ? 'd-flex' : 'd-none'} flex-column`}>
+            <div id="producciones" className={`col-12 ${produccionesVisible ? 'visible' : 'oculto'}`}>
+              <div className="mb-1 d-flex">
+                <div className="Texto ms-0 ms-2 pointer" onClick={() => handleImageClick('El Rey León')}>El Rey Leon</div>
+              </div>
+              <div className="mb-1 d-flex">
+                <div className="Texto ms-0 ms-2 pointer" onClick={() => handleImageClick('La Sirenita')}>La Sirenita</div>
+              </div>
+              <div className="mb-1 d-flex">
+                <div className="Texto ms-0 ms-2 pointer" onClick={() => handleImageClick('Jesucristo SuperStar')}>Jesucristo SuperStar</div>
+              </div>
+              <div className="mb-1 d-flex">
+                <div className="Texto ms-0 ms-2 pointer" onClick={() => handleImageClick('Grease')}>Grease</div>
+              </div>
+            </div>
+          </div>
+          <div className="col-2 col-md-4 d-flex align-items-start">
             <button id="toggleMenuButton" className="btn btn-link p-0" onClick={toggleMenuButton}>
               <span className="mdi mdi-arrow-left-bold-circle-outline LogoVuelta"></span>
             </button>

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Header.css';
 import HeaderPrincipal from './HeaderPrincipal';
 
-const Header = ({ cambiarSeccion }) => {
+const Header = ({ cambiarSeccion, cambiarSeccionConParametros }) => {
     const [showHeaderPrincipal, setShowHeaderPrincipal] = useState(false);
 
     const toggleHeaderPrincipal = () => {
@@ -28,8 +28,7 @@ const Header = ({ cambiarSeccion }) => {
                     </div>
                 </div>
             </header>
-            {showHeaderPrincipal && <HeaderPrincipal toggleHeaderPrincipal={toggleHeaderPrincipal} onMostrarSeccion={cambiarSeccion} />}
-
+            {showHeaderPrincipal && <HeaderPrincipal toggleHeaderPrincipal={toggleHeaderPrincipal} onMostrarSeccion={cambiarSeccion} cambiarSeccionConParametros={cambiarSeccionConParametros} />}
         </div>
     );
 };

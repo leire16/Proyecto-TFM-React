@@ -1,0 +1,58 @@
+.opinion-card {
+    border: 3px solid black;
+    background-color: transparent;
+}
+
+.opinion-card .icon-person,
+.opinion-card .icon-star {
+    font-size: 1.5em;
+}
+
+.opinion-card .align-center {
+    display: flex;
+    align-items: center;
+}
+
+.opinion-card .space-between {
+    margin-right: 10rem !important;
+}
+
+.opinion-card .bold-text {
+    font-weight: bold;
+}
+
+/* Dispositivos extra grandes (más de 1024px) */
+@media (max-width: 1200px) {
+    .opinion-card .icon-person,
+    .opinion-card .icon-star {
+        font-size: 1.3rem; /* Tamaño estándar */
+    }
+
+    .opinion-card .space-between {
+        margin-right: 5rem !important; /* Tamaño estándar */
+    }
+}
+
+/* Dispositivos medianos (hasta 768px) */
+@media (max-width: 768px) {
+    .opinion-card .icon-person,
+    .opinion-card .icon-star {
+        font-size: 1.3rem; /* Ajuste intermedio */
+    }
+
+    .opinion-card .space-between {
+        margin-right: 3rem !important; /* Ajuste intermedio */
+    }
+}
+
+/* Dispositivos pequeños (hasta 576px) */
+@media (max-width: 576px) {
+    .opinion-card .icon-person,
+    .opinion-card .icon-star {
+        font-size: 1.2rem; /* Ajuste más pequeño */
+    }
+
+    .opinion-card .space-between {
+        margin-right: 2rem !important; /* Ajuste más pequeño */
+    }
+}

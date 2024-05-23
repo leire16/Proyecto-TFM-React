@@ -1,51 +1,44 @@
-/* Estilos generales para el footer */
 footer {
     background-color: #232323;
     text-align: center;
     color: white;
 }
 
-/* Estilos para el título */
 .Titulo {
     color: white;
-    font-size: 1.2em; /* Tamaño del título predeterminado */
+    font-size: 1.2em;
     font-weight: 700;
     word-wrap: break-word;
 }
 
-/* Estilos para los íconos de ubicación y correo */
 .IconoUbicacion,
 .IconoMail {
-    font-size: 1.5em; /* Tamaño de ícono predeterminado */
+    font-size: 1.5em;
 }
 
-/* Estilos para el texto de ubicación y correo */
 .TextoUbicacion,
 .TextoMail {
     color: white;
-    font-size: 0.8rem; /* Tamaño de texto predeterminado */
+    font-size: 0.8rem;
     font-weight: 400;
     word-wrap: break-word;
 }
 
-/* Estilos para los íconos de redes sociales */
 .LogoInstagram,
 .LogoTwitter,
 .LogoFacebook {
-    font-size: 2.5rem; /* Tamaño de ícono predeterminado */
+    font-size: 2.5rem;
     color: white !important;
 }
 
-/* Estilos para los avisos legales */
 .Avisos {
-    font-size: 0.8rem; /* Tamaño de texto predeterminado */
+    font-size: 0.8rem;
     font-weight: 400;
     word-wrap: break-word;
 }
 
-/* Estilos para el texto de derechos de autor */
 .Copyright {
-    font-size: 0.7rem; /* Tamaño de texto predeterminado */
+    font-size: 0.7rem; 
     font-weight: 700;
     word-wrap: break-word;
 }
@@ -74,7 +67,7 @@ footer {
         font-size: 0.65rem;
     }
     .mb-between-rows {
-        margin-top: 1.5rem; /* Ajustar el margen entre filas */
+        margin-top: 1.5rem;
     }
     .text-start.text-sm-center {
         text-align: center !important;
@@ -109,7 +102,7 @@ footer {
         font-size: 0.6rem;
     }
     .mb-between-rows {
-        margin-top: 2rem; /* Ajusta el margen entre las filas */
+        margin-top: 2rem; 
     }
     .text-start.text-sm-center {
         text-align: center !important;
@@ -141,7 +134,7 @@ footer {
         font-size: 0.5rem;
     }
     .mb-between-rows {
-        margin-top: 2rem; /* Ajusta el margen entre las filas */
+        margin-top: 2rem;
     }
     .text-start.text-sm-center {
         text-align: center !important;
