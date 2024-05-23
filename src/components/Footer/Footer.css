@@ -1,5 +1,5 @@
 footer {
-    background-color: #232323;
+    background-color: black;
     text-align: center;
     color: white;
 }
@@ -75,7 +75,7 @@ footer {
 }
 
 /* Estilos para diferentes tamaños de pantalla */
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     /* Ajustes para dispositivos medianos y pequeños */
     .Titulo {
         font-size: 1em;

@@ -5,8 +5,11 @@
     top: 0;
     /* min-height: 100vh; Hace que ocupe al menos la altura completa de la pantalla */
     right: 0;
-    width: 20%;
-    z-index: 1; /* height: 100%;       DUDA PONGO 100% o que ocupe solo el contenido  que tiene */
+    width: 30%;
+    z-index: 1;
+    height: 100%; /*DUDA PONGO 100% o que ocupe solo el contenido  que tiene */
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
 }
 
 .Texto {
@@ -19,7 +22,8 @@
 }
 
 .LogoVuelta {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    /* Tamaño ligeramente más pequeño */
     color: white !important;
 }
 
@@ -35,6 +39,12 @@
     display: block;
 }
 
+.col-2 {
+    display: center;
+    justify-content: center;
+}
+
+
 /* Estilos específicos para diferentes tamaños de pantalla */
 @media (max-width: 1200px) {
     .MenuVertical {
@@ -42,9 +52,13 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     .MenuVertical {
-        width: 50%;
+        width: 40%;
+    }
+
+    .Texto {
+        font-size: 1.1rem;
     }
 }
 

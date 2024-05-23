@@ -36,7 +36,7 @@ const Footer = ({ onMostrarAvisoLegal, onMostrarPoliticaPrivacidad, onMostrarPol
           </div>
         </div>
       </div>
-      <div className="bg-black text-white py-2 mb-0">
+      <div className="text-white py-2 mb-0">
         <div className="container">
           <div className="row">
             <div className="col-md-4 col-sm-12 text-center">

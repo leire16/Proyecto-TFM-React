@@ -1,6 +1,6 @@
 .opinion-card {
-    border: 3px solid black;
-    background-color: transparent;
+    border: 1px solid black;
+    background-color: rgba(241, 3, 7, 0.2);;
 }
 
 .opinion-card .icon-person,
@@ -34,7 +34,7 @@
 }
 
 /* Dispositivos medianos (hasta 768px) */
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     .opinion-card .icon-person,
     .opinion-card .icon-star {
         font-size: 1.3rem; /* Ajuste intermedio */
