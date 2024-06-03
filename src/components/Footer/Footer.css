@@ -43,7 +43,7 @@ footer {
     word-wrap: break-word;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     .Titulo {
         font-size: 1.1em;
     }

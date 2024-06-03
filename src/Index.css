@@ -1,6 +1,6 @@
 #cuerpo {
   background-color: #2B2B2B;
-  background-image: url('./assets/img/Vector Grande.png');
+  background-image: url('./assets/img/Vector Grande.webp');
   background-repeat: repeat-y;
   background-position-y: -10px;
   background-size: 100% auto;
@@ -26,7 +26,8 @@ h5 {
 }
 
 p,
-li {
+li,
+span {
   font-size: 1.125rem;
   color: #FFFFFF;
   text-align: justify;
@@ -91,6 +92,11 @@ li {
   font-weight: bold;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+
 /* Media queries para dispositivos de diferentes tamaños */
 @media (max-width: 1024px) {
   h1 {
@@ -101,8 +107,13 @@ li {
     font-size: 2rem;
   }
 
+  h5 {
+    font-size: 1.3rem;
+  }
+
   p,
-  li {
+  li,
+  span {
     font-size: 1rem;
   }
 
@@ -122,8 +133,13 @@ li {
     font-size: 2rem;
   }
 
+  h5 {
+    font-size: 1.3rem;
+  }
+
   p,
-  li {
+  li,
+  span {
     font-size: 1rem;
   }
 
@@ -153,8 +169,13 @@ li {
     font-size: 1.5rem;
   }
 
+  h5 {
+    font-size: 1rem;
+  }
+
   p,
-  li {
+  li,
+  span {
     font-size: 0.875rem;
   }
 
@@ -175,8 +196,8 @@ li {
   }
 
   .carousel-inner {
-    width: calc(100% - 4rem); /* Restar espacio para los iconos */
-    margin-left: 2rem; /* Ajustar margen izquierdo */
-    margin-right: 2rem; /* Ajustar margen derecho */
+    width: calc(100% - 4rem);
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }

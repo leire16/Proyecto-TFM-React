@@ -19,7 +19,7 @@ const Header = ({ cambiarSeccion, cambiarSeccionConParametros }) => {
                         </button>
                     </div>
                     <div className="col text-center">
-                        <h1 className="AskartzaMartxa">Askartza Martxa</h1>
+                        <h1 className="AskartzaMartxa pointer" onClick={() => cambiarSeccion('inicio')}>Askartza Martxa</h1>
                     </div>
                     <div className="col d-flex justify-content-end">
                         <button className="Hamburgesa btn" onClick={toggleHeaderPrincipal}>
