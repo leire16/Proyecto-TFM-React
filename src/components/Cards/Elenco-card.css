@@ -1,0 +1,63 @@
+.elenco-card {
+    border: none;
+}
+
+.descripcion {
+    margin-top: 0.625rem;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 8.67rem;
+    height: 9.375rem;
+}
+
+.ImagenElenco {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border: 0.125rem solid black;
+    border-radius: 0.625rem;
+}
+
+/* Media query para tamaños de pantalla hasta 75rem */
+@media (max-width: 1200px) {
+    .image-container {
+        width: 8rem;
+        height: 8.64rem;
+    }
+}
+
+/* Media query para tamaños de pantalla hasta 75rem */
+@media (max-width: 1080px) {
+    .image-container {
+        width: 7.7rem;
+        height: 8.3rem;
+    }
+
+    .actores-secundarios {
+        max-width: 60%;
+    }
+
+    .actores-principales {
+        max-width: 80%;
+    }
+}
+
+/* Media query para tamaños de pantalla hasta 36rem */
+@media (max-width: 576px) {
+    .image-container {
+        width: 5.6rem;
+        height: 6rem;
+    }
+
+    .actores-principales,
+    .actores-secundarios {
+        max-width: 65%;
+    }
+}

@@ -1,0 +1,24 @@
+.Imagen {
+    width: 100%;
+    max-width: 1080px;
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .Imagen {
+        max-height: 400px; /* Altura máxima más pequeña para pantallas más pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .Imagen {
+        max-height: 300px; /* Altura máxima aún más pequeña para pantallas muy pequeñas */
+    }
+}
+
+.highlight {
+    background-color: rgba(241, 3, 7, 0.2);
+    padding: 1rem;
+}
