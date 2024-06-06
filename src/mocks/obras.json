@@ -1,0 +1,455 @@
+{
+    "El Rey León": {
+        "img": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493611/Askartza%20Martxa/El%20rey%20Leon/bwz1rgav6idysnosmmlk.webp",
+        "titulo": "El Rey León",
+        "sinopsis": {
+            "Acto I": "La historia comienza con el nacimiento de Simba, el hijo del rey Mufasa y la reina Sarabi. Todos los animales del reino celebran el nacimiento del futuro rey en una ceremonia presentada por Rafiki, el sabio mandril. Simba crece bajo la tutela de su padre, quien le enseña sobre el Ciclo de la Vida y su papel en mantener el equilibrio en la sabana. Sin embargo, el malvado tío de Simba, Scar, conspira para tomar el trono. Con la ayuda de las hienas, Scar planea deshacerse de Mufasa y Simba. Scar lleva a cabo su plan al atraer a Simba a un desfiladero, donde una estampida de ñus amenaza su vida. Mufasa rescata a Simba, pero Scar lo mata y convence a Simba de que la muerte de su padre es su culpa. Devastado, Simba huye del reino.",
+            "Acto II": "Simba es encontrado por Timón y Pumba, un suricata y un jabalí, quienes le enseñan a vivir sin preocupaciones bajo la filosofía de \"Hakuna Matata\". Simba crece en el exilio, creyendo que nunca puede regresar. Mientras tanto, el reino cae en decadencia bajo el mandato de Scar. Nala, la amiga de la infancia de Simba, busca ayuda y se encuentra con él. Nala le informa sobre el estado del reino y lo insta a regresar para reclamar su lugar como rey. Con la guía espiritual de Rafiki y la visión de su padre, Simba acepta su destino. Regresa al reino, enfrenta a Scar, y finalmente descubre la verdad sobre la muerte de Mufasa. Simba derrota a Scar y toma su lugar como el legítimo rey, restaurando el equilibrio en el Ciclo de la Vida. La historia termina con la celebración del nacimiento del hijo de Simba y Nala, cerrando el círculo de la vida."
+        },
+        "elenco": {
+            "Actores Principales": [
+                {
+                    "personaje": "Rafiki",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596423/Askartza%20Martxa/El%20rey%20Leon/personajes/r3vpej0nweyst1l58htd.jpg",
+                    "persona": "Naiara Fernández",
+                    "descripcion": "Un mandril sabio y chamán de la tribu. Actúa como guía espiritual para Simba, ayudándolo a encontrar su verdadero camino y propósito."
+                },
+                {
+                    "personaje": "Scar",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596426/Askartza%20Martxa/El%20rey%20Leon/personajes/dmpxrmtsbjtycfm24tcy.jpg",
+                    "persona": "Martin Mercado",
+                    "descripcion": "El antagonista principal. Es el hermano de Mufasa y el tío de Simba. Ambicioso y manipulador, Scar planea usurpar el trono y, para ello, provoca la muerte de Mufasa y exilia a Simba."
+                },
+                {
+                    "personaje": "Zazu",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596431/Askartza%20Martxa/El%20rey%20Leon/personajes/sbrm49tg5lxuft2mzank.jpg",
+                    "persona": "Xabier Aizpurua",
+                    "descripcion": "Un cálao que sirve como mayordomo del rey. Es leal a Mufasa y luego a Simba, proporcionando información y asistencia a la familia real."
+                },
+                {
+                    "personaje": "Mufasa",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596405/Askartza%20Martxa/El%20rey%20Leon/personajes/nmss3kmwrubc1bl3oylt.jpg",
+                    "persona": "Aitor Eiguren",
+                    "descripcion": "El rey actual de la Sabana y padre de Simba. Es un líder sabio y valiente, respetado por todos los animales. Su muerte a manos de su hermano Scar es un momento crucial en la historia."
+                },
+                {
+                    "personaje": "Simba Handi",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596427/Askartza%20Martxa/El%20rey%20Leon/personajes/v9qzayaxfzqawjbfq1uv.jpg",
+                    "persona": "Iñigo Balbona",
+                    "descripcion": "El Simba adulto, que ha crecido y se enfrenta a su destino y responsabilidades como el verdadero rey de la Sabana. Debe superar sus miedos y asumir su lugar en el círculo de la vida."
+                },
+                {
+                    "personaje": "Nala Handi",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596406/Askartza%20Martxa/El%20rey%20Leon/personajes/vjdrcxmkleydps7x6zyf.jpg",
+                    "persona": "Maitane Salinasarmendariz",
+                    "descripcion": "La versión adulta de Nala. Es fuerte y decidida, juega un papel crucial en el retorno de Simba al reino para enfrentar a Scar."
+                },
+                {
+                    "personaje": "Sarabi",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596424/Askartza%20Martxa/El%20rey%20Leon/personajes/y8t9o2x8bos9tehhvqgy.jpg",
+                    "persona": "Ainhoa Nogeras",
+                    "descripcion": "La reina y madre de Simba. Es una figura de fortaleza y dignidad, incluso después de la muerte de Mufasa y la toma del poder por Scar."
+                },
+                {
+                    "personaje": "Timón",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596430/Askartza%20Martxa/El%20rey%20Leon/personajes/ab5dezemo5544gtunvha.jpg",
+                    "persona": "Jon Gisasola",
+                    "descripcion": "Un suricato cómico y uno de los mejores amigos de Simba. Junto con Pumbaa, ofrece alivio cómico y ayuda a Simba durante su exilio."
+                },
+                {
+                    "personaje": "Pumba",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596422/Askartza%20Martxa/El%20rey%20Leon/personajes/an3rdlnpzhrxdgteyeud.jpg",
+                    "persona": "June Gutiérrez",
+                    "descripcion": "Un jabalí amistoso y leal, mejor amigo de Timon. Pumbaa también proporciona apoyo y humor a Simba en sus momentos más oscuros."
+                }
+            ],
+            "Actores Secundarios": [
+                {
+                    "personaje": "Simba Txiki",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596428/Askartza%20Martxa/El%20rey%20Leon/personajes/zrp2fphrcgz83cloppgb.jpg",
+                    "persona": "Adrian Tubia",
+                    "descripcion": "El Simba cuando es un cachorro. Es curioso, enérgico y lleno de sueños sobre su futuro como rey. La historia sigue su crecimiento desde esta etapa."
+                },
+                {
+                    "personaje": "Nala Txiki",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596407/Askartza%20Martxa/El%20rey%20Leon/personajes/vxhhfwdvysegj3wnxctk.jpg",
+                    "persona": "Zaira Jaular",
+                    "descripcion": "La amiga de la infancia de Simba. Es valiente y aventurera, siempre dispuesta a acompañar a Simba en sus travesuras."
+                },
+                {
+                    "personaje": "Chansei",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596353/Askartza%20Martxa/El%20rey%20Leon/personajes/viomjb1h7kdniijhb0s0.jpg",
+                    "persona": "Maialen Basañez",
+                    "descripcion": "Una de las tres hienas principales y la líder del grupo. Es astuta y despiadada, aliada de Scar en su plan para tomar el control del reino."
+                },
+                {
+                    "personaje": "Banzai",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596353/Askartza%20Martxa/El%20rey%20Leon/personajes/viomjb1h7kdniijhb0s0.jpg",
+                    "persona": "Maialen Mugarra",
+                    "descripcion": "Otra de las hienas, es agresivo y disfruta causando problemas. Junto con Shenzi y Ed, forma parte del grupo que trabaja con Scar."
+                },
+                {
+                    "personaje": "ED",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596353/Askartza%20Martxa/El%20rey%20Leon/personajes/viomjb1h7kdniijhb0s0.jpg",
+                    "persona": "Paula Txabarria",
+                    "descripcion": "La tercera hiena del grupo, conocida por su risa maníaca y comportamiento tonto. Aunque parece menos inteligente que Shenzi y Banzai, es igual de peligrosa."
+                },
+                {
+                    "personaje": "Madre de Nala",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596404/Askartza%20Martxa/El%20rey%20Leon/personajes/xclk4bin6lpdp566mwx1.jpg",
+                    "persona": "Leire Fernández",
+                    "descripcion": "La madre de Nala, es una leona cuidadosa y amorosa que se preocupa por el bienestar de su hija."
+                }
+            ],
+            "Leonas": "Oihane García, Marta Iturbe, Ainhoa Bergara, Leire Martínez, Itziar Alza, Laura Lozano, Ainhoa Ruíz",
+            "Pajaros+Topo+Ñus": "Izaro Martín, Iraide Laria, Michelle Mendoza, Irune Villafruela, Nerea Urrutia, Raquel Antón, Diego Etxebarria",
+            "Gacelas + Africanos + Ñus": "Leire Calleja, Araitz Sangroniz, Irati García, Andrea Muñoz, Julen Ziriza, Itsasne Zubiaur,Paula Cerrada, Arrate Merino, Ane Navarro, Iratxe Serrano, Nora Alonso, Arrate Cerro, Laura Arzuaga, Annia de la Rúa, Roberto Peña, Nerea Fdez Cuesta, Irati Toral, Leire Rodríguez,Sara Martínez de Zúñiga, Ane Urrutia, Enara Ziaran",
+            "Decorado": "Gorka Bilbao, Ignacio Villalante, Urko Azkarate, Leire González, Arrate Sobrado, Ane Etxebarria, Belén Sánchez"
+        },
+        "canciones": [
+            {
+                "titulo": "El ciclo sin fin",
+                "cantante": "Rafiki y Coro",
+                "duracion": "4:45",
+                "url": "https://www.youtube.com/watch?v=KUJCCt3Mgts&list=PLPFEg5HEc17YSEKFH-m0-YTZUXLPt_Z2o"
+            },
+            {
+                "titulo": "Yo voy a ser el rey león",
+                "cantante": "Simba, Nala y Zazú",
+                "duracion": "3:04",
+                "url": "https://www.youtube.com/watch?v=y5RR_65cBqw&list=PLPFEg5HEc17YSEKFH-m0-YTZUXLPt_Z2o&index=2"
+            },
+            {
+                "titulo": "Comer",
+                "cantante": "Hienas",
+                "duracion": "2:28",
+                "url": "https://www.youtube.com/watch?v=Kru5F-o1zn0&list=PLPFEg5HEc17YSEKFH-m0-YTZUXLPt_Z2o&index=5"
+            },
+            {
+                "titulo": "Están en ti",
+                "cantante": "Mufasa y Coro",
+                "duracion": "3:22",
+                "url": "https://www.youtube.com/watch?v=RI58P4bgvps&list=PLPFEg5HEc17YSEKFH-m0-YTZUXLPt_Z2o&index=7"
+            },
+            {
+                "titulo": "Conspirar",
+                "cantante": "Scar y Hienas",
+                "duracion": "4:33",
+                "url": "https://www.youtube.com/watch?v=eZcnwSCPxqE&list=PLPFEg5HEc17YSEKFH-m0-YTZUXLPt_Z2o&index=3"
+            },
+            {
+                "titulo": "Estampida",
+                "cantante": "Instrumental",
+                "duracion": "2:33",
+                "url": "https://www.youtube.com/watch?v=xd07LWT6ktU"
+            },
+            {
+                "titulo": "Lamento de Rafiki",
+                "cantante": "Rafiki",
+                "duracion": "1:59",
+                "url": "https://www.youtube.com/watch?v=lsIx52KqI38"
+            },
+            {
+                "titulo": "Hakuna Matata",
+                "cantante": "Timón Pumba y Simba",
+                "duracion": "3:13",
+                "url": "https://www.youtube.com/watch?v=nZa7oX31RBs"
+            },
+            {
+                "titulo": "La Locura del Rey Scar",
+                "cantante": "Scar, Zazu y Hienas",
+                "duracion": "3:48",
+                "url": "https://www.youtube.com/watch?v=HY8Tj1jqB6k&list=PLPFEg5HEc17YSEKFH-m0-YTZUXLPt_Z2o&index=10"
+            },
+            {
+                "titulo": "Nuestro Hogar",
+                "cantante": "Nala y Leonas",
+                "duracion": "4:26",
+                "url": "https://www.youtube.com/watch?v=p_bE7Ic7sbE&list=PLPFEg5HEc17YSEKFH-m0-YTZUXLPt_Z2o&index=6"
+            },
+            {
+                "titulo": "Noche sin Fin",
+                "cantante": "Simba y Coro",
+                "duracion": "4:43",
+                "url": "https://www.youtube.com/watch?v=Tyc3e6sr5zU&list=PLPFEg5HEc17YSEKFH-m0-YTZUXLPt_Z2o&index=8"
+            },
+            {
+                "titulo": "Siento un nuevo amor en mí",
+                "cantante": "Timon, Pumba, Nala, Simba y Coro",
+                "duracion": "2:59",
+                "url": "https://www.youtube.com/watch?v=5jDMpVxtVbA&list=PLPFEg5HEc17YSEKFH-m0-YTZUXLPt_Z2o&index=9"
+            },
+            {
+                "titulo": "Él vive en ti",
+                "cantante": "Rafiki, Coro y Simba",
+                "duracion": "4:20",
+                "url": "https://www.youtube.com/watch?v=66p0ZpeHGpI&list=PLPFEg5HEc17YSEKFH-m0-YTZUXLPt_Z2o&index=11"
+            },
+            {
+                "titulo": "El nuevo rey, el ciclo vital",
+                "cantante": "Coro",
+                "duracion": "3:43",
+                "url": "https://www.youtube.com/watch?v=ekJpwKjclUw"
+            }
+        ],
+        "equipo_creativo": {},
+        "programa": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717683582/Askartza%20Martxa/El%20rey%20Leon/u6kbpo9crjweipyhht64.jpg",
+        "imagenes": [
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493122/Askartza%20Martxa/El%20rey%20Leon/udlpki41pkim7mjki54c.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493106/Askartza%20Martxa/El%20rey%20Leon/cjpwxrxnfji4gtennbco.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493106/Askartza%20Martxa/El%20rey%20Leon/lsuahswjrayoyfgnxmfp.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493106/Askartza%20Martxa/El%20rey%20Leon/cskqxzifdg5wrfdsjlgt.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493610/Askartza%20Martxa/El%20rey%20Leon/buw1yvnmrrh2qle70eyy.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493611/Askartza%20Martxa/El%20rey%20Leon/nbdnhxecdgisyhqbxbjl.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493611/Askartza%20Martxa/El%20rey%20Leon/momk9uvro79rwihthmrr.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493611/Askartza%20Martxa/El%20rey%20Leon/rwn31treycksiqlaobpc.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493612/Askartza%20Martxa/El%20rey%20Leon/sf6ddyngp2kzggp1q0rk.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493611/Askartza%20Martxa/El%20rey%20Leon/bwz1rgav6idysnosmmlk.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493611/Askartza%20Martxa/El%20rey%20Leon/zrha4f9bayusuqbeufui.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493612/Askartza%20Martxa/El%20rey%20Leon/nq4fbamlhzndayx7rtsg.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493615/Askartza%20Martxa/El%20rey%20Leon/jfua3rhpxnehvpw2s9fl.webp"
+        ]
+    },
+    "Grease": {
+        "img": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717599214/Askartza%20Martxa/Grease/abob1cxz6gisjrxtp0uf.webp",
+        "titulo": "Grease",
+        "sinopsis": "GREASE El Musical es el fenómeno de la cultura pop que narra la vida en el instituto de una pequeña ciudad americana en los años 50, habiéndose convertido en el gran musical del Rock and Roll por excelencia, además de en una de las películas musicales más taquilleras de la historia.\n\n“Situado a finales de los años 50 en el instituto Rydell High, un grupo de estudiantes de clase obrera navega por conflictos atemporales, como las complejidades de la presión de grupo, los valores personales, la amistad, el amor, los devaneos sexuales de la adolescencia y la conciencia de clase, lo que le convierte en el musical adolescente por excelencia y la hace permanecer eternamente joven.”\n\nEn 2021, con motivo del 50 aniversario de su estreno original en Chicago, SOM Produce quiso sumarse a esta efeméride poniendo en marcha una nueva producción con un elenco con una energía arrolladora, unas increíbles coreografías y una ambiciosa e innovadora puesta en escena, a cargo del mismo equipo creativo de BILLY ELLIOT.\n\nGREASE El Musical en su edición Especial 50 aniversario se estrenó el 2 de octubre de 2021 y, tras una temporada completa en el Nuevo Teatro Alcalá y una exitosa gira por las principales ciudades de España, regresa a Madrid al Teatro Apolo, donde solo permanecerá 12 semanas. Esto supondrá el broche de oro a más de 3 años de éxito ininterrumpido y más de 400.000 espectadores. Y lo hará, además, con la incorporación del conocido actor Adrián Lastra en el papel de Vince Fontaine.",
+        "elenco": {
+            "Actores Principales": [
+                {
+                    "personaje": "Danny Zuko",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595685/Askartza%20Martxa/Grease/xyd6jf9vaszpnxb3gqur.png",
+                    "persona": "Ane Isla",
+                    "descripcion": "Es el líder de los Birds (grupo de los chicos). Con buena planta, guapo, con aire de tranquilo, encanto, fuerte y confiado. Algo ingenuo, se deja llevar por su imagen frente a la gente y sobre todo sus amigos, pero esconde tras ella un profundo romanticismo y una gran delicadeza. Todo y toda ronda tras él ya que es el chico más envidiado."
+                },
+                {
+                    "personaje": "Sandy Olsen",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595698/Askartza%20Martxa/Grease/z9zfxltlurlyitjpcri2.png",
+                    "persona": "Naia Robredo",
+                    "descripcion": "Es una chica que llega nueva al instituto Rydell y entra al grupo de chicas. Es muy bondadosa, habla amablemente con todos y tiene una personalidad muy amable, dulce, confiada, un poco ingenua y se lastima fácilmente. Enamorada de Dany. Capaz de todo por conseguir al hombre de sus sueños. Es más fuerte de lo que parece. Finalmente ganó confianza, se empodero y cambió su imagen \"pura\" por una apariencia y actitud rebelde para estar con Dany."
+                },
+                {
+                    "personaje": "Kenickie",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595692/Askartza%20Martxa/Grease/hhdj8sllrkotcbfdry0e.png",
+                    "persona": "Alain Val",
+                    "descripcion": "Es el mejor amigo de Dany y segundo al mando de los Birds. Pinta de duro, tatuado, hosco, agresivo y evita dar cualquier signo de debilidad. Tiene un extraño sentido del humor, pero es noble y generoso. Le gusta ir tonteando con las chicas hasta que encuentra a Rizzo y se da cuenta de que siente algo más por ella, aunque seguirá con sus aires de chulito."
+                },
+                {
+                    "personaje": "Rizzo",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595697/Askartza%20Martxa/Grease/dhesqhgjhc39cujlkqtc.png",
+                    "persona": "Irene Uriarte",
+                    "descripcion": "Líder de las Pink Ladies (grupo de las chicas). Fuma, tiene una voz fuerte y aparentemente no le importa lo que los demás piensen de ella. Dura, sarcástica, malhablada, la que pasa de todo, aunque vulnerable y sensible. Esconde su corazón tras su dura fachada. Su atractivo es poco convencional. Vera a Sandy como una pardilla, pero le sucederá algo que la hará cambiar algunos pensamientos. Terminará pillándose por uno de los chicos, a pesar de pasar por algún que otro mal momento."
+                },
+                {
+                    "personaje": "Doody",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596184/Askartza%20Martxa/Grease/anwdogxfhssk1ofldedc.png",
+                    "persona": "Izan Ruiz",
+                    "descripcion": "Es el chico más \"sensible\" del grupo, aunque sus aires de chulito no se los quita nadie. Un payaso que disfruta metiéndose con los demás. Doody se lleva muy bien con Sonny y Putzie y siempre está haciendo el tonto, aunque se irá dando cuenta de que le gusta una de las chicas."
+                },
+                {
+                    "personaje": "Frenchi",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595690/Askartza%20Martxa/Grease/cac3bbe2jov65rhuqbao.png",
+                    "persona": "June Gainza",
+                    "descripcion": "Soñadora, de buen talento, algo tonta, no guarda rencor y le encanta hacer amigos. Va siempre muy maquillada y se preocupa mucho por su aspecto, sobre todo por su pelo. No se le dan bien los estudios, quiere dejarlo para ser peluquera, aunque se dará cuenta de que no es lo suyo y a raíz de ello se irá quedando pillada por uno de los chicos. Habla con voz aguda y chillona. Luce un acento neoyorquino."
+                },
+                {
+                    "personaje": "Putzie",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595696/Askartza%20Martxa/Grease/hthuhidyvjz8ti3uwevq.png",
+                    "persona": "Asier Peña",
+                    "descripcion": "El más joven, tontillo e inocente del grupo. Pequeño, infantil, abierto, con una sonrisa que desarma y una actitud de admiración hacia los otros chicos. Le empezará a gustar una de las chicas y tonteará mucho con ella."
+                },
+                {
+                    "personaje": "Jane",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595691/Askartza%20Martxa/Grease/avp2aofb5zb3hcsb4a8w.png",
+                    "persona": "Uxue Ferreiro",
+                    "descripcion": "Aniñada, tímida con los chicos. Se lleva muy bien con todas, pero a la vez es la más tonta del grupo, es una seguidora nata de Rizzo, aunque todas la quieren mucho. Le encanta la comida basura y la repostería. Puede dar la impresión de ser un poco menos madura que sus amigas."
+                },
+                {
+                    "personaje": "Soony",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595700/Askartza%20Martxa/Grease/xr8n9ocx5souojfg1duh.png",
+                    "persona": "Iker Cisneros",
+                    "descripcion": "Es el divertido e inteligente del grupo, y le gusta bromear. Es el chico del grupo con el que más se meten, el que más come y a la vez el que más tonterías dice, aunque todos le tienen mucho aprecio. Es italiano, descarado y \"no se deja engañar por nadie\", excepto por el director McGee. Estará pillado por una de las chicas, aunque ella pasará de él."
+                },
+                {
+                    "personaje": "Marty",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595694/Askartza%20Martxa/Grease/ufqjgtutsg8mzbjthi14.png",
+                    "persona": "Sara Fernández",
+                    "descripcion": "Es la mejor amiga de la líder del grupo, le gusta mucho presumir de que ha estado con muchos chicos y es la más presumida. Generalmente es amable, pero puede no mostrar interés en las conversaciones, a menos que sean sobre ella o chismes jugosos. Se ve mayor que las otras chicas, pero le traiciona su verdadera edad en cuanto abre la boca.\n Intenta parecer sofisticada. Es la guapa de las Pink ladies. No le atrae ninguno del grupo de los chicos, aunque uno de ellos será muy pesado yendo detrás de ella. Se siente atraída por los caballeros mayores y se siente halagada por el sofisticado y encantador Vince Fontaine que coquetea con ella en el baile Nacional.    "
+                },
+                {
+                    "personaje": "Eugene",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596184/Askartza%20Martxa/Grease/vfgjexk0rrpzli2pheyt.png",
+                    "persona": "Aimar Ruiz",
+                    "descripcion": "Compañero del instituto, es un buen tipo, sin embargo, los Birds siempre se burlan de él. Aunque principalmente por Doody, Putzie y Sonny; Kenickie y Dany parecen ignorarlo y mostrarle indiferencia. Probablemente porque no es un deportista ni popular. Es un nerd tonto, ingenuo y crédulo, pero nunca desagradable ni cruel. Es un tipo decente y gracioso. Generalmente se le ve sonriendo, pero a veces se pone serio. Él, al igual que Frenchi, habla con voz aguda y chillona."
+                },
+                {
+                    "personaje": "Patty Simmon",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595695/Askartza%20Martxa/Grease/a1f9o2ij5vt4ptw2gg3j.png",
+                    "persona": "Paula Fernández",
+                    "descripcion": "Es una animadora cursi e inteligente, aunque para Rizzo es insoportable. Suele ser el blanco de los chistes de Pink Ladies y Birds. Atractiva y atlética. Agresiva, segura de sí misma, dada a expansiones desconcertantes de entusiasmo. Maliciosa, pero sin malas intenciones. Está enamorada de Dany, pero este pasa de ella."
+                }
+            ],
+            "Actores Secundarios": [
+                {
+                    "personaje": "Directora Mc Gee",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595686/Askartza%20Martxa/Grease/grtpptbcpzfprduij25n.png",
+                    "persona": "Leyre Martinez",
+                    "descripcion": "Directora del instituto, algo anticuada, estricta pero buena persona en general. Dirige la escuela asumiendo puestos que no debería, incluidos secretaria y conserje."
+                },
+                {
+                    "personaje": "Secretaria Blanche",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595699/Askartza%20Martxa/Grease/tvriwbqziaq547nseitt.png",
+                    "persona": "Ainara Ventura",
+                    "descripcion": "Trabaja como secretaria de la Sra. McGee. Es extrovertida, amigable y un poco tonta, y siempre tenía una sonrisa en su rostro. Totalmente despistada. Se la pasa comiendo y manchando todo a su alrededor."
+                },
+                {
+                    "personaje": "Entrenador Calhoum",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595688/Askartza%20Martxa/Grease/zn4gwayrx7mcprz1ahju.png",
+                    "persona": "Elaia Mariezkurrena",
+                    "descripcion": "Acompañante incondicional de la Directora. Entrenador del instituto."
+                },
+                {
+                    "personaje": "Vince Fountein",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595703/Askartza%20Martxa/Grease/ougyxv3ijj6v3vltnskd.png",
+                    "persona": "Martin Mercado",
+                    "descripcion": "Presentador del baile de fin de curso, que se retrasmite por televisión. Además, es el locutor de radio. En el baile Nacional coquetea incómodo con Marty, que es más de 50 años menor que él."
+                },
+                {
+                    "personaje": "Cha Cha DiGregorio",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595683/Askartza%20Martxa/Grease/kdggthnxuiynxrsuolds.png",
+                    "persona": "Izaro Aguirrezabal",
+                    "descripcion": "Desaliñada, chillona y casera. Su orgullo es ser la mejor bailarina del instituto. Supuestamente la mejor bailarina de St. Bernadette (su instituto). Es la antagonista secundaria de Grease."
+                },
+                {
+                    "personaje": "Tom Chisum",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595701/Askartza%20Martxa/Grease/yq5vysg1uryi7zyqwt9e.png",
+                    "persona": "Luken Ortiz de Zarate",
+                    "descripcion": "Mas conocido como musculitos. Es uno de los atletas estrella de Rydell High y es el capitán del equipo de fútbol de Rydell. Se sintió muy atraído por Sandy y sale con ella brevemente, pero luego comienza una relación con Patty."
+                },
+                {
+                    "personaje": "Leo \"Craterface\"",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595693/Askartza%20Martxa/Grease/dlkmwbihewkxddjqujwq.png",
+                    "persona": "Eneko Moreno",
+                    "descripcion": "Es el líder de los Scorpions, una pandilla de matones y rivales engrasadores de los Birds."
+                },
+                {
+                    "personaje": "Camarera Frosty Palace",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595655/Askartza%20Martxa/Grease/ofafbnohy2wd1xk7wffj.png",
+                    "persona": "Nora Ortiz",
+                    "descripcion": "Camarera del restaurante Frosty Palace donde meriendan todos los alumnos del instituto."
+                }
+            ],
+            "Coreografia": "Ane Crespo, Elsa Landa, Maia Weström, Asier Espiga, Lorea madrigal, Licia Larreina, Leire Charterina, Paula Pavon, Alejandra Zaballa, June del Barco, Jule de Isusi, Paula Encarnación, Nere Méndez, Eider Gorostiaga, Andrea González, Sara Mata, Enara Ruiz, Saioa Marañón, Ivet Hernández, Maitane Blanco, Itsasne Ruiz, Iker Couto, Haizea Pinedo, Andrea Salvador, Nikole Zabala, Sara Garrido, Sara Uliarte, Laida Albaina, June Amo, Maider Roman, Lucía Jade, Uxue Azkarate, Pau Alfonos Y Adriana Ruíz",
+            "Decorado": "Haizea Ferreiro, Lorea Palomo, Alex Velasco, Leire Barrena, María David, Kenia Amat, Irati Viguri, Nerea López, Sofia Mozas, Irune OrtÍZ, June Garrido, Karen Geleyns, Ariadne Machin, Aroa Laurrieta, Ariane Azkoitia, Mikel Ventura, Ane Camarero, Alaitz Conde, Irati Gutiérrez, Claudia Maria lópez, Nahia Cabarcos, Uxue Cabarcos, Aitana Delgado, Enara García, Ane Lahera, Maia Zabala, Maialen López, Maitane Collantes, Irati Ruíz, Alaine Ruíz, Paule Zuaznabar, Alaine López y Naia Madariaga"
+        },
+        "canciones": [
+            {
+                "titulo": "Alma Matter",
+                "cantante": "Coro",
+                "duracion": "0:51",
+                "url": "https://www.youtube.com/watch?v=huKQqsyU2QE"
+            },
+            {
+                "titulo": "Grease",
+                "cantante": "Danny Zuko y Coro",
+                "duracion": "3:02",
+                "url": "https://www.youtube.com/watch?v=8GK5MdUXhz0&list=PLEQhEE1fMYtyRVKOsapvOSY_ZKkQO1NIa"
+            },
+            {
+                "titulo": "Noches de Amor",
+                "cantante": "Danny, Sandy y Coro",
+                "duracion": "3:42",
+                "url": "https://www.youtube.com/watch?v=w1EhxXV2HHs&list=PLEQhEE1fMYtyRVKOsapvOSY_ZKkQO1NIa&index=2"
+            },
+            {
+                "titulo": "Himno Combate Rydell",
+                "cantante": "Animadoras",
+                "duracion": "0:23",
+                "url": "https://www.youtube.com/watch?v=eOC265dARMY&list=PLEQhEE1fMYtyRVKOsapvOSY_ZKkQO1NIa&index=7"
+            },
+            {
+                "titulo": "Freddy mi Amor",
+                "cantante": "Martty",
+                "duracion": "2:55",
+                "url": "https://www.youtube.com/watch?v=kG91hgspDjs&list=PLEQhEE1fMYtyRVKOsapvOSY_ZKkQO1NIa&index=5"
+            },
+            {
+                "titulo": "Sandra Dee",
+                "cantante": "Rizzo",
+                "duracion": "1:37",
+                "url": "https://www.youtube.com/watch?v=unYc7VjJTIA&list=PLEQhEE1fMYtyRVKOsapvOSY_ZKkQO1NIa&index=4"
+            },
+            {
+                "titulo": "Sigo enamorado de ti",
+                "cantante": "Sandy",
+                "duracion": "3:05",
+                "url": "https://www.youtube.com/watch?v=97guKs0NbBs&list=PLEQhEE1fMYtyRVKOsapvOSY_ZKkQO1NIa&index=13"
+            },
+            {
+                "titulo": "Grease Lighting",
+                "cantante": "T Birds",
+                "duracion": "3:24",
+                "url": "https://www.youtube.com/watch?v=0eYNK2p_-RA&list=PLEQhEE1fMYtyRVKOsapvOSY_ZKkQO1NIa&index=6"
+            },
+            {
+                "titulo": "Sandy",
+                "cantante": "Danny Zuko",
+                "duracion": "2:39",
+                "url": "https://www.youtube.com/watch?v=1NAi1hJ9f-4&list=PLEQhEE1fMYtyRVKOsapvOSY_ZKkQO1NIa&index=15"
+            },
+            {
+                "titulo": "No seas Tonta",
+                "cantante": "Vince Fountain y Coro",
+                "duracion": "7:12",
+                "url": "https://www.youtube.com/watch?v=zkJjORF2Rz4&list=PLEQhEE1fMYtyRVKOsapvOSY_ZKkQO1NIa&index=14"
+            },
+            {
+                "titulo": "Quiero disfrutar del Rock",
+                "cantante": "Doody y Roger",
+                "duracion": "1:51",
+                "url": "https://www.youtube.com/watch?v=KU_5rHM-DQE&list=PLEQhEE1fMYtyRVKOsapvOSY_ZKkQO1NIa&index=10"
+            },
+            {
+                "titulo": "Houng Dog",
+                "cantante": "Vince Fountain y Coro",
+                "duracion": "1:25",
+                "url": "https://www.youtube.com/watch?v=h-HCKUd_Fpc"
+            },
+            {
+                "titulo": "Soy el Ritmo",
+                "cantante": "Johnny Casino y Coro",
+                "duracion": "4:41",
+                "url": "https://www.youtube.com/watch?v=6Xk8dCdTv6I&list=PLEQhEE1fMYtyRVKOsapvOSY_ZKkQO1NIa&index=12"
+            },
+            {
+                "titulo": "Lo Peor que puedo Hacer",
+                "cantante": "Rizzo",
+                "duracion": "2:35",
+                "url": "https://www.youtube.com/watch?v=qEiV7vdGJOg&list=PLEQhEE1fMYtyRVKOsapvOSY_ZKkQO1NIa&index=17"
+            },
+            {
+                "titulo": "Sandra Dee Reprise",
+                "cantante": "Sandy",
+                "duracion": "1:39",
+                "url": "https://www.youtube.com/watch?v=zkj2CIDVyWY&list=PLEQhEE1fMYtyRVKOsapvOSY_ZKkQO1NIa&index=18"
+            },
+            {
+                "titulo": " Tu Seras para Mi",
+                "cantante": " Danny, Sandy y Coro",
+                "duracion": "2:29",
+                "url": "https://www.youtube.com/watch?v=et4Wp2pu5v8&list=PLEQhEE1fMYtyRVKOsapvOSY_ZKkQO1NIa&index=19"
+            },
+            {
+                "titulo": "Unidos Siempre",
+                "cantante": "Elenco Completo",
+                "duracion": "2:48",
+                "url": "https://www.youtube.com/watch?v=sVGveGzOo28&list=PLEQhEE1fMYtyRVKOsapvOSY_ZKkQO1NIa&index=9"
+            }
+        ],
+        "equipo_creativo": {},
+        "programa": "",
+        "imagenes": []
+    },
+    "La Sirenita": {},
+    "Jesucristo SuperStar": {}
+}

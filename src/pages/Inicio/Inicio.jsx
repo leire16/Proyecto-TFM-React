@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import OpinionCard from '../../components/Cards/Opinion-card';
 import { MusicalEnProduccion, InformacionAskartzaMartxa, Producciones } from '../../components/Inicio/Index';
+import opinionesData from '../../mocks/opiniones.json'; // Ya has importado el JSON
 
 const Inicio = ({ cambiarSeccionConParametros, cambiarSeccion }) => {
   const [showInfoText, setShowInfoText] = useState(false);
@@ -9,11 +10,14 @@ const Inicio = ({ cambiarSeccionConParametros, cambiarSeccion }) => {
     cambiarSeccion(seccion);
   };
 
+  // Solo toma las primeras 3 opiniones
+  const primerasOpiniones = opinionesData.slice(0, 3);
+
   return (
     <div id="inicio">
       <div className="container-fluid">
         {/* Sección musical en produccion */}
-        <MusicalEnProduccion imagen='/assets/img/grease.webp' />
+        <MusicalEnProduccion imagen='https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596919/Askartza%20Martxa/Grease/pcno4u2q7lxzjj5qonw6.webp' />
 
         {/* Sección que es askartza martxa */}
         <InformacionAskartzaMartxa />
@@ -25,30 +29,17 @@ const Inicio = ({ cambiarSeccionConParametros, cambiarSeccion }) => {
         <div className="container-fluid my-5 py-5 card-red">
           <div className="container">
             <h2 className="text mb-4">OPINIONES (30)</h2>
-            <OpinionCard
-              nombre="Leire"
-              fecha="11 de enero de 2023"
-              musical="Grease"
-              asunto="Critica"
-              opinion="Me pareció que el vestuario del musical debería haber estado mas curradoción fue excelente y las actuaciones estuvieron a la altura. Recomiendo a todos ver este musical."
-              numEstrellas={2}
-            />
-            <OpinionCard
-              nombre="Jose"
-              fecha="22 de Noviembre de 2023"
-              musical="El Rey León"
-              asunto="Espectáculo increíble"
-              opinion="El espectáculo me pareció muy dinámico y divertido. Lo que si no perdono es la organización!!"
-              numEstrellas={4}
-            />
-            <OpinionCard
-              nombre="Mari Carmen"
-              fecha="25 de Noviembre de 2023"
-              musical=""
-              asunto="Impresionante"
-              opinion="Me ha parecido un espectáculo de 10. Impresionante el elenco, las dos  actrices principales brillan con luz propia... vaya vozarrones!! L@s  bailarines llenan el pequeño escenario."
-              numEstrellas={5}
-            />
+            {primerasOpiniones.map((opinion, index) => (
+              <OpinionCard
+                key={index}
+                nombre={opinion.nombre}
+                fecha={opinion.fecha}
+                musical={opinion.musical}
+                asunto={opinion.asunto}
+                opinion={opinion.opinion}
+                numEstrellas={opinion.numEstrellas}
+              />
+            ))}
             <div className='mt-4'>
               <p className='text-end pointer bold-text' onClick={() => handleImageClick('opinion')}> + VER MÁS</p>
             </div>
