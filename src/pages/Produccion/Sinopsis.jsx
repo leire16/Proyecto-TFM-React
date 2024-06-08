@@ -26,7 +26,9 @@ const Sinopsis = ({ parametros }) => {
       <h1 className="mb-5 uppercase">Sinopsis {nombreProduccion}</h1>
 
       {/* Mostrar la imagen de la obra si está disponible */}
-      {img && <img className='Imagen mb-5' src={img} alt={nombreProduccion} />}
+      <div>
+        {img && <img className='Imagen mb-5' src={img} alt={nombreProduccion} />}
+      </div>
 
       {/* Renderizar la sinopsis */}
       {typeof sinopsis === "string" ? (

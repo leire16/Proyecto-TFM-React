@@ -1,6 +1,5 @@
 .Imagen {
     width: 100%;
-    max-width: 1080px;
     height: auto;
     max-height: 500px;
     object-fit: contain;

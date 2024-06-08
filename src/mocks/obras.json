@@ -192,8 +192,20 @@
                 "url": "https://www.youtube.com/watch?v=ekJpwKjclUw"
             }
         ],
-        "equipo_creativo": {},
-        "programa": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717683582/Askartza%20Martxa/El%20rey%20Leon/u6kbpo9crjweipyhht64.jpg",
+        "equipo_creativo": {
+            "Director Musical": "Izaskun Gutiérrez",
+            "Adaptación Guion":"Izaskun Gutiérrez",
+            "Coreografia":"Arantza Ibarretxe",
+            "Guion":"Itziar Contreras, Nerea Aldekoetxea, Aitor Landazabal",
+            "Decorado":"Eduardo Madrazo, Izaskun Gutiérrez",
+            "Diseño de Escenografia":"Izaskun Gutiérrez, Bizkunde Auzmendi",
+            "Diseño de Sonido":"Izaskun Gutiérrez",
+            "Diseño de Iluminación":"Eduardo Madrazo",
+            "Direccion de Casting":"Izaskun Gutiérrez",
+            "Equipo de Profesores":"Itziar Contreras, Nerea Aldekoetxea, Aitor Landazabal, Arantza Ibarretxe, Eduardo Madrazo, Izaskun Gutiérrez",
+            "Ayuda Especial":"Bizkunde Auzmendi, Marisol Vander Vorst, Marian Calzón, Virginia Ruiz de los Rios, Ainhoa Mendizabal"
+        },
+        "programa": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717686170/Askartza%20Martxa/El%20rey%20Leon/wmmiwkdzkz2711hjh32f.jpg",
         "imagenes": [
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493122/Askartza%20Martxa/El%20rey%20Leon/udlpki41pkim7mjki54c.webp",
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493106/Askartza%20Martxa/El%20rey%20Leon/cjpwxrxnfji4gtennbco.webp",
@@ -339,7 +351,7 @@
                     "descripcion": "Camarera del restaurante Frosty Palace donde meriendan todos los alumnos del instituto."
                 }
             ],
-            "Coreografia": "Ane Crespo, Elsa Landa, Maia Weström, Asier Espiga, Lorea madrigal, Licia Larreina, Leire Charterina, Paula Pavon, Alejandra Zaballa, June del Barco, Jule de Isusi, Paula Encarnación, Nere Méndez, Eider Gorostiaga, Andrea González, Sara Mata, Enara Ruiz, Saioa Marañón, Ivet Hernández, Maitane Blanco, Itsasne Ruiz, Iker Couto, Haizea Pinedo, Andrea Salvador, Nikole Zabala, Sara Garrido, Sara Uliarte, Laida Albaina, June Amo, Maider Roman, Lucía Jade, Uxue Azkarate, Pau Alfonos Y Adriana Ruíz",
+            "Coreografia": "Ane Crespo, Elsa Landa, Maia Weström, Asier Espiga, Lorea madrigal, Licia Larreina, Leire Charterina, Paula Pavon, Alejandra Zaballa, June del Barco, Jule de Isusi, Paula Encarnación, Nere Méndez, Eider Gorostiaga, Andrea González, Sara Mata, Enara Ruiz, Saioa Marañón, Ivet Hernández, Maitane Blanco, Itsasne Ruiz, Iker Couto, Haizea Pinedo, Andrea Salvador, Nikole Zabala, Sara Garrido, Sara Uliarte, Laida Albaina, June Amo, Maider Roman, Lucía Jade, Uxue Azkarate, Pau Alfonso Y Adriana Ruíz",
             "Decorado": "Haizea Ferreiro, Lorea Palomo, Alex Velasco, Leire Barrena, María David, Kenia Amat, Irati Viguri, Nerea López, Sofia Mozas, Irune OrtÍZ, June Garrido, Karen Geleyns, Ariadne Machin, Aroa Laurrieta, Ariane Azkoitia, Mikel Ventura, Ane Camarero, Alaitz Conde, Irati Gutiérrez, Claudia Maria lópez, Nahia Cabarcos, Uxue Cabarcos, Aitana Delgado, Enara García, Ane Lahera, Maia Zabala, Maialen López, Maitane Collantes, Irati Ruíz, Alaine Ruíz, Paule Zuaznabar, Alaine López y Naia Madariaga"
         },
         "canciones": [
@@ -446,8 +458,20 @@
                 "url": "https://www.youtube.com/watch?v=sVGveGzOo28&list=PLEQhEE1fMYtyRVKOsapvOSY_ZKkQO1NIa&index=9"
             }
         ],
-        "equipo_creativo": {},
-        "programa": "",
+        "equipo_creativo": {
+            "Director Musical": "Izaskun Gutiérrez",
+            "Adaptación Guion":"Diego Etxebarria",
+            "Coreografia":"Leire Fernández, Naia ureta, Cristina Fernández, Ane isla",
+            "Guion":"Nerea Aldekoetxea,Diego Etxebarria ",
+            "Decorado":"Maria González, Mikel Posada, Gorka Goirigolzarri",
+            "Diseño de Escenografia":"Bizkunde Auzmendi",
+            "Diseño de Sonido":"Izaskun Gutiérrez",
+            "Diseño de Iluminación":"Jon Mata",
+            "Direccion de Casting":"Diego Etxebarria, Izaskun Gutiérrez",
+            "Equipo de Profesores":"Bizkunde Auzmendi, Ilargi Garcia, Nerea Aldekoetxea, Izaskun Gutiérrez",
+            "Ayuda Especial":"Marisol Vander Vorst, Irantzu Jauregizar, Ana Urquiza, Javier Rodiño, Virginia Ruiz de los Rios, Raúl Mata, Eguzki Gaminde, Javier Posada, Isabel Barroso, Marta López, Nagore Bilbao"
+        },
+        "programa": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717863295/Askartza%20Martxa/Grease/e1ecrmnzo8bkodhvtwfy.jpg",
         "imagenes": []
     },
     "La Sirenita": {},
