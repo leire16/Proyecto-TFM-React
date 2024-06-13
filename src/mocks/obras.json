@@ -2,6 +2,10 @@
     "El Rey León": {
         "img": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493611/Askartza%20Martxa/El%20rey%20Leon/bwz1rgav6idysnosmmlk.webp",
         "titulo": "El Rey León",
+        "logo":"",
+        "guion":"https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718132321/Askartza%20Martxa/Guiones/reyLeon.pdf",
+        "video":"",
+        "cartel":"https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717597197/Askartza%20Martxa/Carteles/ReyLeon.webp",
         "sinopsis": {
             "Acto I": "La historia comienza con el nacimiento de Simba, el hijo del rey Mufasa y la reina Sarabi. Todos los animales del reino celebran el nacimiento del futuro rey en una ceremonia presentada por Rafiki, el sabio mandril. Simba crece bajo la tutela de su padre, quien le enseña sobre el Ciclo de la Vida y su papel en mantener el equilibrio en la sabana. Sin embargo, el malvado tío de Simba, Scar, conspira para tomar el trono. Con la ayuda de las hienas, Scar planea deshacerse de Mufasa y Simba. Scar lleva a cabo su plan al atraer a Simba a un desfiladero, donde una estampida de ñus amenaza su vida. Mufasa rescata a Simba, pero Scar lo mata y convence a Simba de que la muerte de su padre es su culpa. Devastado, Simba huye del reino.",
             "Acto II": "Simba es encontrado por Timón y Pumba, un suricata y un jabalí, quienes le enseñan a vivir sin preocupaciones bajo la filosofía de \"Hakuna Matata\". Simba crece en el exilio, creyendo que nunca puede regresar. Mientras tanto, el reino cae en decadencia bajo el mandato de Scar. Nala, la amiga de la infancia de Simba, busca ayuda y se encuentra con él. Nala le informa sobre el estado del reino y lo insta a regresar para reclamar su lugar como rey. Con la guía espiritual de Rafiki y la visión de su padre, Simba acepta su destino. Regresa al reino, enfrenta a Scar, y finalmente descubre la verdad sobre la muerte de Mufasa. Simba derrota a Scar y toma su lugar como el legítimo rey, restaurando el equilibrio en el Ciclo de la Vida. La historia termina con la celebración del nacimiento del hijo de Simba y Nala, cerrando el círculo de la vida."
@@ -10,55 +14,55 @@
             "Actores Principales": [
                 {
                     "personaje": "Rafiki",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596423/Askartza%20Martxa/El%20rey%20Leon/personajes/r3vpej0nweyst1l58htd.jpg",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596423/Askartza%20Martxa/El%20rey%20Leon/personajes/rafiki.jpg",
                     "persona": "Naiara Fernández",
                     "descripcion": "Un mandril sabio y chamán de la tribu. Actúa como guía espiritual para Simba, ayudándolo a encontrar su verdadero camino y propósito."
                 },
                 {
                     "personaje": "Scar",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596426/Askartza%20Martxa/El%20rey%20Leon/personajes/dmpxrmtsbjtycfm24tcy.jpg",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596426/Askartza%20Martxa/El%20rey%20Leon/personajes/scar.jpg",
                     "persona": "Martin Mercado",
                     "descripcion": "El antagonista principal. Es el hermano de Mufasa y el tío de Simba. Ambicioso y manipulador, Scar planea usurpar el trono y, para ello, provoca la muerte de Mufasa y exilia a Simba."
                 },
                 {
                     "personaje": "Zazu",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596431/Askartza%20Martxa/El%20rey%20Leon/personajes/sbrm49tg5lxuft2mzank.jpg",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596431/Askartza%20Martxa/El%20rey%20Leon/personajes/zazu.jpg",
                     "persona": "Xabier Aizpurua",
                     "descripcion": "Un cálao que sirve como mayordomo del rey. Es leal a Mufasa y luego a Simba, proporcionando información y asistencia a la familia real."
                 },
                 {
                     "personaje": "Mufasa",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596405/Askartza%20Martxa/El%20rey%20Leon/personajes/nmss3kmwrubc1bl3oylt.jpg",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596405/Askartza%20Martxa/El%20rey%20Leon/personajes/mufasa.jpg",
                     "persona": "Aitor Eiguren",
                     "descripcion": "El rey actual de la Sabana y padre de Simba. Es un líder sabio y valiente, respetado por todos los animales. Su muerte a manos de su hermano Scar es un momento crucial en la historia."
                 },
                 {
                     "personaje": "Simba Handi",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596427/Askartza%20Martxa/El%20rey%20Leon/personajes/v9qzayaxfzqawjbfq1uv.jpg",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596427/Askartza%20Martxa/El%20rey%20Leon/personajes/simba.jpg",
                     "persona": "Iñigo Balbona",
                     "descripcion": "El Simba adulto, que ha crecido y se enfrenta a su destino y responsabilidades como el verdadero rey de la Sabana. Debe superar sus miedos y asumir su lugar en el círculo de la vida."
                 },
                 {
                     "personaje": "Nala Handi",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596406/Askartza%20Martxa/El%20rey%20Leon/personajes/vjdrcxmkleydps7x6zyf.jpg",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596406/Askartza%20Martxa/El%20rey%20Leon/personajes/nala.jpg",
                     "persona": "Maitane Salinasarmendariz",
                     "descripcion": "La versión adulta de Nala. Es fuerte y decidida, juega un papel crucial en el retorno de Simba al reino para enfrentar a Scar."
                 },
                 {
                     "personaje": "Sarabi",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596424/Askartza%20Martxa/El%20rey%20Leon/personajes/y8t9o2x8bos9tehhvqgy.jpg",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596424/Askartza%20Martxa/El%20rey%20Leon/personajes/sarabi.jpg",
                     "persona": "Ainhoa Nogeras",
                     "descripcion": "La reina y madre de Simba. Es una figura de fortaleza y dignidad, incluso después de la muerte de Mufasa y la toma del poder por Scar."
                 },
                 {
                     "personaje": "Timón",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596430/Askartza%20Martxa/El%20rey%20Leon/personajes/ab5dezemo5544gtunvha.jpg",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596430/Askartza%20Martxa/El%20rey%20Leon/personajes/timon.jpg",
                     "persona": "Jon Gisasola",
                     "descripcion": "Un suricato cómico y uno de los mejores amigos de Simba. Junto con Pumbaa, ofrece alivio cómico y ayuda a Simba durante su exilio."
                 },
                 {
                     "personaje": "Pumba",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596422/Askartza%20Martxa/El%20rey%20Leon/personajes/an3rdlnpzhrxdgteyeud.jpg",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596422/Askartza%20Martxa/El%20rey%20Leon/personajes/pumba.jpg",
                     "persona": "June Gutiérrez",
                     "descripcion": "Un jabalí amistoso y leal, mejor amigo de Timon. Pumbaa también proporciona apoyo y humor a Simba en sus momentos más oscuros."
                 }
@@ -66,37 +70,37 @@
             "Actores Secundarios": [
                 {
                     "personaje": "Simba Txiki",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596428/Askartza%20Martxa/El%20rey%20Leon/personajes/zrp2fphrcgz83cloppgb.jpg",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596428/Askartza%20Martxa/El%20rey%20Leon/personajes/simbaTxiki.jpg",
                     "persona": "Adrian Tubia",
                     "descripcion": "El Simba cuando es un cachorro. Es curioso, enérgico y lleno de sueños sobre su futuro como rey. La historia sigue su crecimiento desde esta etapa."
                 },
                 {
                     "personaje": "Nala Txiki",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596407/Askartza%20Martxa/El%20rey%20Leon/personajes/vxhhfwdvysegj3wnxctk.jpg",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596407/Askartza%20Martxa/El%20rey%20Leon/personajes/nalaTxiki.jpg",
                     "persona": "Zaira Jaular",
                     "descripcion": "La amiga de la infancia de Simba. Es valiente y aventurera, siempre dispuesta a acompañar a Simba en sus travesuras."
                 },
                 {
                     "personaje": "Chansei",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596353/Askartza%20Martxa/El%20rey%20Leon/personajes/viomjb1h7kdniijhb0s0.jpg",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596397/Askartza%20Martxa/El%20rey%20Leon/personajes/hienas.jpg",
                     "persona": "Maialen Basañez",
                     "descripcion": "Una de las tres hienas principales y la líder del grupo. Es astuta y despiadada, aliada de Scar en su plan para tomar el control del reino."
                 },
                 {
                     "personaje": "Banzai",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596353/Askartza%20Martxa/El%20rey%20Leon/personajes/viomjb1h7kdniijhb0s0.jpg",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596397/Askartza%20Martxa/El%20rey%20Leon/personajes/hienas.jpg",
                     "persona": "Maialen Mugarra",
                     "descripcion": "Otra de las hienas, es agresivo y disfruta causando problemas. Junto con Shenzi y Ed, forma parte del grupo que trabaja con Scar."
                 },
                 {
                     "personaje": "ED",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596353/Askartza%20Martxa/El%20rey%20Leon/personajes/viomjb1h7kdniijhb0s0.jpg",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596397/Askartza%20Martxa/El%20rey%20Leon/personajes/hienas.jpg",
                     "persona": "Paula Txabarria",
                     "descripcion": "La tercera hiena del grupo, conocida por su risa maníaca y comportamiento tonto. Aunque parece menos inteligente que Shenzi y Banzai, es igual de peligrosa."
                 },
                 {
                     "personaje": "Madre de Nala",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596404/Askartza%20Martxa/El%20rey%20Leon/personajes/xclk4bin6lpdp566mwx1.jpg",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596404/Askartza%20Martxa/El%20rey%20Leon/personajes/madreNala.jpg",
                     "persona": "Leire Fernández",
                     "descripcion": "La madre de Nala, es una leona cuidadosa y amorosa que se preocupa por el bienestar de su hija."
                 }
@@ -192,9 +196,22 @@
                 "url": "https://www.youtube.com/watch?v=ekJpwKjclUw"
             }
         ],
-        "equipo_creativo": {},
-        "programa": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717683582/Askartza%20Martxa/El%20rey%20Leon/u6kbpo9crjweipyhht64.jpg",
+        "equipo_creativo": {
+            "Director Musical": "Izaskun Gutiérrez",
+            "Adaptación Guion": "Izaskun Gutiérrez",
+            "Coreografia": "Arantza Ibarretxe",
+            "Guion": "Itziar Contreras, Nerea Aldekoetxea, Aitor Landazabal",
+            "Decorado": "Eduardo Madrazo, Izaskun Gutiérrez",
+            "Diseño de Escenografia": "Izaskun Gutiérrez, Bizkunde Auzmendi",
+            "Diseño de Sonido": "Izaskun Gutiérrez",
+            "Diseño de Iluminación": "Eduardo Madrazo",
+            "Direccion de Casting": "Izaskun Gutiérrez",
+            "Equipo de Profesores": "Itziar Contreras, Nerea Aldekoetxea, Aitor Landazabal, Arantza Ibarretxe, Eduardo Madrazo, Izaskun Gutiérrez",
+            "Ayuda Especial": "Bizkunde Auzmendi, Marisol Vander Vorst, Marian Calzón, Virginia Ruiz de los Rios, Ainhoa Mendizabal"
+        },
+        "programa": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718045761/Askartza%20Martxa/Programas/reyleon.jpg",
         "imagenes": [
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493611/Askartza%20Martxa/El%20rey%20Leon/bwz1rgav6idysnosmmlk.webp",
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493122/Askartza%20Martxa/El%20rey%20Leon/udlpki41pkim7mjki54c.webp",
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493106/Askartza%20Martxa/El%20rey%20Leon/cjpwxrxnfji4gtennbco.webp",
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493106/Askartza%20Martxa/El%20rey%20Leon/lsuahswjrayoyfgnxmfp.webp",
@@ -204,7 +221,6 @@
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493611/Askartza%20Martxa/El%20rey%20Leon/momk9uvro79rwihthmrr.webp",
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493611/Askartza%20Martxa/El%20rey%20Leon/rwn31treycksiqlaobpc.webp",
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493612/Askartza%20Martxa/El%20rey%20Leon/sf6ddyngp2kzggp1q0rk.webp",
-            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493611/Askartza%20Martxa/El%20rey%20Leon/bwz1rgav6idysnosmmlk.webp",
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493611/Askartza%20Martxa/El%20rey%20Leon/zrha4f9bayusuqbeufui.webp",
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493612/Askartza%20Martxa/El%20rey%20Leon/nq4fbamlhzndayx7rtsg.webp",
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493615/Askartza%20Martxa/El%20rey%20Leon/jfua3rhpxnehvpw2s9fl.webp"
@@ -213,78 +229,82 @@
     "Grease": {
         "img": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717599214/Askartza%20Martxa/Grease/abob1cxz6gisjrxtp0uf.webp",
         "titulo": "Grease",
+        "logo":"https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596919/Askartza%20Martxa/Grease/logo.webp",
+        "guion":"",
+        "video":"",
+        "cartel":"https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717597197/Askartza%20Martxa/Carteles/grease.webp",
         "sinopsis": "GREASE El Musical es el fenómeno de la cultura pop que narra la vida en el instituto de una pequeña ciudad americana en los años 50, habiéndose convertido en el gran musical del Rock and Roll por excelencia, además de en una de las películas musicales más taquilleras de la historia.\n\n“Situado a finales de los años 50 en el instituto Rydell High, un grupo de estudiantes de clase obrera navega por conflictos atemporales, como las complejidades de la presión de grupo, los valores personales, la amistad, el amor, los devaneos sexuales de la adolescencia y la conciencia de clase, lo que le convierte en el musical adolescente por excelencia y la hace permanecer eternamente joven.”\n\nEn 2021, con motivo del 50 aniversario de su estreno original en Chicago, SOM Produce quiso sumarse a esta efeméride poniendo en marcha una nueva producción con un elenco con una energía arrolladora, unas increíbles coreografías y una ambiciosa e innovadora puesta en escena, a cargo del mismo equipo creativo de BILLY ELLIOT.\n\nGREASE El Musical en su edición Especial 50 aniversario se estrenó el 2 de octubre de 2021 y, tras una temporada completa en el Nuevo Teatro Alcalá y una exitosa gira por las principales ciudades de España, regresa a Madrid al Teatro Apolo, donde solo permanecerá 12 semanas. Esto supondrá el broche de oro a más de 3 años de éxito ininterrumpido y más de 400.000 espectadores. Y lo hará, además, con la incorporación del conocido actor Adrián Lastra en el papel de Vince Fontaine.",
         "elenco": {
             "Actores Principales": [
                 {
                     "personaje": "Danny Zuko",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595685/Askartza%20Martxa/Grease/xyd6jf9vaszpnxb3gqur.png",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718046774/Askartza%20Martxa/Grease/personajes/danny.png",
                     "persona": "Ane Isla",
                     "descripcion": "Es el líder de los Birds (grupo de los chicos). Con buena planta, guapo, con aire de tranquilo, encanto, fuerte y confiado. Algo ingenuo, se deja llevar por su imagen frente a la gente y sobre todo sus amigos, pero esconde tras ella un profundo romanticismo y una gran delicadeza. Todo y toda ronda tras él ya que es el chico más envidiado."
                 },
                 {
                     "personaje": "Sandy Olsen",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595698/Askartza%20Martxa/Grease/z9zfxltlurlyitjpcri2.png",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718046803/Askartza%20Martxa/Grease/personajes/sandy.png",
                     "persona": "Naia Robredo",
                     "descripcion": "Es una chica que llega nueva al instituto Rydell y entra al grupo de chicas. Es muy bondadosa, habla amablemente con todos y tiene una personalidad muy amable, dulce, confiada, un poco ingenua y se lastima fácilmente. Enamorada de Dany. Capaz de todo por conseguir al hombre de sus sueños. Es más fuerte de lo que parece. Finalmente ganó confianza, se empodero y cambió su imagen \"pura\" por una apariencia y actitud rebelde para estar con Dany."
                 },
                 {
                     "personaje": "Kenickie",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595692/Askartza%20Martxa/Grease/hhdj8sllrkotcbfdry0e.png",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718046782/Askartza%20Martxa/Grease/personajes/kenickie.png",
                     "persona": "Alain Val",
                     "descripcion": "Es el mejor amigo de Dany y segundo al mando de los Birds. Pinta de duro, tatuado, hosco, agresivo y evita dar cualquier signo de debilidad. Tiene un extraño sentido del humor, pero es noble y generoso. Le gusta ir tonteando con las chicas hasta que encuentra a Rizzo y se da cuenta de que siente algo más por ella, aunque seguirá con sus aires de chulito."
                 },
                 {
                     "personaje": "Rizzo",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595697/Askartza%20Martxa/Grease/dhesqhgjhc39cujlkqtc.png",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718046802/Askartza%20Martxa/Grease/personajes/rizzo.png",
                     "persona": "Irene Uriarte",
                     "descripcion": "Líder de las Pink Ladies (grupo de las chicas). Fuma, tiene una voz fuerte y aparentemente no le importa lo que los demás piensen de ella. Dura, sarcástica, malhablada, la que pasa de todo, aunque vulnerable y sensible. Esconde su corazón tras su dura fachada. Su atractivo es poco convencional. Vera a Sandy como una pardilla, pero le sucederá algo que la hará cambiar algunos pensamientos. Terminará pillándose por uno de los chicos, a pesar de pasar por algún que otro mal momento."
                 },
                 {
                     "personaje": "Doody",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596184/Askartza%20Martxa/Grease/anwdogxfhssk1ofldedc.png",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718046777/Askartza%20Martxa/Grease/personajes/doody.png",
                     "persona": "Izan Ruiz",
                     "descripcion": "Es el chico más \"sensible\" del grupo, aunque sus aires de chulito no se los quita nadie. Un payaso que disfruta metiéndose con los demás. Doody se lleva muy bien con Sonny y Putzie y siempre está haciendo el tonto, aunque se irá dando cuenta de que le gusta una de las chicas."
                 },
                 {
                     "personaje": "Frenchi",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595690/Askartza%20Martxa/Grease/cac3bbe2jov65rhuqbao.png",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718046780/Askartza%20Martxa/Grease/personajes/frenchi.png",
                     "persona": "June Gainza",
                     "descripcion": "Soñadora, de buen talento, algo tonta, no guarda rencor y le encanta hacer amigos. Va siempre muy maquillada y se preocupa mucho por su aspecto, sobre todo por su pelo. No se le dan bien los estudios, quiere dejarlo para ser peluquera, aunque se dará cuenta de que no es lo suyo y a raíz de ello se irá quedando pillada por uno de los chicos. Habla con voz aguda y chillona. Luce un acento neoyorquino."
                 },
                 {
                     "personaje": "Putzie",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595696/Askartza%20Martxa/Grease/hthuhidyvjz8ti3uwevq.png",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718046788/Askartza%20Martxa/Grease/personajes/putzie.png",
                     "persona": "Asier Peña",
                     "descripcion": "El más joven, tontillo e inocente del grupo. Pequeño, infantil, abierto, con una sonrisa que desarma y una actitud de admiración hacia los otros chicos. Le empezará a gustar una de las chicas y tonteará mucho con ella."
                 },
                 {
                     "personaje": "Jane",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595691/Askartza%20Martxa/Grease/avp2aofb5zb3hcsb4a8w.png",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718046781/Askartza%20Martxa/Grease/personajes/jane.png",
                     "persona": "Uxue Ferreiro",
                     "descripcion": "Aniñada, tímida con los chicos. Se lleva muy bien con todas, pero a la vez es la más tonta del grupo, es una seguidora nata de Rizzo, aunque todas la quieren mucho. Le encanta la comida basura y la repostería. Puede dar la impresión de ser un poco menos madura que sus amigas."
                 },
                 {
                     "personaje": "Soony",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595700/Askartza%20Martxa/Grease/xr8n9ocx5souojfg1duh.png",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718046806/Askartza%20Martxa/Grease/personajes/soony.png",
                     "persona": "Iker Cisneros",
                     "descripcion": "Es el divertido e inteligente del grupo, y le gusta bromear. Es el chico del grupo con el que más se meten, el que más come y a la vez el que más tonterías dice, aunque todos le tienen mucho aprecio. Es italiano, descarado y \"no se deja engañar por nadie\", excepto por el director McGee. Estará pillado por una de las chicas, aunque ella pasará de él."
                 },
                 {
                     "personaje": "Marty",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595694/Askartza%20Martxa/Grease/ufqjgtutsg8mzbjthi14.png",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718046785/Askartza%20Martxa/Grease/personajes/marty.png",
                     "persona": "Sara Fernández",
                     "descripcion": "Es la mejor amiga de la líder del grupo, le gusta mucho presumir de que ha estado con muchos chicos y es la más presumida. Generalmente es amable, pero puede no mostrar interés en las conversaciones, a menos que sean sobre ella o chismes jugosos. Se ve mayor que las otras chicas, pero le traiciona su verdadera edad en cuanto abre la boca.\n Intenta parecer sofisticada. Es la guapa de las Pink ladies. No le atrae ninguno del grupo de los chicos, aunque uno de ellos será muy pesado yendo detrás de ella. Se siente atraída por los caballeros mayores y se siente halagada por el sofisticado y encantador Vince Fontaine que coquetea con ella en el baile Nacional.    "
                 },
                 {
                     "personaje": "Eugene",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596184/Askartza%20Martxa/Grease/vfgjexk0rrpzli2pheyt.png",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718046779/Askartza%20Martxa/Grease/personajes/eugene.png",
                     "persona": "Aimar Ruiz",
                     "descripcion": "Compañero del instituto, es un buen tipo, sin embargo, los Birds siempre se burlan de él. Aunque principalmente por Doody, Putzie y Sonny; Kenickie y Dany parecen ignorarlo y mostrarle indiferencia. Probablemente porque no es un deportista ni popular. Es un nerd tonto, ingenuo y crédulo, pero nunca desagradable ni cruel. Es un tipo decente y gracioso. Generalmente se le ve sonriendo, pero a veces se pone serio. Él, al igual que Frenchi, habla con voz aguda y chillona."
                 },
                 {
                     "personaje": "Patty Simmon",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595695/Askartza%20Martxa/Grease/a1f9o2ij5vt4ptw2gg3j.png",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718046786/Askartza%20Martxa/Grease/personajes/patty.png",
                     "persona": "Paula Fernández",
                     "descripcion": "Es una animadora cursi e inteligente, aunque para Rizzo es insoportable. Suele ser el blanco de los chistes de Pink Ladies y Birds. Atractiva y atlética. Agresiva, segura de sí misma, dada a expansiones desconcertantes de entusiasmo. Maliciosa, pero sin malas intenciones. Está enamorada de Dany, pero este pasa de ella."
                 }
@@ -292,54 +312,54 @@
             "Actores Secundarios": [
                 {
                     "personaje": "Directora Mc Gee",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595686/Askartza%20Martxa/Grease/grtpptbcpzfprduij25n.png",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718046775/Askartza%20Martxa/Grease/personajes/directora.png",
                     "persona": "Leyre Martinez",
                     "descripcion": "Directora del instituto, algo anticuada, estricta pero buena persona en general. Dirige la escuela asumiendo puestos que no debería, incluidos secretaria y conserje."
                 },
                 {
                     "personaje": "Secretaria Blanche",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595699/Askartza%20Martxa/Grease/tvriwbqziaq547nseitt.png",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718046804/Askartza%20Martxa/Grease/personajes/secretaria.png",
                     "persona": "Ainara Ventura",
                     "descripcion": "Trabaja como secretaria de la Sra. McGee. Es extrovertida, amigable y un poco tonta, y siempre tenía una sonrisa en su rostro. Totalmente despistada. Se la pasa comiendo y manchando todo a su alrededor."
                 },
                 {
                     "personaje": "Entrenador Calhoum",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595688/Askartza%20Martxa/Grease/zn4gwayrx7mcprz1ahju.png",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718046778/Askartza%20Martxa/Grease/personajes/entrenador.png",
                     "persona": "Elaia Mariezkurrena",
                     "descripcion": "Acompañante incondicional de la Directora. Entrenador del instituto."
                 },
                 {
                     "personaje": "Vince Fountein",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595703/Askartza%20Martxa/Grease/ougyxv3ijj6v3vltnskd.png",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718046821/Askartza%20Martxa/Grease/personajes/vince.png",
                     "persona": "Martin Mercado",
                     "descripcion": "Presentador del baile de fin de curso, que se retrasmite por televisión. Además, es el locutor de radio. En el baile Nacional coquetea incómodo con Marty, que es más de 50 años menor que él."
                 },
                 {
                     "personaje": "Cha Cha DiGregorio",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595683/Askartza%20Martxa/Grease/kdggthnxuiynxrsuolds.png",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718046772/Askartza%20Martxa/Grease/personajes/chacha.png",
                     "persona": "Izaro Aguirrezabal",
                     "descripcion": "Desaliñada, chillona y casera. Su orgullo es ser la mejor bailarina del instituto. Supuestamente la mejor bailarina de St. Bernadette (su instituto). Es la antagonista secundaria de Grease."
                 },
                 {
                     "personaje": "Tom Chisum",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595701/Askartza%20Martxa/Grease/yq5vysg1uryi7zyqwt9e.png",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718046819/Askartza%20Martxa/Grease/personajes/tom.png",
                     "persona": "Luken Ortiz de Zarate",
                     "descripcion": "Mas conocido como musculitos. Es uno de los atletas estrella de Rydell High y es el capitán del equipo de fútbol de Rydell. Se sintió muy atraído por Sandy y sale con ella brevemente, pero luego comienza una relación con Patty."
                 },
                 {
                     "personaje": "Leo \"Craterface\"",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595693/Askartza%20Martxa/Grease/dlkmwbihewkxddjqujwq.png",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718046783/Askartza%20Martxa/Grease/personajes/leo.png",
                     "persona": "Eneko Moreno",
                     "descripcion": "Es el líder de los Scorpions, una pandilla de matones y rivales engrasadores de los Birds."
                 },
                 {
                     "personaje": "Camarera Frosty Palace",
-                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717595655/Askartza%20Martxa/Grease/ofafbnohy2wd1xk7wffj.png",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718046771/Askartza%20Martxa/Grease/personajes/camarera.png",
                     "persona": "Nora Ortiz",
                     "descripcion": "Camarera del restaurante Frosty Palace donde meriendan todos los alumnos del instituto."
                 }
             ],
-            "Coreografia": "Ane Crespo, Elsa Landa, Maia Weström, Asier Espiga, Lorea madrigal, Licia Larreina, Leire Charterina, Paula Pavon, Alejandra Zaballa, June del Barco, Jule de Isusi, Paula Encarnación, Nere Méndez, Eider Gorostiaga, Andrea González, Sara Mata, Enara Ruiz, Saioa Marañón, Ivet Hernández, Maitane Blanco, Itsasne Ruiz, Iker Couto, Haizea Pinedo, Andrea Salvador, Nikole Zabala, Sara Garrido, Sara Uliarte, Laida Albaina, June Amo, Maider Roman, Lucía Jade, Uxue Azkarate, Pau Alfonos Y Adriana Ruíz",
+            "Coreografia": "Ane Crespo, Elsa Landa, Maia Weström, Asier Espiga, Lorea madrigal, Licia Larreina, Leire Charterina, Paula Pavon, Alejandra Zaballa, June del Barco, Jule de Isusi, Paula Encarnación, Nere Méndez, Eider Gorostiaga, Andrea González, Sara Mata, Enara Ruiz, Saioa Marañón, Ivet Hernández, Maitane Blanco, Itsasne Ruiz, Iker Couto, Haizea Pinedo, Andrea Salvador, Nikole Zabala, Sara Garrido, Sara Uliarte, Laida Albaina, June Amo, Maider Roman, Lucía Jade, Uxue Azkarate, Pau Alfonso Y Adriana Ruíz",
             "Decorado": "Haizea Ferreiro, Lorea Palomo, Alex Velasco, Leire Barrena, María David, Kenia Amat, Irati Viguri, Nerea López, Sofia Mozas, Irune OrtÍZ, June Garrido, Karen Geleyns, Ariadne Machin, Aroa Laurrieta, Ariane Azkoitia, Mikel Ventura, Ane Camarero, Alaitz Conde, Irati Gutiérrez, Claudia Maria lópez, Nahia Cabarcos, Uxue Cabarcos, Aitana Delgado, Enara García, Ane Lahera, Maia Zabala, Maialen López, Maitane Collantes, Irati Ruíz, Alaine Ruíz, Paule Zuaznabar, Alaine López y Naia Madariaga"
         },
         "canciones": [
@@ -434,7 +454,7 @@
                 "url": "https://www.youtube.com/watch?v=zkj2CIDVyWY&list=PLEQhEE1fMYtyRVKOsapvOSY_ZKkQO1NIa&index=18"
             },
             {
-                "titulo": " Tu Seras para Mi",
+                "titulo": "Tu Seras para Mi",
                 "cantante": " Danny, Sandy y Coro",
                 "duracion": "2:29",
                 "url": "https://www.youtube.com/watch?v=et4Wp2pu5v8&list=PLEQhEE1fMYtyRVKOsapvOSY_ZKkQO1NIa&index=19"
@@ -446,10 +466,504 @@
                 "url": "https://www.youtube.com/watch?v=sVGveGzOo28&list=PLEQhEE1fMYtyRVKOsapvOSY_ZKkQO1NIa&index=9"
             }
         ],
-        "equipo_creativo": {},
-        "programa": "",
-        "imagenes": []
+        "equipo_creativo": {
+            "Director Musical": "Izaskun Gutiérrez",
+            "Adaptación Guion": "Diego Etxebarria",
+            "Coreografia": "Leire Fernández, Naia ureta, Cristina Fernández, Ane isla",
+            "Guion": "Nerea Aldekoetxea,Diego Etxebarria ",
+            "Decorado": "Maria González, Mikel Posada, Gorka Goirigolzarri",
+            "Diseño de Escenografia": "Bizkunde Auzmendi",
+            "Diseño de Sonido": "Izaskun Gutiérrez",
+            "Diseño de Iluminación": "Jon Mata",
+            "Direccion de Casting": "Diego Etxebarria, Izaskun Gutiérrez",
+            "Equipo de Profesores": "Bizkunde Auzmendi, Ilargi Garcia, Nerea Aldekoetxea, Izaskun Gutiérrez",
+            "Ayuda Especial": "Marisol Vander Vorst, Irantzu Jauregizar, Ana Urquiza, Javier Rodiño, Virginia Ruiz de los Rios, Raúl Mata, Eguzki Gaminde, Javier Posada, Isabel Barroso, Marta López, Nagore Bilbao"
+        },
+        "programa": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718045761/Askartza%20Martxa/Programas/grease.jpg",
+        "imagenes": [
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717599214/Askartza%20Martxa/Grease/abob1cxz6gisjrxtp0uf.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225703/Askartza%20Martxa/Grease/q3e047l2fltdja1n5cez.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225698/Askartza%20Martxa/Grease/tfmpc4wgi60gkaicbuj0.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225703/Askartza%20Martxa/Grease/kmqr3hgbou94ygxt8il3.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225699/Askartza%20Martxa/Grease/nfqx3cjuvwrh204hpkqm.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225698/Askartza%20Martxa/Grease/qky2uu5fq34vtzmzvzo5.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225699/Askartza%20Martxa/Grease/rax8rsfs4nljtu1otmom.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225699/Askartza%20Martxa/Grease/reb1mtjwf6wmgaoyrawn.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225699/Askartza%20Martxa/Grease/ruu8qmklrvl2rx8ptwlu.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225700/Askartza%20Martxa/Grease/lr43zbmnyikslxfql0yl.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225700/Askartza%20Martxa/Grease/k4d37ebvh5ytdvje4he9.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225702/Askartza%20Martxa/Grease/tvawwjs6pu6jj0dit1cc.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225702/Askartza%20Martxa/Grease/t9itd5stacgcnzy4voy8.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225702/Askartza%20Martxa/Grease/eb9iyzgsbdgia7rzvl8a.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225702/Askartza%20Martxa/Grease/cw3ykm5ys4njnyrqhyuh.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225704/Askartza%20Martxa/Grease/egtxzkzvcocdp12rdqub.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225704/Askartza%20Martxa/Grease/igffgzwtubvdmgzxqyak.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225705/Askartza%20Martxa/Grease/egkwqcuzfkpbxgv5ggeq.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225705/Askartza%20Martxa/Grease/kutmdd4oan0zkmujhpyk.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225705/Askartza%20Martxa/Grease/k5o5hs2fmm63ed7jdc6y.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225706/Askartza%20Martxa/Grease/mknowdw4ehyxa14l5grf.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225706/Askartza%20Martxa/Grease/dt1chqiw1h8pvlxb9dxy.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225706/Askartza%20Martxa/Grease/xvykonrqb6uojpylagkq.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225707/Askartza%20Martxa/Grease/mui3wgjti5wvhmuzxpin.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225707/Askartza%20Martxa/Grease/i7zrdzu6qydr3vablivy.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225708/Askartza%20Martxa/Grease/zcwkrlqzkjazvvq86ljg.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225708/Askartza%20Martxa/Grease/gi1wr6dyc1zj5yf21j6e.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225708/Askartza%20Martxa/Grease/xbygrwxdssqyowhabjez.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225709/Askartza%20Martxa/Grease/ocdz5tg7zenxmfm0safj.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225709/Askartza%20Martxa/Grease/dgegfrmjj6bo7dibcvwl.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225710/Askartza%20Martxa/Grease/tff0ge8vfkvjdqapbkep.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225710/Askartza%20Martxa/Grease/zwfole6qv0oxo7os8irt.webp"
+        ]
     },
-    "La Sirenita": {},
-    "Jesucristo SuperStar": {}
+    "Charlie y La Fabrica de Chocolate": {
+        "img": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718045370/Askartza%20Martxa/charlie/s88vokjeoqgoezc1r8d3.webp",
+        "titulo": "Charlie y la Fabrica de Chocolate",
+        "logo":"",
+        "guion":"https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718132322/Askartza%20Martxa/Guiones/charlie.pdf",
+        "video":"",
+        "cartel":"https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717597192/Askartza%20Martxa/Carteles/charlie.webp",
+        "sinopsis": {
+            "Acto I": "El musical comienza en una ciudad gris y monótona donde vive Charlie Bucket, un niño pobre pero amable, con su madre y sus cuatro abuelos en una pequeña casa. Charlie y su abuelo Joe tienen una relación especial, y a menudo pasan tiempo juntos soñando con algo mejor. En contraste con la vida de Charlie, Willy Wonka, el excéntrico dueño de la misteriosa fábrica de chocolate, anuncia que esconderá cinco Billetes Dorados en sus barras de chocolate Wonka en todo el mundo. Los niños que encuentren estos billetes tendrán la oportunidad de visitar la fábrica de chocolate.\n\nLos primeros cuatro Billetes Dorados son encontrados por niños malcriados: Augustus Gloop, Veruca Salt, Violet Beauregarde y Mike Teavee. Cada uno de ellos tiene características que los hacen únicos pero también defectos que los llevan a ser eliminados de la visita a la fábrica.\n\nFinalmente, Charlie encuentra el último Billete Dorado, asegurando su lugar en la visita a la fábrica de chocolate. Acompañado por su abuelo Joe, Charlie se une a los otros niños y sus padres para la visita a la fábrica.",
+            "Acto II": "En la fábrica de chocolate, los niños y sus padres son recibidos por los Oompa-Loompas, los pequeños trabajadores de la fábrica. Cada niño, impulsado por sus defectos, encuentra su perdición dentro de la fábrica:\n\n\t- Augustus Gloop es absorbido por una máquina de chocolate.\n\n\t- Veruca Salt es arrastrada por una basurera después de ser declarada \"basura\".\n\n\t- Violet Beauregarde se infla en una gigantesca bola de chicle.\n\n\t- Mike Teavee se encoge a tamaño miniatura después de ser transportado a un mundo de televisión.\n\nCharlie, por otro lado, demuestra ser un niño compasivo y solidario, lo que impresiona a Willy Wonka. Al final, Wonka decide que Charlie es el niño adecuado para heredar la fábrica de chocolate.",
+            "Acto III": "En el acto final, Willy Wonka revela su plan para retirarse y dejar que Charlie se convierta en el nuevo propietario de la fábrica de chocolate. Charlie y su familia se preparan para mudarse a la fábrica, mientras los Oompa-Loompas celebran su nueva dirección bajo el liderazgo de Charlie.\n\nEl musical concluye con una reflexión sobre la importancia de la familia, la amistad y el poder de la imaginación, mientras Charlie y Willy Wonka disfrutan de su nueva asociación y continúan la producción de golosinas en la fábrica de chocolate."
+        },
+        "elenco": {
+            "Actores Principales": [
+                {
+                    "personaje": "Wllie Wonka",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718047973/Askartza%20Martxa/charlie/personajes/willie.jpg",
+                    "persona": "Asier Martínez",
+                    "descripcion": "Dueño excéntrico y enigmático de la fábrica de chocolate. Tiene un pasado traumático con su padre y se ha convertido en un genio de las golosinas. Es cortés pero poco convencional, y rara vez sale de su fábrica."
+                },
+                {
+                    "personaje": "Charlie Bucket",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718048870/Askartza%20Martxa/charlie/personajes/charlie.jpg",
+                    "persona": "Daragh Espiau",
+                    "descripcion": "Protagonista del musical. Un niño pobre pero soñador y amable, cuyo mayor deseo es visitar la fábrica de chocolate de Willy Wonka. Tiene una gran madurez para su edad y se preocupa por su familia."
+                }
+            ],
+            "Actores Secundarios": [
+                {
+                    "personaje": "Sra. Charlie",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718049066/Askartza%20Martxa/charlie/personajes/sraBucket.jpg",
+                    "persona": "Ainhize Helguera",
+                    "descripcion": "Madre de Charlie. Es una ama de casa humilde y preocupada por el bienestar de su familia, especialmente de Charlie."
+                },
+                {
+                    "personaje": "Sr. Charlie",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718049146/Askartza%20Martxa/charlie/personajes/srBucket.jpg",
+                    "persona": "Jon Ander García",
+                    "descripcion": "Padre de Charlie. Trabajaba en una fábrica de pasta dental hasta que fue reemplazado por una máquina. Es un hombre humilde y preocupado por su familia."
+                },
+                {
+                    "personaje": "Abuelo Joe",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718048870/Askartza%20Martxa/charlie/personajes/AbueloJoe.jpg",
+                    "persona": "Adrian Tubia",
+                    "descripcion": "Abuelo materno de Charlie. Es entusiasta y le encanta contar historias, especialmente las relacionadas con la fábrica de chocolate de Willy Wonka."
+                },
+                {
+                    "personaje": "Abuela Josefina",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718048870/Askartza%20Martxa/charlie/personajes/AbuelaJosefina.jpg",
+                    "persona": "Leire Fernández",
+                    "descripcion": "Abuela materna de Charlie."
+                },
+                {
+                    "personaje": "Abuelo George",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718048870/Askartza%20Martxa/charlie/personajes/abuelogeorge.jpg",
+                    "persona": "Gaizka González",
+                    "descripcion": "Abuelo paterno de Charlie. Era una persona más seria y distante en comparación del abuelo materno de Charlie, pero anima a Charlie a que cumpla su sueño de visitar la fábrica de chocolate."
+                },
+                {
+                    "personaje": "Abuela Georgina",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718048869/Askartza%20Martxa/charlie/personajes/AbuelaGeorgina.jpg",
+                    "persona": "Irantzu González",
+                    "descripcion": "Abuela paterna de Charlie. Es menos expresiva que el abuelo George."
+                },
+                {
+                    "personaje": "Augustus Gloop",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718047973/Askartza%20Martxa/charlie/personajes/Augustus.webp",
+                    "persona": "Xabier Ciriza",
+                    "descripcion": "Primer niño en encontrar el boleto dorado. Es extremadamente gordo y vive en Düsseldorf, Alemania."
+                },
+                {
+                    "personaje": "Sra. Gloop",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718050975/Askartza%20Martxa/charlie/personajes/SraGloop.jpg",
+                    "persona": "Irati Garcia",
+                    "descripcion": "Madre de Augustus. Acompaña a Augustus a la fábrica de chocolate."
+                },
+                {
+                    "personaje": "Sr. Gloop",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718050974/Askartza%20Martxa/charlie/personajes/vjt9x8amuulogsr4pdb5.jpg",
+                    "persona": "Iker Cubillo",
+                    "descripcion": "Padre de Augustus. Carnicero."
+                },
+                {
+                    "personaje": "Veruca Salt",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718050975/Askartza%20Martxa/charlie/personajes/Veruca.jpg",
+                    "persona": "Carmen Santos",
+                    "descripcion": "Segunda niña en encontrar el boleto dorado. Es muy malcriada y vive en el Reino Unido."
+                },
+                {
+                    "personaje": "Sr. Salt",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718050974/Askartza%20Martxa/charlie/personajes/SrSalt.jpg",
+                    "persona": "Jon Urbizu",
+                    "descripcion": "Padre de Veruca. Señor ambicioso que consciente a su hija en todo, acompañó a su hija durante la visita a la fábrica de chocolate."
+                },
+                {
+                    "personaje": "Violet Beauregarde",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718050976/Askartza%20Martxa/charlie/personajes/Violet.jpg",
+                    "persona": "Ohiane García",
+                    "descripcion": "Tercera niña en encontrar el boleto dorado. Es obsesiva con el chicle y vive en EE.UU."
+                },
+                {
+                    "personaje": "Sra. Beauregarde",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718050973/Askartza%20Martxa/charlie/personajes/SraBeauregarde.jpg",
+                    "persona": "Ane Urbizu",
+                    "descripcion": "Madre de Violet. Es competitiva y obsesionada con ser ganadora, lo que ha influenciado a su hija."
+                },
+                {
+                    "personaje": "Mike Teavee",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718050973/Askartza%20Martxa/charlie/personajes/mike.jpg",
+                    "persona": "Endika Fernández",
+                    "descripcion": "Cuarto niño en encontrar el boleto dorado. Tiene una gran obsesión por la televisión y los videojuegos. Vive en Denver, Colorado."
+                },
+                {
+                    "personaje": "Sr. Teavee",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718050974/Askartza%20Martxa/charlie/personajes/SrTeavee.jpg",
+                    "persona": "Alex Velar",
+                    "descripcion": "Padre de Mike. Es profesor de geografía y no cree en la existencia de Willy Wonka ni en el país de los Oompa-Loompa."
+                },
+                {
+                    "personaje": "Narradora",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718051556/Askartza%20Martxa/charlie/personajes/narradora.jpg",
+                    "persona": "Leire Martínez",
+                    "descripcion": "Es un personaje que guía y cuenta la historia al público durante el desarrollo del musical. Ella proporciona información adicional sobre los personajes, los eventos y las situaciones que ocurren en la trama. La narradora puede aparecer en escena o hablar desde fuera, dependiendo de la interpretación específica de la obra. Es importante para mantener al público informado y comprometido con la historia que se desarrolla en el escenario."
+                },
+                {
+                    "personaje": "Reporteras",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718051557/Askartza%20Martxa/charlie/personajes/reportera.jpg",
+                    "persona": "Nahia Mariño",
+                    "descripcion": "Ella es una periodista que trabaja para un medio de comunicación, como un periódico o una estación de televisión. La reportera está interesada en la historia de los boletos dorados y cubre las noticias sobre los niños que los encuentran. Ella entrevista a los ganadores y a sus familias, y reporta sobre las visitas a la fábrica de chocolate de Willy Wonka. La reportera puede ser representada como una figura cómica o dramática, dependiendo de la interpretación del musical."
+                }
+            ],
+            "Coreografia": "Itziar Alza, Ainhoa Ruiz, Ane Etxebarria, Alazne Pérez, Elena Toka, Andrea Suárez, Goizane Goiriena, Paula Cerrada, Leire Izquierdo, Arrate Merino, Paula Txabarria",
+            "Decorado": "Izaro Martin, Iraide Laria, Aines Gallardo, Ageda Legarra, Koldo"
+        },
+        "canciones": [
+            {
+                "titulo": "Willy Wonka",
+                "cantante": "Willy Wonka",
+                "duracion": "1:02",
+                "url": "https://www.youtube.com/watch?v=d5qv8iInkS0&list=PLLfJ9CUaFXY2MHJkA3DdZxQjkV3LR5TNO&index=2"
+            },
+            {
+                "titulo": "Augustus Gloop",
+                "cantante": "Augustus Gloop",
+                "duracion": "2:59",
+                "url": "https://www.youtube.com/watch?v=82Z5_Ttewc4&list=PLLfJ9CUaFXY2MHJkA3DdZxQjkV3LR5TNO&index=3"
+            },
+            {
+                "titulo": "Violet",
+                "cantante": "Violet Beauregarde",
+                "duracion": "2:05",
+                "url": "https://www.youtube.com/watch?v=AJ8jQHhCZ40&list=PLLfJ9CUaFXY2MHJkA3DdZxQjkV3LR5TNO&index=12"
+            },
+            {
+                "titulo": "Veruca Salt",
+                "cantante": "Veruca Salt",
+                "duracion": "2:04",
+                "url": "https://www.youtube.com/watch?v=45Tm7AsX8yE&list=PLLfJ9CUaFXY2MHJkA3DdZxQjkV3LR5TNO&index=4"
+            },
+            {
+                "titulo": "Mike Teavee",
+                "cantante": "Mike Teavee",
+                "duracion": "1:34",
+                "url": "https://www.youtube.com/watch?v=jNrV2XFR_qQ&list=PLLfJ9CUaFXY2MHJkA3DdZxQjkV3LR5TNO&index=5"
+            }
+        ],
+        "equipo_creativo": {
+            "Director Musical": "Diego Etxebarria",
+            "Adaptación Guion": "Diego Etxebarria",
+            "Coreografia": "Olatz Bilbao, Ixone Agirretxu, Idoia Bilbao",
+            "Guion": "Diego Etxebarria",
+            "Decorado": "Bizkunde Auzmendi, Izaskun Gutiérrez, Belen Sanchez",
+            "Diseño de Escenografia": "Izaskun Gutiérrez, Bizkunde Auzmendi",
+            "Diseño de Sonido": "Izaskun Gutiérrez",
+            "Diseño de Iluminación": "Izaskun Gutiérrez",
+            "Direccion de Casting": "Izaskun Gutiérrez, Martin Mercado",
+            "Equipo de Profesores": "Olatz Bilbao, Bizkunde Auzmendi, Ixone Agirretxu, Idoia Bilbao, Izaskun Gutiérrez",
+            "Ayuda Especial": "Fran Urrutia, Aitor Laiseka, Raquel Antón, Irune Villafruela, Martin Mercado, Belén Sanchez, Andrea Suárez, Ernesto García, Virginia Ruiz de los Rios, Eguzki Gaminde"
+        },
+        "programa": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718045582/Askartza%20Martxa/Programas/charlie.webp",
+        "imagenes": [
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718052087/Askartza%20Martxa/charlie/npdgxybs4w0tq2z3gqrh.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718052088/Askartza%20Martxa/charlie/eq5nnzx4mgmyyhj6mujg.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718052088/Askartza%20Martxa/charlie/trkzm6wutyabrhx0awxr.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718052088/Askartza%20Martxa/charlie/hyf8h3fistjgcikyf7sy.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718052088/Askartza%20Martxa/charlie/u9bsgvuwo54xpo1eprm9.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718052088/Askartza%20Martxa/charlie/euh7qwcuojbxnsqhszbb.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718052087/Askartza%20Martxa/charlie/auyndnlgsyqw7zquohhm.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718052087/Askartza%20Martxa/charlie/rdksgmys1tcejtn4zwrh.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718045370/Askartza%20Martxa/charlie/s88vokjeoqgoezc1r8d3.webp"
+        ]
+    },
+    "Jesucristo SuperStar": {
+        "img": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718117098/Askartza%20Martxa/Jesucristo/hjajuym6zissyd03epvc.jpg",
+        "titulo": "Jesucristo SuperStar",
+        "logo":"",
+        "guion":"https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718133132/Askartza%20Martxa/Guiones/jesucristo.pdf",
+        "video":"",
+        "cartel":"https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717597198/Askartza%20Martxa/Carteles/jesucristo.webp",
+        "sinopsis": {
+            "Acto I": "1. Obertura: La orquesta presenta una introducción instrumental.\n\n2. El Cielo en Sus Mentes (Heaven on Their Minds): Judas Iscariote expresa su preocupación por la creciente popularidad de Jesús y teme que pueda traer problemas con las autoridades romanas.\n\n3. ¿Qué Está Pasando? (What's the Buzz): Los discípulos de Jesús le preguntan sobre sus planes futuros, mientras que María Magdalena trata de calmar a Jesús.\n\n4. Algo Extraño y Misterioso (Strange Thing Mystifying): Judas critica a María Magdalena por usar un ungüento caro en Jesús, a lo que Jesús responde que ella está haciendo algo bueno.\n\n5. Todo Está Bien (Everything's Alright): María Magdalena intenta consolar a Jesús y calmar sus preocupaciones, mientras Judas sigue cuestionando las prioridades de Jesús.\n\n6. Este Jesús Debe Morir (This Jesus Must Die): Los sacerdotes judíos, encabezados por Caifás y Anás, deciden que Jesús debe ser arrestado y ejecutado para prevenir una posible rebelión contra Roma.\n\n7. Hosanna: La multitud celebra la entrada triunfal de Jesús en Jerusalén, aclamándolo como su salvador.\n\n8. Simón Zelote / Pobre Jerusalén (Simon Zealotes / Poor Jerusalem): Simón el Zelote sugiere a Jesús que lidere una revuelta armada, pero Jesús rechaza la idea, lamentando la falta de comprensión de su misión.\n\n9. El Sueño de Pilato (Pilate's Dream): Poncio Pilato, el gobernador romano, sueña con ser culpado por la muerte de un hombre inocente.\n\n10. El Templo (The Temple): Jesús entra en el Templo de Jerusalén y se enfurece al ver el comercio y la corrupción, expulsando a los mercaderes.\n\n11. Todo Está Bien (Reprise) (Everything's Alright - Reprise): María Magdalena intenta nuevamente consolar a Jesús.\n\n12. No Sé Cómo Amarlo (I Don't Know How to Love Him): María Magdalena reflexiona sobre su amor por Jesús y cómo es diferente a cualquier otra relación que haya tenido.\n\n13. Maldito por Siempre / Dinero Sucio (Damned for All Time / Blood Money): Judas, presionado por los sacerdotes, acepta traicionar a Jesús a cambio de treinta monedas de plata.",
+            "Acto II": "14. La Última Cena (The Last Supper): Jesús y sus discípulos comparten la última cena. Jesús predice su traición y niega a Judas y Pedro.\n\n15. Getsemaní (Sólo Quiero Decir) (Gethsemane - I Only Want to Say): En el jardín de Getsemaní, Jesús lucha con el peso de su destino, finalmente aceptándolo.\n\n16. El Arresto (The Arrest): Jesús es arrestado después de que Judas lo traiciona con un beso. Pedro niega conocer a Jesús tres veces.\n\n17. La Negación de Pedro (Peter's Denial): Pedro recuerda las palabras de Jesús cuando es confrontado y niega conocerlo.\n\n18. Pilato y Cristo (Pilate and Christ): Jesús es llevado ante Pilato, quien no encuentra culpa en él pero lo envía a Herodes.\n\n19. La Canción del Rey Herodes (King Herod's Song): Herodes se burla de Jesús y le pide que demuestre sus milagros, pero Jesús se niega a responder.\n\n20. ¿Podríamos Empezar Otra Vez? (Could We Start Again Please?): María Magdalena y Pedro reflexionan sobre los eventos recientes y desean poder comenzar de nuevo.\n\n21. La Muerte de Judas (Judas' Death): Judas, abrumado por la culpa, se arrepiente de su traición y se suicida.\n\n22. Juicio ante Pilato (39 Latigazos) (Trial Before Pilate - 39 Lashes): Jesús es juzgado nuevamente por Pilato, quien cede a la presión de la multitud y ordena su crucifixión después de azotarlo.\n\n23. Superstar: El espíritu de Judas pregunta a Jesús sobre su misión y su impacto en el mundo.\n\n24. La Crucifixión (The Crucifixion): Jesús es crucificado y muere en la cruz.\n\n25. Juan 19:41 (John Nineteen: Forty-One): Una corta pieza instrumental concluye la historia con la sepultura de Jesús."
+        },
+        "elenco": {
+            "Actores Principales": [
+                {
+                    "personaje": "Jesús",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718289481/Askartza%20Martxa/Jesucristo/personajes/Jesus.webp",
+                    "persona": "Andrea Suárez",
+                    "descripcion": "El protagonista del musical, representando los últimos días de su vida. Es el líder espiritual seguido por sus discípulos y enfrentado a la traición y la crucifixión."
+                },
+                {
+                    "personaje": "Judas",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718288833/Askartza%20Martxa/Jesucristo/personajes/Judas.jpg",
+                    "persona": "Martin Mercado",
+                    "descripcion": "El antagonista principal. Es uno de los discípulos de Jesús que, preocupado por el rumbo de la misión de Jesús, lo traiciona entregándolo a los sacerdotes judíos."
+                },
+                {
+                    "personaje": "María Magdalena",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718289482/Askartza%20Martxa/Jesucristo/personajes/MariaMagdalena.webp",
+                    "persona": "Naira Fernández",
+                    "descripcion": "Seguidora cercana de Jesús, tiene una relación especial con él y lo cuida durante su tiempo de mayor angustia."
+                },
+                {
+                    "personaje": "Pedro",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718289481/Askartza%20Martxa/Jesucristo/personajes/Pedro.webp",
+                    "persona": "Maider Llorente",
+                    "descripcion": "Uno de los discípulos más cercanos a Jesús. Es conocido por negar a Jesús tres veces antes del amanecer tras su arresto."
+                },
+                {
+                    "personaje": "Caifás",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718288779/Askartza%20Martxa/Jesucristo/personajes/Caifas.jpg",
+                    "persona": "Asier Martínez",
+                    "descripcion": "El Sumo Sacerdote judío que conspira para arrestar y ejecutar a Jesús para mantener la paz con los romanos."
+                },
+                {
+                    "personaje": "Anás",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718289482/Askartza%20Martxa/Jesucristo/personajes/Anas.webp",
+                    "persona": "Alejandro Fernández",
+                    "descripcion": "Sacerdote judío y aliado de Caifás. Ayuda a planear la captura de Jesús."
+                },
+                {
+                    "personaje": "Pilato",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718289481/Askartza%20Martxa/Jesucristo/personajes/Pilato.webp",
+                    "persona": "Adrian Tubia",
+                    "descripcion": "El gobernador romano de Judea, quien finalmente ordena la crucifixión de Jesús bajo la presión de la multitud."
+                }
+            ],
+            "Actores Secundarios": [
+                {
+                    "personaje": "María",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718289667/Askartza%20Martxa/Jesucristo/personajes/Maria.webp",
+                    "persona": "Irati García",
+                    "descripcion": "La madre de Jesús, aunque no es un personaje principal en todas las versiones del musical, en algunas producciones aparece para mostrar su dolor y sufrimiento por la situación de su hijo."
+                },
+                {
+                    "personaje": "Herodes",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718288783/Askartza%20Martxa/Jesucristo/personajes/Herodes.jpg",
+                    "persona": "Ohiane García",
+                    "descripcion": "Gobernante de Galilea, se burla de Jesús y se muestra incrédulo sobre su divinidad."
+                },
+                {
+                    "personaje": "Simon Z + Sacerdote 1",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718289194/Askartza%20Martxa/Jesucristo/personajes/SimonZ.jpg",
+                    "persona": "Allende Bilbao",
+                    "descripcion": "Uno de los discípulos de Jesús que desea una revolución política contra los romanos."
+                },
+                {
+                    "personaje": "Sacerdote 2",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718289185/Askartza%20Martxa/Jesucristo/personajes/Sacerdote2.jpg",
+                    "persona": "Nahia Robles",
+                    "descripcion": "Asistentes de Caifás y Anás que apoyan la conspiración para arrestar a Jesús."
+                },
+                {
+                    "personaje": "Sacerdote 3",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718289184/Askartza%20Martxa/Jesucristo/personajes/Sacerdote3.jpg",
+                    "persona": "Mikel Posada",
+                    "descripcion": "Asistentes de Caifás y Anás que apoyan la conspiración para arrestar a Jesús."
+                },
+                {
+                    "personaje": "Juan",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718288826/Askartza%20Martxa/Jesucristo/personajes/Juan.jpg",
+                    "persona": "Daragh Espiau",
+                    "descripcion": "Uno de los discípulos de Jesús, conocido también como Juan el Apóstol, el discípulo amado."
+                },
+                {
+                    "personaje": "Andrés",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718288778/Askartza%20Martxa/Jesucristo/personajes/Andres.jpg",
+                    "persona": "Enara Amorea",
+                    "descripcion": "Otro de los discípulos de Jesús, hermano de Pedro y uno de los primeros en ser llamado."
+                },
+                {
+                    "personaje": "Santiago Alfeo",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718289480/Askartza%20Martxa/Jesucristo/personajes/SantiagoAlfeo.webp",
+                    "persona": "Gorka Goirigolzarri",
+                    "descripcion": "También conocido como Santiago el Menor, uno de los doce discípulos."
+                },
+                {
+                    "personaje": "Santiago",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718289185/Askartza%20Martxa/Jesucristo/personajes/Santiago.jpg",
+                    "persona": "Daniel Tristan",
+                    "descripcion": "Podría referirse a Santiago, hijo de Zebedeo, también conocido como Santiago el Mayor, uno de los doce discípulos."
+                },
+                {
+                    "personaje": "Tomás",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718289196/Askartza%20Martxa/Jesucristo/personajes/Tomas.jpg",
+                    "persona": "Sergio Aperribai",
+                    "descripcion": "Uno de los discípulos, conocido por dudar de la resurrección de Jesús hasta ver las heridas."
+                },
+                {
+                    "personaje": "Bartolome",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718288778/Askartza%20Martxa/Jesucristo/personajes/Bartolome.jpg",
+                    "persona": "Unai Cirilo",
+                    "descripcion": "Otro de los doce discípulos, también conocido como Natanael."
+                },
+                {
+                    "personaje": "Felipe",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718288779/Askartza%20Martxa/Jesucristo/personajes/Felipe.jpg",
+                    "persona": "Theodor David",
+                    "descripcion": "Uno de los primeros discípulos llamados por Jesús."
+                },
+                {
+                    "personaje": "Mateo",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718289184/Askartza%20Martxa/Jesucristo/personajes/Mateo.jpg",
+                    "persona": "Ernesto García",
+                    "descripcion": "El recaudador de impuestos que se convirtió en discípulo y autor del primer evangelio del Nuevo Testamento."
+                }
+            ],
+            "Leprosas": "Maddi Monasterio, Uxue Ferreiro, Irune García, Oltaz García, Hegoa Laka, Adriana Osta, Sofía Ramírez, Iraia Sainz",
+            "Creografia": "Marta Hoyuelos, Cristina Fernández, Mikaela Ballaz, Nahia Robles, Aitziber Ruiz, Irati Arana, Uxue Idoyaga, Olatz Perez, Irati Alonso, Elena Toka, Naia Salutregi, Judith García, Irati Urbaneja, Ainhize Elgera, Nora Velasco, María Comendador, Maria Zumieta, Ane Isla, Ane Berroeta, Naia Ureta, Aiala Aguilar, Goizalde Sanchez, Izaro Aurrekoetxea, Nora Velasco, Zuriñe Rodiño, Sara Salinasarmendariz, Naia Bartulos, Alejandra Zugazabeiti, Eneritz Goirigolzarri, Irati Atienza, Xabier Urrutia",
+            "Decorado": "Marisa Camara, Jon Mata, Eneritz Escudero, Ahizpea Elorriaga, Aitana Lopez, Ariane Sanabria, Eneritz Monreal, Ciara Mulroy, Iker Cubillo, Josu Mulroy, Unai Ortiz, Gaizka Landa, Alejandro Fernández, María Fonzález, Leire Uriarte, Aitzane Nieto, Iker Sojo, Lucía de la Casa, Uxue Arevalo, Nahima Cochon, Leire Ferrero, Irune Palacios, Paula Martínez, Ane Urbizu, Marta Iturbe, Garazi Gil, Iraide Laria, Eva González, Izaro Val, Ohiane Rodríguez, Maialen Uriarte, Nahia Shephard, Miren Martínez, Janire Rodiño, Sveta Bárcena, Naia Arriandiaga, Haizea Toledo"
+        },
+        "canciones": [
+            {
+                "titulo": "Cuentanos",
+                "cantante": "Jesus, María Magdalena,Judas, Coro",
+                "duracion": "4:08",
+                "url": "https://www.youtube.com/watch?v=M2-kPTezr6M&list=PLviGAwf00i9ZvnZiUnZSAvt6_rZctIkDK&index=2"
+            },
+            {
+                "titulo": "Todo está Bien",
+                "cantante": "María Magdalena, Judas, Jesus, Coro",
+                "duracion": "4:35",
+                "url": "https://www.youtube.com/watch?v=NVKspu3L4xQ&list=PLviGAwf00i9ZvnZiUnZSAvt6_rZctIkDK&index=3"
+            },
+            {
+                "titulo": "Hossanna",
+                "cantante": "Pueblo, Caifas, Jesus ",
+                "duracion": "2:57",
+                "url": "https://www.youtube.com/watch?v=Zi_DyptbpdA&list=PLgaFNC_I_Zkn_p_EWa5Jn0rhNENBbRe8B&index=7"
+            },
+            {
+                "titulo": "Pobre Jerusalem",
+                "cantante": "Simon, Pedro, Jesus",
+                "duracion": "5:08",
+                "url": "https://www.youtube.com/watch?v=gGxmn_bGZb8&list=PLviGAwf00i9ZvnZiUnZSAvt6_rZctIkDK&index=4"
+            },
+            {
+                "titulo": "El Sueño de Pilatos",
+                "cantante": "Pilatos",
+                "duracion": "1:35",
+                "url": "https://www.youtube.com/watch?v=YhWoYpIcyFA&list=PLviGAwf00i9ZvnZiUnZSAvt6_rZctIkDK&index=5"
+            },
+            {
+                "titulo": "No se como Quererle",
+                "cantante": "María Magdalena",
+                "duracion": "4:07",
+                "url": "https://www.youtube.com/watch?v=-NmSnTgiAcQ&list=PLviGAwf00i9ZvnZiUnZSAvt6_rZctIkDK&index=6"
+            },
+            {
+                "titulo": "Di que no estoy Condenado",
+                "cantante": "Judas, Anás, Caifás, ",
+                "duracion": "4:32",
+                "url": "https://www.youtube.com/watch?v=xElnKlnvQ1A"
+            },
+            {
+                "titulo": "La Última Cena",
+                "cantante": "Apostoles, Jesus, Judas, ",
+                "duracion": "7:04",
+                "url": "https://www.youtube.com/watch?v=2yF2gyDJNSM&list=PLgaFNC_I_Zkn_p_EWa5Jn0rhNENBbRe8B&index=14"
+            },
+            {
+                "titulo": "Getsemaní",
+                "cantante": "Jesus",
+                "duracion": "6:26",
+                "url": "https://www.youtube.com/watch?v=Vcpwk2Yz52g&list=PLviGAwf00i9ZvnZiUnZSAvt6_rZctIkDK&index=7"
+            },
+            {
+                "titulo": "Canción del Rey Herodes",
+                "cantante": "Herodes",
+                "duracion": "3:17",
+                "url": "https://www.youtube.com/watch?v=CohvP0t6eoE&list=PLviGAwf00i9ZvnZiUnZSAvt6_rZctIkDK&index=8"
+            },
+            {
+                "titulo": "Todo ha sido un Sueño",
+                "cantante": "María, Coro, Pedro, María Magdalena, ",
+                "duracion": "2:41",
+                "url": "https://www.youtube.com/watch?v=UluMCBB1ylM&list=PLviGAwf00i9ZvnZiUnZSAvt6_rZctIkDK&index=9"
+            },
+            {
+                "titulo": "Muerte de Judas",
+                "cantante": "Judas, Anás, Caifás",
+                "duracion": "5:17",
+                "url": "https://www.youtube.com/watch?v=kOe2iZdM-Is"
+            },
+            {
+                "titulo": "Juicio Ante Pilato",
+                "cantante": "Piltao, Caifás, Jesus, ",
+                "duracion": "5:46",
+                "url": "https://www.youtube.com/watch?v=YK-rzTgD8VM"
+            },
+            {
+                "titulo": "Superstar",
+                "cantante": "Judas",
+                "duracion": "4:28",
+                "url": "https://www.youtube.com/watch?v=mlnKf_HAhTs&list=PLviGAwf00i9ZvnZiUnZSAvt6_rZctIkDK&index=10"
+            }
+        ],
+        "equipo_creativo": {
+            "Director Musical": "Izaskun Gutiérrez",
+            "Adaptación Guion": "Izaskun Gutiérrez",
+            "Coreografia": "Cristina Fernández, Aitziber Ruiz",
+            "Guion": "Irati García, Ane Urbizu",
+            "Decorado": "Eduardo Madrazo, Izaskun Gutiérrez, Belen Sanchez",
+            "Diseño de Escenografia": "Izaskun Gutiérrez, Bizkunde Auzmendi",
+            "Diseño de Sonido": "Izaskun Gutiérrez",
+            "Diseño de Iluminación": "Eduardo Madrazo",
+            "Direccion de Casting": "Izaskun Gutiérrez",
+            "Equipo de Profesores": "Bizkunde Auzmendi, Belen Sánchez, Eduardo Madrazo, Izaskun Gutiérrez",
+            "Ayuda Especial": "Ander Legarra, Virginia Ruiz de los Rios, Eguzki Gaminde, Raúl García, Nerea Aldekoetxea, Garazi Emaldi, Celia Antruejo, Egunsenti Gutiérrez"
+        },
+        "programa": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718045763/Askartza%20Martxa/Programas/Jesucristo.jpg",
+        "imagenes": [
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718117098/Askartza%20Martxa/Jesucristo/hjajuym6zissyd03epvc.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298296/Askartza%20Martxa/Jesucristo/m7mnonf411mbwt2i3qya.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298298/Askartza%20Martxa/Jesucristo/yebv24a74soq7dhy9qbo.jpg",        
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298297/Askartza%20Martxa/Jesucristo/bidt1wjtzueve4ghgvai.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298297/Askartza%20Martxa/Jesucristo/zlpoyvt7d09cbkbmvxfd.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298296/Askartza%20Martxa/Jesucristo/akokkmjv3iauzgxsvmom.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298295/Askartza%20Martxa/Jesucristo/rjvkdenwqpq7c4tt78mu.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298295/Askartza%20Martxa/Jesucristo/lnzrp2wfzscizjcvwfqu.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298294/Askartza%20Martxa/Jesucristo/hbyh45lebtse6zvfb3s1.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298293/Askartza%20Martxa/Jesucristo/kk7lxqxdblobv143wdcx.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298293/Askartza%20Martxa/Jesucristo/gu6lstzqykicznv9znd8.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298292/Askartza%20Martxa/Jesucristo/xnbzs3nd5xiykiv5subc.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298292/Askartza%20Martxa/Jesucristo/taj0mzjq5yvl7mmfukwp.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298291/Askartza%20Martxa/Jesucristo/r0gkpd6aavskbrtqfftl.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298298/Askartza%20Martxa/Jesucristo/kymg9g4q9uxbmk336qqo.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298299/Askartza%20Martxa/Jesucristo/yrxxoh97kvqmc9hh9kub.jpg"
+        ]
+    }
 }

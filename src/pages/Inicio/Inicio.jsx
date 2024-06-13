@@ -17,7 +17,7 @@ const Inicio = ({ cambiarSeccionConParametros, cambiarSeccion }) => {
     <div id="inicio">
       <div className="container-fluid">
         {/* Sección musical en produccion */}
-        <MusicalEnProduccion imagen='https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596919/Askartza%20Martxa/Grease/pcno4u2q7lxzjj5qonw6.webp' />
+        <MusicalEnProduccion imagen='https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596919/Askartza%20Martxa/Grease/logo.webp' />
 
         {/* Sección que es askartza martxa */}
         <InformacionAskartzaMartxa />

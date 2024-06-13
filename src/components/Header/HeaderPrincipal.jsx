@@ -71,8 +71,6 @@ const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSecci
     }
   };
 
-
-
   return (
     <div id="menuVertical" className='MenuVertical bg-dark text-white py-4 mb-0 position-fixed'>
       <div className="container-fluid h-100">
@@ -89,7 +87,7 @@ const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSecci
               </div>
               {subProduccionesVisible && (
                 <ul id="producciones" className="list-unstyled ms-3">
-                  {['El Rey León', 'La Sirenita', 'Jesucristo SuperStar', 'Grease'].map((produccion) => (
+                  {['Grease', 'Jesucristo SuperStar','Charlie y La Fabrica de Chocolate', 'El Rey León' ].map((produccion) => (
                     <li key={produccion}>
                       <div className="mb-1 d-flex">
                         <div className="Texto ms-0 ms-2 pointer subapartado" onClick={() => handleProduccionClick(produccion)}>
