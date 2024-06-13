@@ -17,52 +17,57 @@ const Sinopsis = ({ parametros }) => {
 
   const { sinopsis = "", img = "" } = obra;
 
-  // Función auxiliar para verificar si un texto está entre comillas
-  const isQuoted = (text) => text.startsWith('“') && text.endsWith('”');
+  // Función auxiliar para verificar si una línea debe ser tabulada
+  const needsTabulation = (line) => line.startsWith('\t');
 
   return (
     <div className='container'>
       {/* Título de la sinopsis */}
-      <h1 className="mb-5 uppercase">Sinopsis {nombreProduccion}</h1>
+      <h1 className="titulo mb-5">Sinopsis {nombreProduccion}</h1>
 
-      {/* Mostrar la imagen de la obra si está disponible */}
-      {img && <img className='Imagen mb-5' src={img} alt={nombreProduccion} />}
+      <div className="imagen">
+        {/* Mostrar la imagen de la obra si está disponible */}
+        {img && <img className='Imagen' src={img} alt={nombreProduccion} />}
+      </div>
 
       {/* Renderizar la sinopsis */}
-      {typeof sinopsis === "string" ? (
-        // Si la sinopsis es un string, dividirlo en párrafos
-        sinopsis.split('\n\n').map((paragraph, index) => (
-          <p
-            className={`mb-4 ${isQuoted(paragraph) ? 'highlight' : ''}`}
-            key={index}
-          >
-            {paragraph}
-          </p>
-        ))
-      ) : (
-        // Si la sinopsis es un objeto con secciones
-        Object.keys(sinopsis).map(seccion => (
-          <div key={seccion}>
-            {/* Título de la sección */}
-            <h2 className='mb-4'>{seccion}</h2>
-            {typeof sinopsis[seccion] === "object" ? (
-              // Si el contenido de la sección es un array, renderizar cada párrafo
-              sinopsis[seccion].map((parrafo, index) => (
-                <p className='mb-5 ' key={index}>{parrafo}</p>
-              ))
-            ) : (
-              // Si el contenido de la sección es un string, dividirlo en párrafos
-              sinopsis[seccion].split('\n\n').map((paragraph, index) => (
-                <p
-                  className={`mb-5 ${isQuoted(paragraph) ? 'highlight' : ''}`}
-                  key={index}>
-                  {paragraph}
-                </p>
-              ))
-            )}
-          </div>
-        ))
-      )}
+      <div className="texto">
+        {typeof sinopsis === "string" ? (
+          // Si la sinopsis es un string, dividirlo en líneas y renderizar
+          sinopsis.split('\n').map((line, index) => (
+            <p
+              className={`parrafo mb-4 ${needsTabulation(line) ? 'tabulada' : ''}`}
+              key={index}
+            >
+              {line}
+            </p>
+          ))
+        ) : (
+          // Si la sinopsis es un objeto con secciones
+          Object.keys(sinopsis).map(seccion => (
+            <div key={seccion}>
+              {/* Título de la sección */}
+              <h2 className='subtitulo mb-4'>{seccion}</h2>
+              {typeof sinopsis[seccion] === "object" ? (
+                // Si el contenido de la sección es un array, renderizar cada línea
+                sinopsis[seccion].map((line, index) => (
+                  <p className={`parrafo mb-5 ${needsTabulation(line) ? 'tabulada' : ''}`} key={index}>{line}</p>
+                ))
+              ) : (
+                // Si el contenido de la sección es un string, dividirlo en líneas y renderizar
+                sinopsis[seccion].split('\n').map((line, index) => (
+                  <p
+                    className={`parrafo mb-5 ${needsTabulation(line) ? 'tabulada' : ''}`}
+                    key={index}
+                  >
+                    {line}
+                  </p>
+                ))
+              )}
+            </div>
+          ))
+        )}
+      </div>
     </div>
   );
 };
