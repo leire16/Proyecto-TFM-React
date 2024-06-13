@@ -1,0 +1,22 @@
+.mt-custom {
+    margin-top: 5rem;
+}
+
+/* Ajustes para diferentes tamaños de pantalla */
+@media (max-width: 1200px) {
+    .mt-custom {
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width: 1080px) {
+    .mt-custom {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .mt-custom {
+        margin-top: 3rem;
+    }
+}

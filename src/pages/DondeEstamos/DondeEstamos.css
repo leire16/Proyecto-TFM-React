@@ -1,0 +1,41 @@
+.mr-2 {
+    margin-right: 1rem;
+}
+
+.Icono{
+    font-size: 1.875rem; 
+    color: black;
+}
+
+/* Media query para max-width: 1200px */
+@media (max-width: 1200px) {
+    .mr-2 {
+        margin-right: 1rem;
+    }
+    
+    .Icono{
+        font-size: 1.875rem;
+    }
+}
+
+/* Media query para max-width: 1080px */
+@media (max-width: 1080px) {
+    .mr-2 {
+        margin-right: 0.8rem;
+    }
+    
+    .Icono{
+        font-size: 1.6rem;
+    }
+}
+
+/* Media query para max-width: 576px */
+@media (max-width: 576px) {
+    .mr-2 {
+        margin-right: 0.6rem;
+    }
+    
+    .Icono{
+        font-size: 1.4rem;
+    }
+}
