@@ -2,10 +2,11 @@
     "El Rey León": {
         "img": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717493611/Askartza%20Martxa/El%20rey%20Leon/bwz1rgav6idysnosmmlk.webp",
         "titulo": "El Rey León",
-        "logo":"",
-        "guion":"https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718132321/Askartza%20Martxa/Guiones/reyLeon.pdf",
-        "video":"",
-        "cartel":"https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717597197/Askartza%20Martxa/Carteles/ReyLeon.webp",
+        "logo": "",
+        "fecha": "2014-05-30",
+        "guión": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718132321/Askartza%20Martxa/Guiones/reyLeon.pdf",
+        "video": "",
+        "cartel": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717597197/Askartza%20Martxa/Carteles/ReyLeon.webp",
         "sinopsis": {
             "Acto I": "La historia comienza con el nacimiento de Simba, el hijo del rey Mufasa y la reina Sarabi. Todos los animales del reino celebran el nacimiento del futuro rey en una ceremonia presentada por Rafiki, el sabio mandril. Simba crece bajo la tutela de su padre, quien le enseña sobre el Ciclo de la Vida y su papel en mantener el equilibrio en la sabana. Sin embargo, el malvado tío de Simba, Scar, conspira para tomar el trono. Con la ayuda de las hienas, Scar planea deshacerse de Mufasa y Simba. Scar lleva a cabo su plan al atraer a Simba a un desfiladero, donde una estampida de ñus amenaza su vida. Mufasa rescata a Simba, pero Scar lo mata y convence a Simba de que la muerte de su padre es su culpa. Devastado, Simba huye del reino.",
             "Acto II": "Simba es encontrado por Timón y Pumba, un suricata y un jabalí, quienes le enseñan a vivir sin preocupaciones bajo la filosofía de \"Hakuna Matata\". Simba crece en el exilio, creyendo que nunca puede regresar. Mientras tanto, el reino cae en decadencia bajo el mandato de Scar. Nala, la amiga de la infancia de Simba, busca ayuda y se encuentra con él. Nala le informa sobre el estado del reino y lo insta a regresar para reclamar su lugar como rey. Con la guía espiritual de Rafiki y la visión de su padre, Simba acepta su destino. Regresa al reino, enfrenta a Scar, y finalmente descubre la verdad sobre la muerte de Mufasa. Simba derrota a Scar y toma su lugar como el legítimo rey, restaurando el equilibrio en el Ciclo de la Vida. La historia termina con la celebración del nacimiento del hijo de Simba y Nala, cerrando el círculo de la vida."
@@ -106,7 +107,7 @@
                 }
             ],
             "Leonas": "Oihane García, Marta Iturbe, Ainhoa Bergara, Leire Martínez, Itziar Alza, Laura Lozano, Ainhoa Ruíz",
-            "Pajaros+Topo+Ñus": "Izaro Martín, Iraide Laria, Michelle Mendoza, Irune Villafruela, Nerea Urrutia, Raquel Antón, Diego Etxebarria",
+            "Pajaros + Topo + Ñus": "Izaro Martín, Iraide Laria, Michelle Mendoza, Irune Villafruela, Nerea Urrutia, Raquel Antón, Diego Etxebarria",
             "Gacelas + Africanos + Ñus": "Leire Calleja, Araitz Sangroniz, Irati García, Andrea Muñoz, Julen Ziriza, Itsasne Zubiaur,Paula Cerrada, Arrate Merino, Ane Navarro, Iratxe Serrano, Nora Alonso, Arrate Cerro, Laura Arzuaga, Annia de la Rúa, Roberto Peña, Nerea Fdez Cuesta, Irati Toral, Leire Rodríguez,Sara Martínez de Zúñiga, Ane Urrutia, Enara Ziaran",
             "Decorado": "Gorka Bilbao, Ignacio Villalante, Urko Azkarate, Leire González, Arrate Sobrado, Ane Etxebarria, Belén Sánchez"
         },
@@ -197,10 +198,10 @@
             }
         ],
         "equipo_creativo": {
-            "Director Musical": "Izaskun Gutiérrez",
-            "Adaptación Guion": "Izaskun Gutiérrez",
+            "Directora Musical": "Izaskun Gutiérrez",
+            "Adaptación Guión": "Izaskun Gutiérrez",
             "Coreografia": "Arantza Ibarretxe",
-            "Guion": "Itziar Contreras, Nerea Aldekoetxea, Aitor Landazabal",
+            "Guión": "Itziar Contreras, Nerea Aldekoetxea, Aitor Landazabal",
             "Decorado": "Eduardo Madrazo, Izaskun Gutiérrez",
             "Diseño de Escenografia": "Izaskun Gutiérrez, Bizkunde Auzmendi",
             "Diseño de Sonido": "Izaskun Gutiérrez",
@@ -229,10 +230,11 @@
     "Grease": {
         "img": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717599214/Askartza%20Martxa/Grease/abob1cxz6gisjrxtp0uf.webp",
         "titulo": "Grease",
-        "logo":"https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596919/Askartza%20Martxa/Grease/logo.webp",
-        "guion":"",
-        "video":"",
-        "cartel":"https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717597197/Askartza%20Martxa/Carteles/grease.webp",
+        "logo": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596919/Askartza%20Martxa/Grease/logo.webp",
+        "fecha": "2023-05-31",
+        "guión": "",
+        "video": "https://www.youtube.com/watch?v=c46aKj9nNBk",
+        "cartel": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717597197/Askartza%20Martxa/Carteles/grease.webp",
         "sinopsis": "GREASE El Musical es el fenómeno de la cultura pop que narra la vida en el instituto de una pequeña ciudad americana en los años 50, habiéndose convertido en el gran musical del Rock and Roll por excelencia, además de en una de las películas musicales más taquilleras de la historia.\n\n“Situado a finales de los años 50 en el instituto Rydell High, un grupo de estudiantes de clase obrera navega por conflictos atemporales, como las complejidades de la presión de grupo, los valores personales, la amistad, el amor, los devaneos sexuales de la adolescencia y la conciencia de clase, lo que le convierte en el musical adolescente por excelencia y la hace permanecer eternamente joven.”\n\nEn 2021, con motivo del 50 aniversario de su estreno original en Chicago, SOM Produce quiso sumarse a esta efeméride poniendo en marcha una nueva producción con un elenco con una energía arrolladora, unas increíbles coreografías y una ambiciosa e innovadora puesta en escena, a cargo del mismo equipo creativo de BILLY ELLIOT.\n\nGREASE El Musical en su edición Especial 50 aniversario se estrenó el 2 de octubre de 2021 y, tras una temporada completa en el Nuevo Teatro Alcalá y una exitosa gira por las principales ciudades de España, regresa a Madrid al Teatro Apolo, donde solo permanecerá 12 semanas. Esto supondrá el broche de oro a más de 3 años de éxito ininterrumpido y más de 400.000 espectadores. Y lo hará, además, con la incorporación del conocido actor Adrián Lastra en el papel de Vince Fontaine.",
         "elenco": {
             "Actores Principales": [
@@ -467,10 +469,10 @@
             }
         ],
         "equipo_creativo": {
-            "Director Musical": "Izaskun Gutiérrez",
-            "Adaptación Guion": "Diego Etxebarria",
-            "Coreografia": "Leire Fernández, Naia ureta, Cristina Fernández, Ane isla",
-            "Guion": "Nerea Aldekoetxea,Diego Etxebarria ",
+            "Directora Musical": "Izaskun Gutiérrez",
+            "Adaptación Guión": "Diego Etxebarria",
+            "Coreografia": "Leire Fernández, Naia Ureta, Cristina Fernández, Ane isla",
+            "Guión": "Nerea Aldekoetxea, Diego Etxebarria ",
             "Decorado": "Maria González, Mikel Posada, Gorka Goirigolzarri",
             "Diseño de Escenografia": "Bizkunde Auzmendi",
             "Diseño de Sonido": "Izaskun Gutiérrez",
@@ -508,20 +510,21 @@
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225707/Askartza%20Martxa/Grease/i7zrdzu6qydr3vablivy.webp",
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225708/Askartza%20Martxa/Grease/zcwkrlqzkjazvvq86ljg.webp",
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225708/Askartza%20Martxa/Grease/gi1wr6dyc1zj5yf21j6e.webp",
-            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225708/Askartza%20Martxa/Grease/xbygrwxdssqyowhabjez.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718374342/Askartza%20Martxa/Grease/ibuakdzerk3gsdasyafm.webp",
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225709/Askartza%20Martxa/Grease/ocdz5tg7zenxmfm0safj.webp",
-            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225709/Askartza%20Martxa/Grease/dgegfrmjj6bo7dibcvwl.webp",
-            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225710/Askartza%20Martxa/Grease/tff0ge8vfkvjdqapbkep.webp",
-            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718225710/Askartza%20Martxa/Grease/zwfole6qv0oxo7os8irt.webp"
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718374342/Askartza%20Martxa/Grease/kwpihvubueutyte1s5gr.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718374342/Askartza%20Martxa/Grease/lgkkoafal8zkfrwg0qrm.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718374342/Askartza%20Martxa/Grease/gpdzb8lgqws6pkoptqf6.webp"
         ]
     },
     "Charlie y La Fabrica de Chocolate": {
         "img": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718045370/Askartza%20Martxa/charlie/s88vokjeoqgoezc1r8d3.webp",
         "titulo": "Charlie y la Fabrica de Chocolate",
-        "logo":"",
-        "guion":"https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718132322/Askartza%20Martxa/Guiones/charlie.pdf",
-        "video":"",
-        "cartel":"https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717597192/Askartza%20Martxa/Carteles/charlie.webp",
+        "fecha": "2017-05-12",
+        "logo": "",
+        "guión": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718132322/Askartza%20Martxa/Guiones/charlie.pdf",
+        "video": "",
+        "cartel": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717597192/Askartza%20Martxa/Carteles/charlie.webp",
         "sinopsis": {
             "Acto I": "El musical comienza en una ciudad gris y monótona donde vive Charlie Bucket, un niño pobre pero amable, con su madre y sus cuatro abuelos en una pequeña casa. Charlie y su abuelo Joe tienen una relación especial, y a menudo pasan tiempo juntos soñando con algo mejor. En contraste con la vida de Charlie, Willy Wonka, el excéntrico dueño de la misteriosa fábrica de chocolate, anuncia que esconderá cinco Billetes Dorados en sus barras de chocolate Wonka en todo el mundo. Los niños que encuentren estos billetes tendrán la oportunidad de visitar la fábrica de chocolate.\n\nLos primeros cuatro Billetes Dorados son encontrados por niños malcriados: Augustus Gloop, Veruca Salt, Violet Beauregarde y Mike Teavee. Cada uno de ellos tiene características que los hacen únicos pero también defectos que los llevan a ser eliminados de la visita a la fábrica.\n\nFinalmente, Charlie encuentra el último Billete Dorado, asegurando su lugar en la visita a la fábrica de chocolate. Acompañado por su abuelo Joe, Charlie se une a los otros niños y sus padres para la visita a la fábrica.",
             "Acto II": "En la fábrica de chocolate, los niños y sus padres son recibidos por los Oompa-Loompas, los pequeños trabajadores de la fábrica. Cada niño, impulsado por sus defectos, encuentra su perdición dentro de la fábrica:\n\n\t- Augustus Gloop es absorbido por una máquina de chocolate.\n\n\t- Veruca Salt es arrastrada por una basurera después de ser declarada \"basura\".\n\n\t- Violet Beauregarde se infla en una gigantesca bola de chicle.\n\n\t- Mike Teavee se encoge a tamaño miniatura después de ser transportado a un mundo de televisión.\n\nCharlie, por otro lado, demuestra ser un niño compasivo y solidario, lo que impresiona a Willy Wonka. Al final, Wonka decide que Charlie es el niño adecuado para heredar la fábrica de chocolate.",
@@ -683,9 +686,9 @@
         ],
         "equipo_creativo": {
             "Director Musical": "Diego Etxebarria",
-            "Adaptación Guion": "Diego Etxebarria",
+            "Adaptación Guión": "Diego Etxebarria",
             "Coreografia": "Olatz Bilbao, Ixone Agirretxu, Idoia Bilbao",
-            "Guion": "Diego Etxebarria",
+            "Guión": "Diego Etxebarria",
             "Decorado": "Bizkunde Auzmendi, Izaskun Gutiérrez, Belen Sanchez",
             "Diseño de Escenografia": "Izaskun Gutiérrez, Bizkunde Auzmendi",
             "Diseño de Sonido": "Izaskun Gutiérrez",
@@ -710,10 +713,11 @@
     "Jesucristo SuperStar": {
         "img": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718117098/Askartza%20Martxa/Jesucristo/hjajuym6zissyd03epvc.jpg",
         "titulo": "Jesucristo SuperStar",
-        "logo":"",
-        "guion":"https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718133132/Askartza%20Martxa/Guiones/jesucristo.pdf",
-        "video":"",
-        "cartel":"https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717597198/Askartza%20Martxa/Carteles/jesucristo.webp",
+        "logo": "",
+        "fecha": "2019-05-24",
+        "guión": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718133132/Askartza%20Martxa/Guiones/jesucristo.pdf",
+        "video": "https://www.youtube.com/watch?v=hC7EGsI6AZs",
+        "cartel": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717597198/Askartza%20Martxa/Carteles/jesucristo.webp",
         "sinopsis": {
             "Acto I": "1. Obertura: La orquesta presenta una introducción instrumental.\n\n2. El Cielo en Sus Mentes (Heaven on Their Minds): Judas Iscariote expresa su preocupación por la creciente popularidad de Jesús y teme que pueda traer problemas con las autoridades romanas.\n\n3. ¿Qué Está Pasando? (What's the Buzz): Los discípulos de Jesús le preguntan sobre sus planes futuros, mientras que María Magdalena trata de calmar a Jesús.\n\n4. Algo Extraño y Misterioso (Strange Thing Mystifying): Judas critica a María Magdalena por usar un ungüento caro en Jesús, a lo que Jesús responde que ella está haciendo algo bueno.\n\n5. Todo Está Bien (Everything's Alright): María Magdalena intenta consolar a Jesús y calmar sus preocupaciones, mientras Judas sigue cuestionando las prioridades de Jesús.\n\n6. Este Jesús Debe Morir (This Jesus Must Die): Los sacerdotes judíos, encabezados por Caifás y Anás, deciden que Jesús debe ser arrestado y ejecutado para prevenir una posible rebelión contra Roma.\n\n7. Hosanna: La multitud celebra la entrada triunfal de Jesús en Jerusalén, aclamándolo como su salvador.\n\n8. Simón Zelote / Pobre Jerusalén (Simon Zealotes / Poor Jerusalem): Simón el Zelote sugiere a Jesús que lidere una revuelta armada, pero Jesús rechaza la idea, lamentando la falta de comprensión de su misión.\n\n9. El Sueño de Pilato (Pilate's Dream): Poncio Pilato, el gobernador romano, sueña con ser culpado por la muerte de un hombre inocente.\n\n10. El Templo (The Temple): Jesús entra en el Templo de Jerusalén y se enfurece al ver el comercio y la corrupción, expulsando a los mercaderes.\n\n11. Todo Está Bien (Reprise) (Everything's Alright - Reprise): María Magdalena intenta nuevamente consolar a Jesús.\n\n12. No Sé Cómo Amarlo (I Don't Know How to Love Him): María Magdalena reflexiona sobre su amor por Jesús y cómo es diferente a cualquier otra relación que haya tenido.\n\n13. Maldito por Siempre / Dinero Sucio (Damned for All Time / Blood Money): Judas, presionado por los sacerdotes, acepta traicionar a Jesús a cambio de treinta monedas de plata.",
             "Acto II": "14. La Última Cena (The Last Supper): Jesús y sus discípulos comparten la última cena. Jesús predice su traición y niega a Judas y Pedro.\n\n15. Getsemaní (Sólo Quiero Decir) (Gethsemane - I Only Want to Say): En el jardín de Getsemaní, Jesús lucha con el peso de su destino, finalmente aceptándolo.\n\n16. El Arresto (The Arrest): Jesús es arrestado después de que Judas lo traiciona con un beso. Pedro niega conocer a Jesús tres veces.\n\n17. La Negación de Pedro (Peter's Denial): Pedro recuerda las palabras de Jesús cuando es confrontado y niega conocerlo.\n\n18. Pilato y Cristo (Pilate and Christ): Jesús es llevado ante Pilato, quien no encuentra culpa en él pero lo envía a Herodes.\n\n19. La Canción del Rey Herodes (King Herod's Song): Herodes se burla de Jesús y le pide que demuestre sus milagros, pero Jesús se niega a responder.\n\n20. ¿Podríamos Empezar Otra Vez? (Could We Start Again Please?): María Magdalena y Pedro reflexionan sobre los eventos recientes y desean poder comenzar de nuevo.\n\n21. La Muerte de Judas (Judas' Death): Judas, abrumado por la culpa, se arrepiente de su traición y se suicida.\n\n22. Juicio ante Pilato (39 Latigazos) (Trial Before Pilate - 39 Lashes): Jesús es juzgado nuevamente por Pilato, quien cede a la presión de la multitud y ordena su crucifixión después de azotarlo.\n\n23. Superstar: El espíritu de Judas pregunta a Jesús sobre su misión y su impacto en el mundo.\n\n24. La Crucifixión (The Crucifixion): Jesús es crucificado y muere en la cruz.\n\n25. Juan 19:41 (John Nineteen: Forty-One): Una corta pieza instrumental concluye la historia con la sepultura de Jesús."
@@ -844,13 +848,13 @@
                 }
             ],
             "Leprosas": "Maddi Monasterio, Uxue Ferreiro, Irune García, Oltaz García, Hegoa Laka, Adriana Osta, Sofía Ramírez, Iraia Sainz",
-            "Creografia": "Marta Hoyuelos, Cristina Fernández, Mikaela Ballaz, Nahia Robles, Aitziber Ruiz, Irati Arana, Uxue Idoyaga, Olatz Perez, Irati Alonso, Elena Toka, Naia Salutregi, Judith García, Irati Urbaneja, Ainhize Elgera, Nora Velasco, María Comendador, Maria Zumieta, Ane Isla, Ane Berroeta, Naia Ureta, Aiala Aguilar, Goizalde Sanchez, Izaro Aurrekoetxea, Nora Velasco, Zuriñe Rodiño, Sara Salinasarmendariz, Naia Bartulos, Alejandra Zugazabeiti, Eneritz Goirigolzarri, Irati Atienza, Xabier Urrutia",
+            "Coreografia": "Marta Hoyuelos, Cristina Fernández, Mikaela Ballaz, Nahia Robles, Aitziber Ruiz, Irati Arana, Uxue Idoyaga, Olatz Perez, Irati Alonso, Elena Toka, Naia Salutregi, Judith García, Irati Urbaneja, Ainhize Elgera, Nora Velasco, María Comendador, Maria Zumieta, Ane Isla, Ane Berroeta, Naia Ureta, Aiala Aguilar, Goizalde Sanchez, Izaro Aurrekoetxea, Nora Velasco, Zuriñe Rodiño, Sara Salinasarmendariz, Naia Bartulos, Alejandra Zugazabeiti, Eneritz Goirigolzarri, Irati Atienza, Xabier Urrutia",
             "Decorado": "Marisa Camara, Jon Mata, Eneritz Escudero, Ahizpea Elorriaga, Aitana Lopez, Ariane Sanabria, Eneritz Monreal, Ciara Mulroy, Iker Cubillo, Josu Mulroy, Unai Ortiz, Gaizka Landa, Alejandro Fernández, María Fonzález, Leire Uriarte, Aitzane Nieto, Iker Sojo, Lucía de la Casa, Uxue Arevalo, Nahima Cochon, Leire Ferrero, Irune Palacios, Paula Martínez, Ane Urbizu, Marta Iturbe, Garazi Gil, Iraide Laria, Eva González, Izaro Val, Ohiane Rodríguez, Maialen Uriarte, Nahia Shephard, Miren Martínez, Janire Rodiño, Sveta Bárcena, Naia Arriandiaga, Haizea Toledo"
         },
         "canciones": [
             {
                 "titulo": "Cuentanos",
-                "cantante": "Jesus, María Magdalena,Judas, Coro",
+                "cantante": "Jesus, María Magdalena, Judas, Coro",
                 "duracion": "4:08",
                 "url": "https://www.youtube.com/watch?v=M2-kPTezr6M&list=PLviGAwf00i9ZvnZiUnZSAvt6_rZctIkDK&index=2"
             },
@@ -934,10 +938,10 @@
             }
         ],
         "equipo_creativo": {
-            "Director Musical": "Izaskun Gutiérrez",
-            "Adaptación Guion": "Izaskun Gutiérrez",
+            "Directora Musical": "Izaskun Gutiérrez",
+            "Adaptación Guión": "Izaskun Gutiérrez",
             "Coreografia": "Cristina Fernández, Aitziber Ruiz",
-            "Guion": "Irati García, Ane Urbizu",
+            "Guión": "Irati García, Ane Urbizu",
             "Decorado": "Eduardo Madrazo, Izaskun Gutiérrez, Belen Sanchez",
             "Diseño de Escenografia": "Izaskun Gutiérrez, Bizkunde Auzmendi",
             "Diseño de Sonido": "Izaskun Gutiérrez",
@@ -950,7 +954,7 @@
         "imagenes": [
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718117098/Askartza%20Martxa/Jesucristo/hjajuym6zissyd03epvc.jpg",
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298296/Askartza%20Martxa/Jesucristo/m7mnonf411mbwt2i3qya.jpg",
-            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298298/Askartza%20Martxa/Jesucristo/yebv24a74soq7dhy9qbo.jpg",        
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298298/Askartza%20Martxa/Jesucristo/yebv24a74soq7dhy9qbo.jpg",
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298297/Askartza%20Martxa/Jesucristo/bidt1wjtzueve4ghgvai.jpg",
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298297/Askartza%20Martxa/Jesucristo/zlpoyvt7d09cbkbmvxfd.jpg",
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298296/Askartza%20Martxa/Jesucristo/akokkmjv3iauzgxsvmom.jpg",
@@ -964,6 +968,436 @@
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298291/Askartza%20Martxa/Jesucristo/r0gkpd6aavskbrtqfftl.jpg",
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298298/Askartza%20Martxa/Jesucristo/kymg9g4q9uxbmk336qqo.jpg",
             "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718298299/Askartza%20Martxa/Jesucristo/yrxxoh97kvqmc9hh9kub.jpg"
+        ]
+    },
+    "Mamma Mia": {
+        "img": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718618948/Askartza%20Martxa/Mamma%20Mia/rzthpndyvzhgfvxwrfiq.webp",
+        "titulo": "Mamma Mia",
+        "logo": "",
+        "fecha": "2015-12-18",
+        "guión": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718132324/Askartza%20Martxa/Guiones/MammaMia.pdf",
+        "video": "https://www.youtube.com/watch?v=8P37z4L92GE",
+        "cartel": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717597200/Askartza%20Martxa/Carteles/MammaMia.webp",
+        "sinopsis": {
+            "Acto I": "En una pintoresca isla griega, Sofi Sheridan está a punto de casarse con su novio Sky. Sofi ha sido criada por su madre soltera, Donna, quien es la dueña de una villa en la isla. Deseando conocer la identidad de su padre para que la acompañe al altar, Sofi descubre el diario de su madre y se entera de que hay tres hombres que podrían ser su padre: Sam Carmichael, Bill Austin y Harry Bright. Sin decirle nada a Donna, Sofi envía invitaciones a los tres hombres, quienes aceptan y llegan a la isla.\n\nLa llegada de los tres posibles padres sorprende a Donna, quien se siente abrumada al enfrentarse a su pasado. Donna recibe el apoyo de sus dos mejores amigas y ex-compañeras de su banda musical, Tanya y Rosie. Mientras tanto, Sofi se siente cada vez más confundida y preocupada sobre su decisión de invitar a los tres hombres, ya que ninguno de ellos sabe la verdadera razón de su invitación. A medida que el día de la boda se acerca, las tensiones aumentan y los secretos comienzan a salir a la luz.",
+            "Acto II": "El segundo acto comienza en la mañana de la boda. Sofi está ansiosa y agobiada por la incertidumbre sobre la identidad de su padre. Los tres hombres se enteran de la posibilidad de ser el padre de Sofi y cada uno tiene una conversación conmovedora con ella, ofreciéndose a acompañarla al altar. Mientras tanto, Donna se enfrenta a sus propios sentimientos hacia los tres hombres y al futuro de su hija.\n\nSofi y Sky tienen una discusión sobre sus planes de futuro y su relación, lo que les lleva a reflexionar sobre sus verdaderos deseos. Durante la ceremonia de la boda, Sofi decide que no necesita conocer la identidad de su padre biológico y que lo importante es el amor y el apoyo de todos los presentes. En un giro sorprendente, Donna y Sam se reconcilian y deciden casarse en lugar de Sofi y Sky. La boda se convierte en una doble celebración del amor y la familia.\n\nEl acto concluye con una gran fiesta en la que todos los personajes cantan y bailan juntos, celebrando la unión y la felicidad."
+        },
+        "elenco": {
+            "Actores Principales": [
+                {
+                    "personaje": "Donna Sheridan",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651295/Askartza%20Martxa/Mamma%20Mia/personajes/donna.jpg",
+                    "persona": "Naira Fernández",
+                    "descripcion": "Donna es la madre de Sofi y dueña de una villa en una isla griega. Es una mujer fuerte y decidida, pero también vulnerable cuando se enfrenta a su pasado."
+                },
+                {
+                    "personaje": "Sofi Sheridan",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651297/Askartza%20Martxa/Mamma%20Mia/personajes/Sofi.jpg",
+                    "persona": "Irune Villafruela",
+                    "descripcion": "Sofi es la hija de Donna y está a punto de casarse con Sky. Ella está determinada a descubrir quién es su padre para que la acompañe al altar, desencadenando eventos inesperados."
+                },
+                {
+                    "personaje": "Sam",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651407/Askartza%20Martxa/Mamma%20Mia/personajes/sam.jpg",
+                    "persona": "Martin Mercado",
+                    "descripcion": "Sam es uno de los posibles padres de Sofi. Es un exitoso hombre de negocios que tiene una historia romántica pasada con Donna, lo que lo lleva a reconsiderar su vida."
+                },
+                {
+                    "personaje": "Bruno",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651257/Askartza%20Martxa/Mamma%20Mia/personajes/bruno.jpg",
+                    "persona": "Endika Gorrotxategi",
+                    "descripcion": "Bruno es otro de los posibles padres de Sofi. Es aventurero y despreocupado, lo que contrasta con la naturaleza más seria de Sam y Javi."
+                },
+                {
+                    "personaje": "Javi",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651295/Askartza%20Martxa/Mamma%20Mia/personajes/Javi.jpg",
+                    "persona": "Xabier Aizpurua",
+                    "descripcion": "Javi es el tercer posible padre de Sofi. Es un hombre encantador y un tanto excéntrico, con un pasado que lo persigue y que debe enfrentar."
+                },
+                {
+                    "personaje": "Tania",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651298/Askartza%20Martxa/Mamma%20Mia/personajes/Tania.jpg",
+                    "persona": "Maialen Mugarra",
+                    "descripcion": "Tania es una de las mejores amigas de Donna y solía ser parte de su banda musical. Es sofisticada, divertida y sabe lo que quiere en la vida."
+                },
+                {
+                    "personaje": "Rosy",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651296/Askartza%20Martxa/Mamma%20Mia/personajes/Rosy.jpg",
+                    "persona": "Enara Ziaran",
+                    "descripcion": "Rosy es otra de las mejores amigas de Donna y también formaba parte de su banda. Es extrovertida, directa y le encanta divertirse, aunque a veces puede ser un poco torpe."
+                }
+            ],
+            "Actores Secundarios": [
+                {
+                    "personaje": "Sky",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651408/Askartza%20Martxa/Mamma%20Mia/personajes/Sky.jpg",
+                    "persona": "Iñigo Balbona",
+                    "descripcion": "Sky es el novio de Sofi y está comprometido con ella. Es cariñoso y apoya los deseos de Sofi, aunque también tiene sus propias dudas y preocupaciones sobre el futuro."
+                },
+                {
+                    "personaje": "Lisa",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651236/Askartza%20Martxa/Mamma%20Mia/personajes/Lisa.jpg",
+                    "persona": "Maialen Basañez",
+                    "descripcion": "Lisa es la mejor amiga de Sofi y está emocionada por su boda. Es joven, alegre y siempre está dispuesta a ayudar a Sofi en sus planes."
+                },
+                {
+                    "personaje": "Ali",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651295/Askartza%20Martxa/Mamma%20Mia/personajes/Ali.jpg",
+                    "persona": "Raquel Antón",
+                    "descripcion": "Ali es otra de las amigas cercanas de Sofi. Es divertida y leal, dispuesta a apoyar a Sofi en todo momento."
+                },
+                {
+                    "personaje": "Shonia",
+                    "imagen": "",
+                    "persona": "Oihane García",
+                    "descripcion": "Shonia es otra de las amigas cercanas de Sofi. Es leal y comprensiva, brindando apoyo emocional durante los momentos importantes de Sofi."
+                },
+                {
+                    "personaje": "Lorraine",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651296/Askartza%20Martxa/Mamma%20Mia/personajes/lorraine.jpg",
+                    "persona": "Ane Toledo",
+                    "descripcion": "Lorraine es la ex esposa de Sam Carmichael. Aunque inicialmente muestra resistencia, eventualmente se une a la celebración de la boda de Sofi con un espíritu amistoso y festivo."
+                },
+                {
+                    "personaje": "Chilly",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651277/Askartza%20Martxa/Mamma%20Mia/personajes/Chilly.jpg",
+                    "persona": "Aitor Aguirre",
+                    "descripcion": "Chilly es un personaje divertido y excéntrico que aporta comedia y energía a las escenas del musical."
+                },
+                {
+                    "personaje": "Cura",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651294/Askartza%20Martxa/Mamma%20Mia/personajes/Cura.jpg",
+                    "persona": "Diego Etxebarria",
+                    "descripcion": "El Cura oficia la ceremonia de la boda y es un personaje importante en el desarrollo de la trama."
+                },
+                {
+                    "personaje": "Stavors",
+                    "imagen": "",
+                    "persona": "Enrique García",
+                    "descripcion": "Stavors es un habitante local de la isla griega, conocido por su amabilidad y su apoyo a los eventos que tienen lugar en la comunidad."
+                },
+                {
+                    "personaje": "Jorroña",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651295/Askartza%20Martxa/Mamma%20Mia/personajes/Jorro%C3%B1a.jpg",
+                    "persona": "Nieves Amigó",
+                    "descripcion": "Jorroña es otro de los personajes locales de la isla griega, aportando autenticidad y color local al entorno del musical."
+                }
+            ],
+            "Pueblo": "Loyola Muro, Inés Peña, Maitane Martin",
+            "Coreografia": "Leire Fernández, Itziar Alza, Michelle Mendoza, Diego Etxebarria, Ane Etxebarria, Elena Toka, Ainhize Helguera, Andrea Suárez, Goizane Goiriena, Paula Cerrada, Leire Izquierdo, Arrate Merino, Paula Txabarria",
+            "Decorado": "Gorka Bilbao, Izaro Martin, Iraide Laria, Aines Gallardo, Belen Sanchez"
+        },
+        "canciones": [
+            {
+                "titulo": "Obertura/Prólogo",
+                "cantante": "Sofi",
+                "duracion": "3:30",
+                "url": "https://www.youtube.com/watch?v=7QF_4z8_pKU&list=PLI9pPJ-0U0sUpokYX1OqMN7gQ1qL05j9x&index=1"
+            },
+            {
+                "titulo": "Honey Honey",
+                "cantante": "Sofi, Ali, Lisa, Sonia",
+                "duracion": "2:46",
+                "url": "https://www.youtube.com/watch?v=8WJb6_BmQAM"
+            },
+            {
+                "titulo": "Money, Money, Money",
+                "cantante": "Donna, Coro",
+                "duracion": "3:03",
+                "url": "https://www.youtube.com/watch?v=HqcN8iuaco4&list=PLviGAwf00i9Zg4UvziKuMeKC3uGIzqHlP"
+            },
+            {
+                "titulo": "Mamma Mia",
+                "cantante": "Donna, Sam, Bruno, Javi, Coro",
+                "duracion": "3:27",
+                "url": "https://www.youtube.com/watch?v=ee93iXSgcE4&list=PLviGAwf00i9Zg4UvziKuMeKC3uGIzqHlP&index=3"
+            },
+            {
+                "titulo": "Chiquitita",
+                "cantante": "Tania, Rosy",
+                "duracion": "2:31",
+                "url": "https://www.youtube.com/watch?v=EjUN-4XDJc4&list=PLviGAwf00i9Zg4UvziKuMeKC3uGIzqHlP&index=4"
+            },
+            {
+                "titulo": "Dancing Queen",
+                "cantante": "Rosy, Tania, Dona, Coro",
+                "duracion": "3:33",
+                "url": "https://www.youtube.com/watch?v=PiPYeR-4Hm8&list=PLviGAwf00i9Zg4UvziKuMeKC3uGIzqHlP&index=5"
+            },
+            {
+                "titulo": "Un Verano",
+                "cantante": "Javi, Donna",
+                "duracion": "2:43",
+                "url": "https://www.youtube.com/watch?v=FuEYmwJRZC0&list=PLviGAwf00i9Zg4UvziKuMeKC3uGIzqHlP&index=11"
+            },
+            {
+                "titulo": "Fija tu amor en mí",
+                "cantante": "Sky, Sofi",
+                "duracion": "3:37",
+                "url": "https://www.youtube.com/watch?v=RXZLo7PzVnc&list=PLviGAwf00i9Zg4UvziKuMeKC3uGIzqHlP&index=6"
+            },
+            {
+                "titulo": "Super Trouper",
+                "cantante": "Donna, Tania, Rosy",
+                "duracion": "3:54",
+                "url": "https://www.youtube.com/watch?v=85AOV9x75gk&list=PLviGAwf00i9Zg4UvziKuMeKC3uGIzqHlP&index=7"
+            },
+            {
+                "titulo": "¡Dame! ¡Dame! ¡Dame!",
+                "cantante": "Todos",
+                "duracion": "4:15",
+                "url": "https://www.youtube.com/watch?v=-bKRcgHQy_s&list=PLI9pPJ-0U0sUpokYX1OqMN7gQ1qL05j9x&index=10"
+            },
+            {
+                "titulo": "Voulez-Vous",
+                "cantante": "Todos",
+                "duracion": "3:53",
+                "url": "https://www.youtube.com/watch?v=aluq-NXj8Q0&list=PLI9pPJ-0U0sUpokYX1OqMN7gQ1qL05j9x&index=12"
+            },
+            {
+                "titulo": "S.O.S.",
+                "cantante": "Donna, Sam",
+                "duracion": "2:52",
+                "url": "https://www.youtube.com/watch?v=EeCTFi0ReXw&list=PLviGAwf00i9Zg4UvziKuMeKC3uGIzqHlP&index=9"
+            },
+            {
+                "titulo": "Para mí, para tí",
+                "cantante": "Sam, Lorraine, Coro",
+                "duracion": "3:31",
+                "url": "https://www.youtube.com/watch?v=_bnDQ2dOCyc"
+            },
+            {
+                "titulo": "Siento que se aleja",
+                "cantante": "Donna, Sofi, Coro",
+                "duracion": "3:43",
+                "url": "https://www.youtube.com/watch?v=w63noxvyWQ8&list=PLviGAwf00i9Zg4UvziKuMeKC3uGIzqHlP&index=12"
+            },
+            {
+                "titulo": "Va Todo al Ganador",
+                "cantante": "Donna",
+                "duracion": "4:15",
+                "url": "https://www.youtube.com/watch?v=8GfRenrapjA&list=PLviGAwf00i9Zg4UvziKuMeKC3uGIzqHlP&index=13"
+            },
+            {
+                "titulo": "Que Sí, Que Sí, Que Sí",
+                "cantante": "Todos",
+                "duracion": "2:29",
+                "url": "https://www.youtube.com/watch?v=5OA6dX2gE7U"
+            },
+            {
+                "titulo": "Te has Fijado en Mí",
+                "cantante": "Rosy, Bruno",
+                "duracion": "3:38",
+                "url": "https://www.youtube.com/watch?v=1NwPlLuY2JE"
+            },
+            {
+                "titulo": "Ayer Soñe",
+                "cantante": "Sofi, Coro",
+                "duracion": "2:59",
+                "url": "https://www.youtube.com/watch?v=Rv_esz-svec"
+            }
+        ],
+        "equipo_creativo": {
+            "Directora Musical": "Izaskun Gutiérrez",
+            "Adaptación Guión": "Izaskun Gutiérrez",
+            "Coreografia": "Olatz Bilbao, Arantza Ibarretxe",
+            "Guión": "Itziar Contreras, Aitor Laiseka, Nerea Aldekoetxea",
+            "Decorado": "Aitor Landazabal, Izaskun Gutiérrez, Belen Sanchez",
+            "Diseño de Escenografia": "Izaskun Gutiérrez, Bizkunde Auzmendi",
+            "Diseño de Sonido": "Izaskun Gutiérrez",
+            "Diseño de Iluminación": "Izaskun Gutiérrez",
+            "Direccion de Casting": "Izaskun Gutiérrez",
+            "Equipo de Profesores": "Itziar Contreras, Aitor Laiseka, Nerea Aldekoetxea, Aitor Landazabal, Olatz Bilbao, Arantza Ibarretxe, Izaskun Gutiérrez",
+            "Ayuda Especial": "Nieves Amigó, Enrique García, Bizkunde Auzmendia, Eguzki Gaminde, Ayudantes \"anonimos\""
+        },
+        "programa": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718538214/Askartza%20Martxa/Programas/MammaMia.jpg",
+        "imagenes": [
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718618948/Askartza%20Martxa/Mamma%20Mia/rzthpndyvzhgfvxwrfiq.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718618949/Askartza%20Martxa/Mamma%20Mia/uhnsh8qwlyie1i3o5rjk.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718618948/Askartza%20Martxa/Mamma%20Mia/g9qjaoqsw7qztvkwxil1.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718618948/Askartza%20Martxa/Mamma%20Mia/ygvya0ud7mhtswxzwndo.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718618948/Askartza%20Martxa/Mamma%20Mia/xbspajc0xriow1jsaukj.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718618948/Askartza%20Martxa/Mamma%20Mia/rzthpndyvzhgfvxwrfiq.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718620117/Askartza%20Martxa/Mamma%20Mia/vahc96yaqo3hzuvwlhud.webp"
+        ]
+    },
+    "El Jorobado de Notre Dame": {
+        "img": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718713974/Askartza%20Martxa/Jorobado/wtaslztpvo35jgyis3tr.jpg",
+        "titulo": "El Jorobado de Notre Dame",
+        "logo": "",
+        "fecha": "2013-05-17",
+        "guión": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718132325/Askartza%20Martxa/Guiones/Jorobado.pdf",
+        "video": "https://www.youtube.com/watch?v=7mCwNL6hOFI",
+        "cartel": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717597198/Askartza%20Martxa/Carteles/Jorobado.webp",
+        "sinopsis": {
+            "Acto I": "El musical comienza en el París del siglo XV. El archidiácono Claude Frollo cuenta la historia de cómo encontró a Quasimodo, un bebé deformado, en las escaleras de la Catedral de Notre Dame. Años más tarde, Quasimodo, ahora adulto, anhela salir y experimentar la vida fuera de la catedral. En el Festival de los Bufones, Quasimodo desobedece a Frollo y se aventura a salir, donde conoce a Esmeralda, una gitana de espíritu libre. Esmeralda defiende a Quasimodo de la turba y esto atrae la atención de Frollo y del capitán Phoebus. Se desarrollan tensiones y relaciones complicadas entre los personajes principales.",
+            "Acto II": "El segundo acto comienza con Esmeralda prisionera y enfrentando la ejecución. Frollo ofrece salvarla si acepta estar con él, pero Esmeralda rechaza su propuesta. Quasimodo y Phoebus planean rescatarla. Durante un enfrentamiento dramático, liberan a Esmeralda y la llevan a la catedral. Frollo lidera un asalto a la catedral para capturarla, culminando en un enfrentamiento final en lo alto de Notre Dame entre Quasimodo y Frollo. Frollo cae a su muerte y Esmeralda muere a causa de una herida mortal. Quasimodo, aunque devastado, finalmente es aceptado y honrado por el pueblo de París."
+        },
+        "elenco": {
+            "Actores Principales": [
+                {
+                    "personaje": "Quasimodo",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718653772/Askartza%20Martxa/Jorobado/personajes/quasimodo.jpg",
+                    "persona": "Martin Mercado",
+                    "descripcion": "Quasimodo es el campanero jorobado de Notre Dame. Aunque físicamente deformado y considerado un monstruo por muchos, tiene un corazón puro y bondadoso. Anhela ser aceptado por la sociedad y encuentra consuelo en su amistad con Esmeralda."
+                },
+                {
+                    "personaje": "Esmeralda",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718653771/Askartza%20Martxa/Jorobado/personajes/esmeralda.jpg",
+                    "persona": "Naira Fernández",
+                    "descripcion": "Esmeralda es una gitana de espíritu libre y valiente. Es conocida por su belleza y su talento para la danza. Su compasión y su deseo de justicia la llevan a enfrentarse a Frollo para proteger a Quasimodo y a los suyos."
+                },
+                {
+                    "personaje": "Frollo",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718653774/Askartza%20Martxa/Jorobado/personajes/frollo.jpg",
+                    "persona": "Borja Izquierdo",
+                    "descripcion": "Frollo es el archidiácono de Notre Dame. Es un hombre severo y moralista, consumido por su odio hacia los gitanos. Su obsesión con Esmeralda y su lucha interna entre el deseo y la moral lo llevan a cometer actos terribles."
+                },
+                {
+                    "personaje": "Clopin",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718653770/Askartza%20Martxa/Jorobado/personajes/clopin.jpg",
+                    "persona": "Xabier Sagarduy",
+                    "descripcion": "Clopin es el carismático líder de los gitanos y narrador de la historia. Es astuto y protector con su gente, dispuesto a hacer lo que sea necesario para asegurar su seguridad y libertad."
+                },
+                {
+                    "personaje": "Febo",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718653771/Askartza%20Martxa/Jorobado/personajes/febo.jpg",
+                    "persona": "Iñigo Balbona",
+                    "descripcion": "Febo es el capitán de la guardia. A diferencia de Frollo, muestra simpatía y comprensión hacia los gitanos. Su valentía y su amor por Esmeralda lo convierten en un héroe."
+                },
+                {
+                    "personaje": "Victor",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718653772/Askartza%20Martxa/Jorobado/personajes/victor.jpg",
+                    "persona": "Iñigo Larrañaga",
+                    "descripcion": "Victor es una de las gárgolas de Notre Dame, amiga y consejera de Quasimodo. Junto con Hugo y Laverne, ofrece apoyo y guía a Quasimodo, a menudo aportando un toque de humor y sabiduría."
+                },
+                {
+                    "personaje": "Hugo",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718653771/Askartza%20Martxa/Jorobado/personajes/hugo.jpg",
+                    "persona": "Isaac Burgoa",
+                    "descripcion": "Hugo es otra de las gárgolas que acompañan a Quasimodo. Es juguetón y bromista, pero también leal y protector con su amigo, ayudándole a superar sus miedos y dudas."
+                },
+                {
+                    "personaje": "Laverne",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718653772/Askartza%20Martxa/Jorobado/personajes/laverne.jpg",
+                    "persona": "Maialen Mugarra",
+                    "descripcion": "Laverne es la más sabia y maternal de las gárgolas. Ofrece consejos y consuelo a Quasimodo, alentándolo a ser valiente y a seguir su corazón."
+                },
+                {
+                    "personaje": "Archidiácono",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718653769/Askartza%20Martxa/Jorobado/personajes/archidiacono.jpg",
+                    "persona": "Andoni Ezquerra",
+                    "descripcion": "El Archidiácono es una figura de autoridad en la catedral, justo y benevolente. Trata de mantener la paz y la justicia, y es una influencia moral positiva, oponiéndose a los crueles métodos de Frollo."
+                }
+            ],
+            "Actores Secundarios": [
+                {
+                    "personaje": "Guardia 1",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718653769/Askartza%20Martxa/Jorobado/personajes/guardia%201.jpg",
+                    "persona": "Aitor Eiguren",
+                    "descripcion": "Guardia que sirve bajo el mando de Febo. Participa en la persecución de los gitanos y en las tareas de seguridad de la ciudad."
+                },
+                {
+                    "personaje": "Guardia 2",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718653771/Askartza%20Martxa/Jorobado/personajes/guardia%202.jpg",
+                    "persona": "Daniel López",
+                    "descripcion": "Otro miembro de la guardia, ayudante cercano de Febo. Comparte sus dudas sobre las órdenes de Frollo y muestra compasión en ciertos momentos."
+                },
+                {
+                    "personaje": "Madre",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718653772/Askartza%20Martxa/Jorobado/personajes/madre.jpg",
+                    "persona": "Enara Ziarán",
+                    "descripcion": "La madre de Quasimodo, una mujer gitana que luchó por proteger a su hijo. Su trágica historia es fundamental para entender la dureza de Frollo y el origen de Quasimodo."
+                }
+            ],
+            "Pueblo": "Paula Txabarria, Aitor López, Ainhoa García, Itxaso Munguira, Diego Etxebarria, Leire Rodriguez, Leire Fernández, Ainhoa Nogueras, Arrate Sobrado, Leire González, June Gutiérrez, Olatz Tolosa, Raquel Antón, Ainhoa Ruíz, Michel Mendoza, Laura lozano, Ane Román, Irati Zubiri, Ane Urrutia, Ania dela Rua",
+            "Gitanas": "Nerea Urrutia, Irune Villafruela, Maider Pérez, Irati Elizondo, Nerea Fernández, Irati Toral, Ane Urrutia, Sara Martínez de Zuñiga, Nerea Ziorraga, Maitane Salinasarmendariz, Izaskun Olarreaga, Laura Arzuaga, Maialen Basañez, Arrate Merino, Iratxe Serrano, Ane Navarro, Alba Rodríguez, Arrate Cerro, Leire Juez, Irati Olazabal, Ane Etxebarria, Nora Alonso",
+            "Decorado": "Ixone Laguna, Marta Bombín, Giovanni Pecoraro, Ane Treku, Belén Sanchez, Ana Urrutia, Uxue Alkorta, Maider Llorente"
+        },
+        "canciones": [
+            {
+                "titulo": "El Son de Notre Dame",
+                "cantante": "Clopin, Frollo, Archidiácono, Coro",
+                "duracion": "6:21",
+                "url": "https://www.youtube.com/watch?v=O6q4m62W-a0&list=PLF45C6A46FBE37D78"
+            },
+            {
+                "titulo": "Fuera",
+                "cantante": "Quasimodo y Frollo",
+                "duracion": "4:26",
+                "url": "https://www.youtube.com/watch?v=aruzCsbP518&list=PLF45C6A46FBE37D78&index=2"
+            },
+            {
+                "titulo": "Todo al Revés",
+                "cantante": "Clopin y el Coro",
+                "duracion": "5:36",
+                "url": "https://www.youtube.com/watch?v=z9QYxEK7drM&list=PLF45C6A46FBE37D78&index=3"
+            },
+            {
+                "titulo": "Oración de Esmeralda",
+                "cantante": "Esmeralda, Coro",
+                "duracion": "3:42",
+                "url": "https://www.youtube.com/watch?v=DmFrc6ETEFQ&list=PLF45C6A46FBE37D78&index=5"
+            },
+            {
+                "titulo": "Luz Celestial/Fuego Infernal",
+                "cantante": "Quasimodo, Frollo, Coro",
+                "duracion": "5:20",
+                "url": "https://www.youtube.com/watch?v=m7lhuM7Nk2Y&list=PLF45C6A46FBE37D78&index=7"
+            },
+            {
+                "titulo": "Un Tipo Así",
+                "cantante": "Victor, Hugo, Laverne",
+                "duracion": "2:41",
+                "url": "https://www.youtube.com/watch?v=rRpb9_6i9sw&list=PLF45C6A46FBE37D78&index=8"
+            },
+            {
+                "titulo": "La Corte de los Milagros",
+                "cantante": "Clopin y el Coro",
+                "duracion": "1:25",
+                "url": "https://www.youtube.com/watch?v=vR_vp9F9lN4&list=PLF45C6A46FBE37D78&index=10"
+            },
+            {
+                "titulo": "El Son de Notre Dam Reprise",
+                "cantante": "Clopin, Coro",
+                "duracion": "1:05",
+                "url": "https://www.youtube.com/watch?v=yQcCVYj4v5U&list=PLF45C6A46FBE37D78&index=14"
+            }
+        ],
+        "equipo_creativo": {
+            "Directora Musical": "Izaskun Gutiérrez",
+            "Adaptación Guión": "Izaskun Gutiérrez",
+            "Coreografia": "Nerea Pérez, Arantza Ibarretxe, Izaskun Gutiérrez",
+            "Guión": "Itziar Contreras, Aitor Landazabal, Izaskun Gutiérrez",
+            "Decorado": "Bizkunde Auzmendi, Itziar Contreras, Nerea Pérez, Izaskun Gutiérrez",
+            "Diseño de Escenografia": "Izaskun Gutiérrez, Bizkunde Auzmendi, Eduardo Madrazo, Uxue Alkorta, Belén Sánchez, Ana Urrutia",
+            "Diseño de Sonido": "Izaskun Gutiérrez, Eduardo Madrazo",
+            "Diseño de Iluminación": "Izaskun Gutiérrez, Eduardo Madrazo",
+            "Direccion de Casting": "Izaskun Gutiérrez",
+            "Equipo de Profesores": "Itziar Contreras, Aitor Landazabal, Nerea Pérez, Arantza Ibarretxe, Eduardo Madrazo, Izaskun Gutiérrez",
+            "Ayuda Especial": "Bizkunde Auzmendia, Garazi Emaldi, Xabier Egaña, Uxue Alkorta, Belén Sánchez, Ana Urrutia"
+        },
+        "programa": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718713763/Askartza%20Martxa/Programas/Jorobado.jpg",
+        "imagenes": [
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718713974/Askartza%20Martxa/Jorobado/wtaslztpvo35jgyis3tr.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718713993/Askartza%20Martxa/Jorobado/i785lpiav6fkgqenv8dm.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718713993/Askartza%20Martxa/Jorobado/cjdlmldlzyqmp2d4bpu1.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718713991/Askartza%20Martxa/Jorobado/cusksyqdpznctxgztzqw.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718713989/Askartza%20Martxa/Jorobado/tyibv9bvfgegyrxgknos.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718713987/Askartza%20Martxa/Jorobado/jlbyirlmukkx924khgr9.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718713983/Askartza%20Martxa/Jorobado/rzqzhqi4bxwnzza38cko.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718713983/Askartza%20Martxa/Jorobado/qnn6rgltfg0w5rk4ofrx.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718713982/Askartza%20Martxa/Jorobado/r04bs5uptnpzqrtozmol.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718713979/Askartza%20Martxa/Jorobado/x0ksdel6sgz8rv7dbazc.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718713978/Askartza%20Martxa/Jorobado/zwupudxtxyhyrmrwhtsv.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718713975/Askartza%20Martxa/Jorobado/jkwlufwqtmbzfrizkjad.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718713975/Askartza%20Martxa/Jorobado/kpmrhpviwg6pn0o1t3tz.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718713966/Askartza%20Martxa/Jorobado/bgfqukdvkkrhdghxvtra.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718713966/Askartza%20Martxa/Jorobado/rrvcwtmyyari8hfl1tlk.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718713965/Askartza%20Martxa/Jorobado/tupiw3dusapdijkhbmb9.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718713964/Askartza%20Martxa/Jorobado/itrpz1oozbm8nmq2vbyj.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718713960/Askartza%20Martxa/Jorobado/nijemegnchrzb1nwavil.jpg",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718713959/Askartza%20Martxa/Jorobado/l43agvvfkvunnqqifzsg.jpg"
         ]
     }
 }
