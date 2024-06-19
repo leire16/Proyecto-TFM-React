@@ -1,8 +1,8 @@
 import React from 'react';
 import './Elenco-card.css';
+import ImageLoader from '../../components/Images/ImageLoader.jsx';
 
 const ElencoCard = ({ seccion, personaje, imagen, persona, descripcion }) => {
-
     return (
         <div className={`elenco-card mb-3`}>
             <div className="card-body mb-3">
@@ -11,9 +11,8 @@ const ElencoCard = ({ seccion, personaje, imagen, persona, descripcion }) => {
                 </h5>
                 <div className="row mb-3">
                     <div className="col-md-3 me-3 mt-3 image-container">
-                        <img className='ImagenElenco' src={imagen} alt={personaje} />
+                        <ImageLoader className='ImagenElenco' src={imagen} alt={personaje} />
                     </div>
-
                     <div className={` ${seccion === "Actores Secundarios" ? "col-md-8 actores-secundarios" : "col-md-10 actores-principales"}`}>
                         <p className="descripcion">{descripcion}</p>
                     </div>

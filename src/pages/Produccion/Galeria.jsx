@@ -31,7 +31,7 @@ const Galeria = ({ parametros }) => {
 
   return (
     <div className='container'>
-      <h1 className="mb-5 uppercase">Galería de {nombreProduccion}</h1>
+      <h1 className="mb-5 uppercase">Galería de Imagenes - {nombreProduccion}</h1>
       <Carousel
         activeIndex={slideIndex}
         onSelect={handleSelect}

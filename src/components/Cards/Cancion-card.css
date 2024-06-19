@@ -1,0 +1,49 @@
+.cancion-card {
+    background-color: rgba(241, 3, 7, 0.2);
+    border: 0.2rem solid black;
+    border-radius: 6.25rem;
+    padding: 0.9375rem 1.5625rem;
+    display: flex;
+    justify-content: center;
+}
+
+.cancion-card-content {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cancion-card p {
+    text-align: center;
+}
+
+.cancion-card h2 {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.cancion-card h2 a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.canciones-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0rem 12.5rem;
+
+    /* Ajuste para dispositivos medianos (hasta 1080px) */
+    @media (max-width: 1080px) {
+        gap: 0rem 3.125rem;
+    }
+
+    @media (max-width: 576px) {
+        grid-template-columns: 1fr;
+        gap: 0rem 1.25rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+}

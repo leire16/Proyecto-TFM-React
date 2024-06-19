@@ -17,16 +17,13 @@ const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSecci
   };
 
   const handleProduccionClick = (produccion) => {
-    // Verificar si la subproducción ya está abierta
     const isSubProduccionVisible = subSubProduccionVisible[produccion];
     const updatedState = { ...subSubProduccionVisible };
 
-    // Cerrar todas las subproducciones y subsubproducciones
     Object.keys(updatedState).forEach((key) => {
       updatedState[key] = false;
     });
 
-    // Si la subproducción no estaba abierta, abrir la subproducción actual
     if (!isSubProduccionVisible) {
       updatedState[produccion] = true;
     }
@@ -48,8 +45,7 @@ const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSecci
   };
 
   const mostrarAccesoUsuarios = () => {
-    // esta condicion cambiara cuando el login este hecho
-    setIntranetVisible(true); // Al mostrar Intranet, asegúrate de que esté visible
+    setIntranetVisible(true);
   };
 
   const descargarPrograma = async (nombreProduccion) => {
@@ -61,21 +57,31 @@ const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSecci
         const link = document.createElement('a');
         link.href = window.URL.createObjectURL(blob);
         link.download = `${nombreProduccion}-programa.jpg`; // Cambiar a la extensión correcta si es necesario
-        link.style.display = 'none'; // Ocultar el enlace
-        document.body.appendChild(link); // Agregar el enlace al DOM
-        link.click(); // Simular el clic en el enlace
-        document.body.removeChild(link); // Eliminar el enlace del DOM después de la descarga
+        link.style.display = 'none';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
       } catch (error) {
         console.error('Error al descargar la imagen:', error);
       }
     }
   };
 
+  // Convertir el objeto en un arreglo de objetos y parsear las fechas
+  const obrasArray = Object.keys(obras).map(key => ({
+    nombre: key,
+    ...obras[key],
+    fecha: new Date(obras[key].fecha)  // Convertir la fecha en objeto Date
+  }));
+
+  // Ordenar las obras por fecha (más reciente primero)
+  obrasArray.sort((a, b) => b.fecha - a.fecha);
+
   return (
     <div id="menuVertical" className='MenuVertical bg-dark text-white py-4 mb-0 position-fixed'>
       <div className="container-fluid h-100">
         <div className="row h-100">
-          <div className={`col-10 col-md-9 flex-column`}>
+          <div className={`col-lg-10 col-md-9 flex-column`}>
             <div id="menuPrincipal" className="visible">
               <div className="mb-1 d-flex">
                 <div className="Texto ms-0 ms-2 pointer" onClick={() => mostrarSeccion('inicio')}>Inicio</div>
@@ -87,33 +93,33 @@ const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSecci
               </div>
               {subProduccionesVisible && (
                 <ul id="producciones" className="list-unstyled ms-3">
-                  {['Grease', 'Jesucristo SuperStar','Charlie y La Fabrica de Chocolate', 'El Rey León' ].map((produccion) => (
-                    <li key={produccion}>
+                  {obrasArray.map((obra) => (
+                    <li key={obra.nombre}>
                       <div className="mb-1 d-flex">
-                        <div className="Texto ms-0 ms-2 pointer subapartado" onClick={() => handleProduccionClick(produccion)}>
-                          {produccion} {subSubProduccionVisible[produccion] && <i className="mdi mdi-chevron-down"></i>}
-                          {!subSubProduccionVisible[produccion] && <i className="mdi mdi-chevron-right"></i>}
+                        <div className="Texto ms-0 ms-2 pointer subapartado" onClick={() => handleProduccionClick(obra.nombre)}>
+                          {obra.nombre} {subSubProduccionVisible[obra.nombre] && <i className="mdi mdi-chevron-down"></i>}
+                          {!subSubProduccionVisible[obra.nombre] && <i className="mdi mdi-chevron-right"></i>}
                         </div>
                       </div>
-                      {subSubProduccionVisible[produccion] && (
+                      {subSubProduccionVisible[obra.nombre] && (
                         <ul className="list-unstyled ms-3">
                           <li className="mb-1 d-flex">
-                            <div className="Texto ms-0 ms-2 pointer subsubapartado" onClick={() => handleImageClick('sinopsis', produccion)}>Sinopsis</div>
+                            <div className="Texto ms-0 ms-2 pointer subsubapartado" onClick={() => handleImageClick('sinopsis', obra.nombre)}>Sinopsis</div>
                           </li>
                           <li className="mb-1 d-flex">
-                            <div className="Texto ms-0 ms-2 pointer subsubapartado" onClick={() => handleImageClick('elenco', produccion)}>Elenco</div>
+                            <div className="Texto ms-0 ms-2 pointer subsubapartado" onClick={() => handleImageClick('elenco', obra.nombre)}>Elenco</div>
                           </li>
                           <li className="mb-1 d-flex">
-                            <div className="Texto ms-0 ms-2 pointer subsubapartado" onClick={() => handleImageClick('canciones', produccion)}>Canciones</div>
+                            <div className="Texto ms-0 ms-2 pointer subsubapartado" onClick={() => handleImageClick('canciones', obra.nombre)}>Canciones</div>
                           </li>
                           <li className="mb-1 d-flex">
-                            <div className="Texto ms-0 ms-2 pointer subsubapartado" onClick={() => handleImageClick('equipoCreativo', produccion)}>Equipo Creativo</div>
+                            <div className="Texto ms-0 ms-2 pointer subsubapartado" onClick={() => handleImageClick('equipoCreativo', obra.nombre)}>Equipo Creativo</div>
                           </li>
                           <li className="mb-1 d-flex">
-                            <div className="Texto ms-0 ms-2 pointer subsubapartado" onClick={() => handleImageClick('programa', produccion)}>Programa de Mano</div>
+                            <div className="Texto ms-0 ms-2 pointer subsubapartado" onClick={() => handleImageClick('programa', obra.nombre)}>Programa de Mano</div>
                           </li>
                           <li className="mb-1 d-flex">
-                            <div className="Texto ms-0 ms-2 pointer subsubapartado" onClick={() => handleImageClick('galeria', produccion)}>Galería de Imágenes</div>
+                            <div className="Texto ms-0 ms-2 pointer subsubapartado" onClick={() => handleImageClick('galeria', obra.nombre)}>Galería de Imágenes</div>
                           </li>
                         </ul>
                       )}
@@ -138,7 +144,7 @@ const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSecci
               </div>
             </div>
           </div>
-          <div className="col-2 col-md-3 d-flex align-items-start">
+          <div className="col-lg-2 col-md-3 d-flex align-items-start">
             <button id="toggleMenuButton" className="btn btn-link p-0" onClick={toggleMenuButton}>
               <span className="mdi mdi-close LogoVuelta"></span>
             </button>

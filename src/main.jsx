@@ -22,14 +22,18 @@ const Main = () => {
 
   const cambiarSeccion = (nuevaSeccion) => {
     setSeccionActual(nuevaSeccion);
-    document.body.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    setTimeout(() => {
+      document.body.scrollIntoView({ top: 0, behavior: 'smooth', block: 'start' });
+  }, 0);
   };
 
   const cambiarSeccionConParametros = (apartado, nombreProduccion) => {
     setNombreProduccion(nombreProduccion);
     setSeccionActual(apartado);
     // Realizar acciones adicionales con los parámetros, como cargar datos
-    document.body.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    setTimeout(() => {
+      document.body.scrollIntoView({ top: 0, behavior: 'smooth', block: 'start' });
+    }, 0);
   };
 
   const Secciones = {

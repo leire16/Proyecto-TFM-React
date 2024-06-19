@@ -1,25 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import obras from '../../mocks/obras.json';
+import ImageLoader from '../../components/Images/ImageLoader.jsx';
 
-const Producciones = ({ showInfoText, setShowInfoText, cambiarSeccionConParametros }) => {
-    const handleMouseOver = () => {
-        setShowInfoText(true);
+const Producciones = ({ cambiarSeccionConParametros }) => {
+    const [hoveredIndex, setHoveredIndex] = useState(null);
+
+    const handleMouseOver = (index) => {
+        setHoveredIndex(index);
     };
 
     const handleMouseOut = () => {
-        setShowInfoText(false);
+        setHoveredIndex(null);
     };
 
-    const handleImageClick = (apartado, nombreProduccion) => {
+    const handleTextClick = (apartado, nombreProduccion) => {
         cambiarSeccionConParametros(apartado, nombreProduccion);
     };
 
-    // Convertir el objeto en un arreglo de objetos
+    // Convertir el objeto en un arreglo de objetos y parsear las fechas
     const obrasArray = Object.keys(obras).map(key => ({
         nombre: key,
-        ...obras[key]
+        ...obras[key],
+        fecha: new Date(obras[key].fecha)  // Convertir la fecha en objeto Date
     }));
+
+    // Ordenar las obras por fecha (más reciente primero)
+    obrasArray.sort((a, b) => b.fecha - a.fecha);
 
     // Dividir el arreglo en grupos de tres para mostrar en cada Carousel.Item
     const groupedObras = [];
@@ -43,13 +50,20 @@ const Producciones = ({ showInfoText, setShowInfoText, cambiarSeccionConParametr
                         <div className="row">
                             {grupo.map((obra, innerIndex) => (
                                 <div key={innerIndex} className="col">
-                                    <div className="carousel-img-container" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} onClick={() => handleImageClick('sinopsis', obra.nombre)}>
-                                        <img src={obra.cartel} className="d-block w-100" alt={obra.nombre} style={{ cursor: 'pointer' }} />
-                                        {showInfoText && <p className="centered-text pointer">+ INFORMACIÓN</p>}
+                                    <div
+                                        className="carousel-img-container"
+                                        onMouseOver={() => handleMouseOver(`${index}-${innerIndex}`)}
+                                        onMouseOut={handleMouseOut}
+                                    >
+                                        <ImageLoader src={obra.cartel} className="d-block w-100" alt={obra.nombre} />
+                                        {hoveredIndex === `${index}-${innerIndex}` && (
+                                            <p className="centered-text pointer" onClick={() => handleTextClick('sinopsis', obra.nombre)}>
+                                                + INFORMACIÓN
+                                            </p>
+                                        )}
                                     </div>
                                 </div>
                             ))}
-                            {/* Rellenar con placeholders si no hay suficientes elementos */}
                             {[...Array(3 - grupo.length)].map((_, placeholderIndex) => (
                                 <div key={grupo.length + placeholderIndex} className="col" />
                             ))}

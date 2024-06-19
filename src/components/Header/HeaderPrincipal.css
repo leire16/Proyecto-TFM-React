@@ -3,11 +3,12 @@
     color: white;
     position: fixed;
     top: 0;
-    /* min-height: 100vh; Hace que ocupe al menos la altura completa de la pantalla */
     right: 0;
     width: 30%;
     z-index: 3;
-    height: 100%; /*DUDA PONGO 100% o que ocupe solo el contenido  que tiene */
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
     transition: transform 0.5s ease-in-out;
     transform: translateX(0);
 }
@@ -15,15 +16,14 @@
 .Texto {
     text-align: justify;
     color: white;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-weight: 600;
-    word-wrap: break-word;
     margin-bottom: 0.5rem;
+    overflow-wrap: break-word;
 }
 
 .LogoVuelta {
     font-size: 2rem;
-    /* Tamaño ligeramente más pequeño */
     color: white !important;
 }
 
@@ -43,7 +43,6 @@
     display: center;
     justify-content: center;
 }
-
 
 /* Estilos específicos para diferentes tamaños de pantalla */
 @media (max-width: 1200px) {
@@ -74,5 +73,4 @@
     .LogoVuelta {
         font-size: 2rem;
     }
-
 }

@@ -21,7 +21,7 @@ const Elenco = ({ parametros }) => {
 
   return (
     <div className='container'>
-      <h1 className="mb-5 uppercase">Elenco {nombreProduccion}</h1>
+      <h1 className="mb-5 uppercase">Elenco - {nombreProduccion}</h1>
 
       {/* Itera sobre las claves del objeto elencoProduccion (secciones) */}
       {Object.keys(elencoProduccion).map((seccion, index) => (
