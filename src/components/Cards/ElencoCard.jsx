@@ -1,6 +1,6 @@
 import React from 'react';
-import './Elenco-card.css';
-import ImageLoader from '../../components/Images/ImageLoader.jsx';
+import './ElencoCard.css';
+import ImageLoader from '../Images/ImageLoader.jsx';
 
 const ElencoCard = ({ seccion, personaje, imagen, persona, descripcion }) => {
     return (

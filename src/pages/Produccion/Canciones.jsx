@@ -1,5 +1,5 @@
 import React from 'react';
-import CancionCard from '../../components/Cards/Cancion-card';
+import CancionCard from '../../components/Cards/CancionCard';
 import obras from '../../mocks/obras.json';
 
 const Canciones = ({ parametros }) => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Equipo-card.css';
+import './EquipoCard.css';
 
 const EquipoCard = ({ titulo, persona }) => {
     return (

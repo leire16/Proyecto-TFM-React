@@ -1,5 +1,5 @@
 import React from 'react';
-import ElencoCard from '../../components/Cards/Elenco-card';
+import ElencoCard from '../../components/Cards/ElencoCard';
 import obras from '../../mocks/obras.json'; 
 
 const Elenco = ({ parametros }) => {

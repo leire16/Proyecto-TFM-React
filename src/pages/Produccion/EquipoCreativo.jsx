@@ -1,5 +1,5 @@
 import React from 'react';
-import EquipoCard from '../../components/Cards/Equipo-card';
+import EquipoCard from '../../components/Cards/EquipoCard';
 import obras from '../../mocks/obras.json';
 
 const EquipoCreativo = ({ parametros }) => {

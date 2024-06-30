@@ -1,5 +1,5 @@
 import React from 'react';
-import './Opinion-card.css';
+import './OpinionCard.css';
 
 const OpinionCard = ({ nombre, fecha, musical, asunto, opinion, numEstrellas }) => {
   return (

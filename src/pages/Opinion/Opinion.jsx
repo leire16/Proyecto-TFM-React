@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import OpinionCard from '../../components/Cards/Opinion-card';
+import OpinionCard from '../../components/Cards/OpinionCard';
 import Encuesta from '../../components/Encuesta/Encuesta';
 import opinionesData from '../../mocks/opiniones.json';
 

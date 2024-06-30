@@ -1,5 +1,5 @@
 import React from 'react';
-import './Cancion-card.css';
+import './CancionCard.css';
 
 const CancionCard = ({ titulo, interpretes, duracion, url }) => {
     const handleClick = () => {
