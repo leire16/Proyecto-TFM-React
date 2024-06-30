@@ -2,11 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
 import Registro from '../Registro/Registro';
 import './InicioSesion.css';
+import RecuperarContra from './RecuperarContra.jsx';
 
 const LoginModal = ({ show, handleClose, handleLogin }) => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [showRegistroModal, setShowRegistroModal] = useState(false);
+    const [showRecuperarContraModal, setShowRecuperarContraModal] = useState(false);
 
     // Función para limpiar los campos cuando se abre la modal
     const limpiarCampos = () => {
@@ -38,6 +40,14 @@ const LoginModal = ({ show, handleClose, handleLogin }) => {
 
     const handleCloseRegistroModal = () => {
         setShowRegistroModal(false); // Oculta la modal de registro
+    };
+
+    const handleShowRecuperarContraModal = () => {
+        setShowRecuperarContraModal(true);
+    };
+
+    const handleCloseRecuperarContraModal = () => {
+        setShowRecuperarContraModal(false);
     };
 
     return (
@@ -75,7 +85,7 @@ const LoginModal = ({ show, handleClose, handleLogin }) => {
                         </div>
                         <div className="d-flex flex-column align-items-center">
                             <div className="mb-2">
-                                <a className="text-decoration-none pointer">¿Has olvidado tu contraseña?</a>
+                                <a className="text-decoration-none pointer" onClick={handleShowRecuperarContraModal}>¿Has olvidado tu contraseña?</a>
                             </div>
                             <div>
                                 <a className="text-decoration-none pointer" onClick={handleShowRegistroModal}>¿Es tu primera vez? REGÍSTRATE</a>
@@ -86,6 +96,7 @@ const LoginModal = ({ show, handleClose, handleLogin }) => {
             </Modal>
             {/* Modal de Registro */}
             <Registro show={showRegistroModal} handleClose={handleCloseRegistroModal} />
+            <RecuperarContra show={showRecuperarContraModal} handleClose={handleCloseRecuperarContraModal} />
         </>
     );
 };
