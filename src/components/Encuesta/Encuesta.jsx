@@ -167,7 +167,6 @@ const Encuesta = ({ onSubmit }) => {
                         onChange={handleInputChange}
                         onBlur={() => validarCampo('nombre', formulario.nombre)}
                         className='form-control mb-2'
-                        required
                     />
                     {errores.nombre && <div className='text-danger mb-4'>{errores.nombre}</div>}
                 </div>
@@ -185,7 +184,6 @@ const Encuesta = ({ onSubmit }) => {
                         onChange={handleInputChange}
                         onBlur={() => validarCampo('apellidos', formulario.apellidos)}
                         className='form-control mb-2'
-                        required
                     />
                     {errores.apellidos && <div className='text-danger mb-4'>{errores.apellidos}</div>}
                 </div>
@@ -203,7 +201,6 @@ const Encuesta = ({ onSubmit }) => {
                         onChange={handleInputChange}
                         onBlur={() => validarCampo('email', formulario.email)}
                         className='form-control mb-2'
-                        required
                     />
                     {errores.email && <div className='text-danger '>{errores.email}</div>}
                 </div>
@@ -224,7 +221,6 @@ const Encuesta = ({ onSubmit }) => {
                         onChange={handleInputChange}
                         onBlur={() => validarCampo('asunto', formulario.asunto)}
                         className='form-control mb-2'
-                        required
                     />
                     {errores.asunto && <div className='text-danger mb-4'>{errores.asunto}</div>}
                 </div>
@@ -292,8 +288,7 @@ const Encuesta = ({ onSubmit }) => {
                         value={formulario.opinion}
                         onChange={handleInputChange}
                         onBlur={() => validarCampo('opinion', formulario.opinion)}
-                        className='form-control mb-2 textarea-grande' // Agrega la clase textarea-grande aquí
-                        required
+                        className='form-control mb-2 textarea-grande'
                     />
                     {errores.opinion && <div className='text-danger mb-4'>{errores.opinion}</div>}
                 </div>
@@ -302,7 +297,7 @@ const Encuesta = ({ onSubmit }) => {
             {/* Row para Botón Enviar */}
             <div className='row mb-4'>
                 <div className='col text-end'>
-                    <button type='submit' className='btn btn-danger'>
+                    <button type='submit' className='button btn btn-danger'>
                         Enviar
                     </button>
                 </div>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import OpinionCard from '../../components/Cards/Opinion-card';
+import OpinionCard from '../../components/Cards/OpinionCard';
 import { MusicalEnProduccion, InformacionAskartzaMartxa, Producciones } from '../../components/Inicio/Index';
 import opinionesData from '../../mocks/opiniones.json'; // Ya has importado el JSON
 

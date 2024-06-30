@@ -24,35 +24,11 @@
         "numEstrellas": 5
     },
     {
-        "nombre": "Mari Carmen",
-        "fecha": "25 de Noviembre de 2023",
-        "musical": "",
-        "asunto": "Impresionante",
-        "opinion": "Me ha parecido un espectáculo de 10. Impresionante el elenco, las dos actrices principales brillan con luz propia... vaya vozarrones!! L@s bailarines llenan el pequeño escenario.",
-        "numEstrellas": 5
-    },
-    {
-        "nombre": "Mari Carmen",
-        "fecha": "25 de Noviembre de 2023",
-        "musical": "",
-        "asunto": "Impresionante",
-        "opinion": "Me ha parecido un espectáculo de 10. Impresionante el elenco, las dos actrices principales brillan con luz propia... vaya vozarrones!! L@s bailarines llenan el pequeño escenario.",
-        "numEstrellas": 5
-    },
-    {
-        "nombre": "Mari Carmen",
-        "fecha": "25 de Noviembre de 2023",
-        "musical": "",
-        "asunto": "Impresionante",
-        "opinion": "Me ha parecido un espectáculo de 10. Impresionante el elenco, las dos actrices principales brillan con luz propia... vaya vozarrones!! L@s bailarines llenan el pequeño escenario.",
-        "numEstrellas": 5
-    },
-    {
         "nombre": "Noelia",
         "fecha": "29 de Diciembre de 2023",
-        "musical": "Mamma Mia",
+        "musical": "La Sirenitas",
         "asunto": "No te lo puedes perder",
-        "opinion": "Impresionante espectáculo, de los mejores musicales que hemos visto hasta ahora, los músicos  increíbles, los decorados espectaculares y los actores buenísimos, el  trato del personal el mejor. Mamma Mía te hace reír, llorar, erizar ,bailar  .....es de 10. Volvería a verlo mil veces más. Quiero dar las Gracias por  estar a ahí ❤️",
+        "opinion": "Impresionante espectáculo, de los mejores musicales que hemos visto hasta ahora, los músicos increíbles, los decorados espectaculares y los actores buenísimos, el trato del personal el mejor. Mamma Mía te hace reír, llorar, erizar, bailar..... es de 10. Volvería a verlo mil veces más. Quiero dar las Gracias por estar a ahí ❤️",
         "numEstrellas": 5
     },
     {
@@ -82,7 +58,7 @@
     {
         "nombre": "Mikel Posada",
         "fecha": "20 de Junio de 2023",
-        "musical": "Mamma Mia",
+        "musical": "",
         "asunto": "Calidad",
         "opinion": "Calidad de actuación muy buena y favorable, muy recomendable",
         "numEstrellas": 5
@@ -98,7 +74,7 @@
     {
         "nombre": "Leire Robredo",
         "fecha": "14 de Junio de 2023",
-        "musical": "Mamma Mia",
+        "musical": "La Sirenita",
         "asunto": "Me encanto",
         "opinion": "Me encanto, el mejor",
         "numEstrellas": 4
@@ -112,9 +88,9 @@
         "numEstrellas": 4
     },
     {
-        "nombre": "Izaro Aguirrezabl",
+        "nombre": "Izaro Aguirrezabal",
         "fecha": "18 de Junio 2013",
-        "musical": "La Bella y la bestia",
+        "musical": "La Bella y la Bestia",
         "asunto": "Muy bonita",
         "opinion": "Muy bonita",
         "numEstrellas": 4
@@ -122,54 +98,54 @@
     {
         "nombre": "Itsasne Ruiz",
         "fecha": "20 de Mayo de 2017",
-        "musical": "Mamma Mia",
+        "musical": "",
         "asunto": "Sentimental",
-        "opinion": "Sentimetal, los actorfes trasmitian un monton",
+        "opinion": "Sentimetal, los actores trasmitian un monton",
         "numEstrellas": 4
     },
     {
         "nombre": "Naia Robredo",
-        "fecha": "",
-        "musical": "El Rey Leon",
+        "fecha": "31 de Mayo de 2014",
+        "musical": "El Rey León",
         "asunto": "original",
         "opinion": "Me parecio que los personajes principales que lo hiceron muy bien, y me encanto la coreo y los visuales, muy originales",
         "numEstrellas":4
     },
     {
         "nombre": "Leyre Martinez",
-        "fecha": "",
-        "musical": "Mamma Mia",
+        "fecha": "12 de Mayo de 2018",
+        "musical": "La Sirenita",
         "asunto": "Buenas vibras",
         "opinion": "me parecio muy divertido, muy bien actuado",
         "numEstrellas": 4
     },
     {
         "nombre": "Eneko Moreno",
-        "fecha": "",
-        "musical": "Mamma Mia",
+        "fecha": "15 de Mayo de 2019",
+        "musical": "",
         "asunto": "Canciones chulas",
-        "opinion": "Esta muy bien proque las canciones eran muy chulas",
+        "opinion": "Esta muy bien porque las canciones eran muy chulas",
         "numEstrellas": 5
     },
     {
         "nombre": "Irene Uriarte",
-        "fecha": "",
-        "musical": "Jesucristo Super Star",
+        "fecha": "28 de Mayo de 2019",
+        "musical": "Jesucristo SuperStar",
         "asunto": "llorando",
         "opinion": "Me encanto, estube llorando",
         "numEstrellas": 5
     },
     {
         "nombre": "Alex Velasco",
-        "fecha": "",
-        "musical": "El Rey Leon",
+        "fecha": "05 de Junio de 2014",
+        "musical": "El Rey León",
         "asunto": "Timón y Pumba",
         "opinion": "Me gusto mucho sobre todo por Timón y Pumba",
         "numEstrellas": 5
     },
     {
         "nombre": "June del Barco",
-        "fecha": "",
+        "fecha": "06 de Junio 2024",
         "musical": "Grease",
         "asunto": "Disfrute",
         "opinion": "Ha sido una experiencia super bonita, un musical muy visble y para que la gente disfrute",
@@ -177,15 +153,15 @@
     },
     {
         "nombre": "Aimar Ruiz",
-        "fecha": "",
-        "musical": "Mamma Mia",
+        "fecha": "17 de Septiembre de 2017",
+        "musical": "",
         "asunto": "Divertido",
         "opinion": "Animo mucho al publico, un musical muy divertido",
         "numEstrellas": 5
     },
     {
         "nombre": "Sara Fernández",
-        "fecha": "",
+        "fecha": "08 de Junio de 2024",
         "musical": "Grease",
         "asunto": "Entrega",
         "opinion": "Me ha enctando proque tanto la gente como el publico a estado super entregado, muy buen rollo",
@@ -193,7 +169,7 @@
     },
     {
         "nombre": "June Gainza",
-        "fecha": "",
+        "fecha": "15 de Junio de 2017",
         "musical": "Charlie y la Fabrica de Chocolate",
         "asunto": "Primer musical",
         "opinion": "Estuvo muy bien, fue el primer musical que vi y me hizo apunatrme a Askartza Martxa",

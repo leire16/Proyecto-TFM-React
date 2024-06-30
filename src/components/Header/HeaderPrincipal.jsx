@@ -2,10 +2,13 @@ import React, { useState } from 'react';
 import './HeaderPrincipal.css';
 import obras from '../../mocks/obras.json';
 
+import InicioSesion from '../../pages/InicioSesion/InicioSesion.jsx';
+
 const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSeccionConParametros }) => {
   const [subProduccionesVisible, setSubProduccionesVisible] = useState(false);
   const [subSubProduccionVisible, setSubSubProduccionVisible] = useState({});
   const [intranetVisible, setIntranetVisible] = useState(false); // Estado inicial oculto
+  const [showLoginModal, setShowLoginModal] = useState(false);
 
   const mostrarSeccion = (seccion) => {
     toggleHeaderPrincipal();
@@ -45,7 +48,15 @@ const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSecci
   };
 
   const mostrarAccesoUsuarios = () => {
+    setShowLoginModal(true);
+  };
+
+  const handleLogin = () => {
     setIntranetVisible(true);
+  };
+
+  const handleCloseLoginModal = () => {
+    setShowLoginModal(false);
   };
 
   const descargarPrograma = async (nombreProduccion) => {
@@ -56,7 +67,7 @@ const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSecci
         const blob = await response.blob();
         const link = document.createElement('a');
         link.href = window.URL.createObjectURL(blob);
-        link.download = `${nombreProduccion}-programa.jpg`; 
+        link.download = `${nombreProduccion}-programa.jpg`;
         link.style.display = 'none';
         document.body.appendChild(link);
         link.click();
@@ -151,6 +162,7 @@ const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSecci
           </div>
         </div>
       </div>
+      <InicioSesion show={showLoginModal} handleClose={handleCloseLoginModal} handleLogin={handleLogin} />
     </div>
   );
 };

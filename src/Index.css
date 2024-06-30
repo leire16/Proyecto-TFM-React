@@ -22,7 +22,7 @@ h2 {
 }
 
 h3 {
-  color: #000000; /* Texto negro sobre fondo rojo semitransparente */
+  color: #000000;
 }
 
 h5 {
@@ -37,6 +37,10 @@ span {
   text-align: justify;
 }
 
+a{
+  color: white;
+}
+
 .sin-margen {
   margin-bottom: 0;
 }
@@ -47,6 +51,19 @@ span {
 
 .pointer:hover {
   color: #FFD700;
+}
+
+.button {
+  color: #FFD700;
+  font-size: 1.1875rem;
+  font-weight: 600;
+  word-wrap: break-word;
+  text-align: center;
+  line-height: 1.2rem;
+}
+
+.btn:hover .button {
+  color: white;
 }
 
 .carousel-control-prev-icon,
