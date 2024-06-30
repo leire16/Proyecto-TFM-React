@@ -14,6 +14,7 @@ import Opinion from './pages/Opinion/Opinion.jsx';
 import AvisoLegal from './pages/AvisoLegal/AvisoLegal.jsx';
 import PoliticaCookies from './pages/PoliticaCookies/PoliticaCookies.jsx';
 import PoliticaPrivacidad from './pages/PoliticaPrivacidad/PoliticaPrivacidad.jsx';
+import Intranet from './pages/Intranet/Intranet.jsx';
 import './Index.css';
 
 const Main = () => {
@@ -49,6 +50,7 @@ const Main = () => {
     avisoLegal: <AvisoLegal />,
     politicaPrivacidad: <PoliticaPrivacidad />,
     politicaCookies: <PoliticaCookies />,
+    intranet: <Intranet />
   };
   
     const renderizarContenido = () => {

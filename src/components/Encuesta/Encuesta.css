@@ -1,0 +1,76 @@
+.star {
+    font-size: 3rem;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.star.selected {
+    color: #ff0;
+}
+
+label {
+    display: block;
+}
+
+.text-danger {
+    color: red;
+}
+
+/* Estilos para el desplegable */
+.dropdown-toggle {
+    width: 65%;
+    max-width: 65%;
+    background-color: white;
+    color: black;
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border: none;
+}
+
+.dropdown-menu {
+    width: 65%;
+    max-width: 65%;
+    background-color: white;
+}
+
+.dropdown-item {
+    width: 100%;
+    background-color: white;
+}
+
+.textarea-grande {
+    min-height: 150px !important; 
+    resize: vertical;
+}
+
+/* Dispositivos medianos (hasta 768px) */
+@media (max-width: 1080px) {
+    .dropdown-toggle {
+        width: 85%;
+        max-width: 85%;
+    }
+
+    .dropdown-menu {
+        width: 85%;
+        max-width: 85%;
+    }   
+}
+
+/* Dispositivos pequeños (hasta 576px) */
+@media (max-width: 576px) {
+    .dropdown-toggle {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .dropdown-menu {
+        width: 100%;
+        max-width: 100%;
+    }
+}

@@ -56,7 +56,7 @@ const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSecci
         const blob = await response.blob();
         const link = document.createElement('a');
         link.href = window.URL.createObjectURL(blob);
-        link.download = `${nombreProduccion}-programa.jpg`; // Cambiar a la extensión correcta si es necesario
+        link.download = `${nombreProduccion}-programa.jpg`; 
         link.style.display = 'none';
         document.body.appendChild(link);
         link.click();

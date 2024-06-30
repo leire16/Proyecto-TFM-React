@@ -1,9 +1,15 @@
 import React, { useState } from 'react';
 import OpinionCard from '../../components/Cards/Opinion-card';
-import opinionesData from '../../mocks/opiniones.json'; // Ajusta el path según la ubicación de tu JSON
+import Encuesta from '../../components/Encuesta/Encuesta';
+import opinionesData from '../../mocks/opiniones.json';
 
 const Opinion = () => {
     const [mostrarTodas, setMostrarTodas] = useState(false);
+
+    const handleEncuestaSubmit = (formulario) => {
+        // Aquí puedes manejar el envío del formulario
+        console.log('Formulario enviado:', formulario);
+    };
 
     const handleMostrarTodasClick = () => {
         setMostrarTodas(true);
@@ -13,10 +19,15 @@ const Opinion = () => {
 
     return (
         <div className='container my-5'>
-            <h1 className="mb-5">OPINIÓN</h1>
-            {opinionesMostradas.map((opinion, index) => (
+            <h1 className="mb-5 uppercase">Opiniones</h1>
+
+            <h2 className='uppercase mb-4'>Dejanos tu Opinión</h2>
+            <Encuesta onSubmit={handleEncuestaSubmit} />
+
+            <h2 className="mb-5 uppercase">Reseñas</h2>
+            {opinionesMostradas.map((opinion) => (
                 <OpinionCard
-                    key={index}
+                    key={opinion.id} 
                     nombre={opinion.nombre}
                     fecha={opinion.fecha}
                     musical={opinion.musical}
