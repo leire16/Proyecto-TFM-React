@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import obras from '../../mocks/obras.json';
 import './Intranet.css';
 
 const Intranet = () => {
@@ -7,35 +6,92 @@ const Intranet = () => {
     const [videosCargados, setVideosCargados] = useState({});
 
     useEffect(() => {
-        // Convertir el objeto JSON a un array de objetos
-        const musicalesArray = Object.keys(obras).map((key) => ({
-            ...obras[key],
-            id: key // Agregar un campo id para mantener la referencia del objeto original
-        }));
+        const obtenerMusicales = async () => {
+            try {
+                const response = await fetch('http://localhost:3001/api/musicales');
+                if (!response.ok) {
+                    throw new Error('Error al obtener los datos de musicales');
+                }
+                const data = await response.json();
 
-        // Ordenar los musicales por fecha de manera descendente (más reciente primero)
-        musicalesArray.sort((a, b) => new Date(b.fecha) - new Date(a.fecha));
+                // Ordenar los musicales por fecha de manera descendente (más reciente primero)
+                data.sort((a, b) => new Date(b.fecha) - new Date(a.fecha));
 
-        // Actualizar el estado con el array ordenado
-        setMusicalesOrdenados(musicalesArray);
+                // Actualizar el estado con el array ordenado
+                setMusicalesOrdenados(data);
+            } catch (error) {
+                console.error('Error al obtener los musicales:', error);
+            }
+        };
+
+        obtenerMusicales();
     }, []);
 
-    const descargarGuion = async (nombreProduccion) => {
-        const obra = obras[nombreProduccion];
-        if (obra && obra.guion) {
-            try {
-                const response = await fetch(obra.guion);
-                const blob = await response.blob();
-                const link = document.createElement('a');
-                link.href = window.URL.createObjectURL(blob);
-                link.download = `Guión-${nombreProduccion}.pdf`;
-                link.style.display = 'none';
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-            } catch (error) {
-                console.error('Error al descargar el guion:', error);
+
+    const descargarGuion = async (id) => {
+        try {
+            // Solicitar los datos del musical
+            const response = await fetch(`http://localhost:3001/api/musicales/guion/${encodeURIComponent(id)}`);
+            if (!response.ok) {
+                throw new Error('Error al obtener la URL del guion');
             }
+
+            // Leer los datos JSON de la respuesta
+            const data = await response.json();
+
+            const { guion_url, titulo } = data;
+
+            console.log("Guion:", guion_url)
+
+            // Convertir el enlace de Google Drive a un enlace de descarga directa
+            const obtenerEnlaceDeDescarga = (url) => {
+                const id = new URL(url).pathname.split('/')[3];
+                return `https://drive.google.com/uc?export=download&id=${id}`;
+            };
+
+            const enlaceDeDescarga = obtenerEnlaceDeDescarga(guion_url);
+
+            console.log("enlaceDeDescarga: ",enlaceDeDescarga)
+            //desde drive no funciona la descarag del pdf
+
+            // Comprobar que la URL del guion está disponible
+            if (!enlaceDeDescarga) {
+                throw new Error('URL del guion no disponible');
+            }
+
+            // Convertir la respuesta del archivo a un blob
+            const respuesta = await fetch(enlaceDeDescarga);
+            if (!respuesta.ok) {
+                throw new Error('Error al obtener el archivo del guion');
+            }
+
+            const blob = await respuesta.blob();
+            const link = document.createElement('a');
+            link.href = window.URL.createObjectURL(blob);
+            link.download = `Guión-${titulo || 'Desconocido'}.pdf`;
+            link.style.display = 'none';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+
+            // Comprobar que la URL del guion está disponible
+            /* if (!guion_url) {
+                throw new Error('URL del guion no disponible');
+            }
+
+            // Convertir la respuesta del archivo a un blob
+            const respuesta = await fetch(guion_url);
+            const blob = await respuesta.blob();
+            const link = document.createElement('a');
+            link.href = window.URL.createObjectURL(blob);
+            link.download = `Guión-${titulo || 'Desconocido'}.pdf`;
+            //no se descarag bien, tiene 0 bytes
+            link.style.display = 'none';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link); */
+        } catch (error) {
+            console.error('Error al descargar el guion:', error);
         }
     };
 
@@ -48,6 +104,7 @@ const Intranet = () => {
         return `https://www.youtube.com/embed/${videoId}?start=0`;
     };
 
+
     const handleVideoLoad = (key) => {
         setVideosCargados((prev) => ({ ...prev, [key]: true }));
     };
@@ -57,25 +114,25 @@ const Intranet = () => {
             <div className="container">
                 <h1 className="mb-5">INTRANET</h1>
                 {musicalesOrdenados.map((obra) => (
-                    <div key={obra.id} className="mb-4">
+                    <div key={obra._id} className="mb-4">
                         <h2 className='mb-4'>{obra.titulo}</h2>
                         <p className='p-guion mb-3'>
                             <strong>Guión: </strong>
-                            <button onClick={() => descargarGuion(obra.id)} className="btn btn-link">
+                            <button onClick={() => descargarGuion(obra._id)} className="btn btn-link">
                                 Descargar
                             </button>
                         </p>
                         <div className="video-responsive mb-5">
-                            {!videosCargados[obra.id] && <p>Cargando video...</p>}
+                            {!videosCargados[obra._id] && <p>Cargando video...</p>}
                             <iframe
                                 width="560"
                                 height="315"
-                                src={convertToEmbedUrl(obra.video)}
+                                src={convertToEmbedUrl(obra.video_url)}
                                 title={obra.titulo}
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
-                                onLoad={() => handleVideoLoad(obra.id)} // Marcar el video como cargado cuando se completa la carga del iframe
-                                style={{ display: videosCargados[obra.id] ? 'block' : 'none' }} // Mostrar el iframe solo cuando el video está cargado
+                                onLoad={() => handleVideoLoad(obra._id)}
+                                style={{ display: videosCargados[obra._id] ? 'block' : 'none' }}
                             ></iframe>
                         </div>
                         <br></br>

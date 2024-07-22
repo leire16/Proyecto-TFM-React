@@ -1,4 +1,3 @@
-// MusicalEnProduccion.jsx
 import React from 'react';
 
 const MusicalEnProduccion = ({ imagen }) => {

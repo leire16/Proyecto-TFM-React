@@ -1,4 +1,3 @@
-// InformacionAskartzaMartxa.jsx
 import React from 'react';
 
 const InformacionAskartzaMartxa = () => {

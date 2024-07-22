@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import obras from '../../mocks/obras.json';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios'; // Usaremos axios para hacer peticiones HTTP
 import './Encuesta.css';
 
 const Encuesta = ({ onSubmit }) => {
@@ -8,8 +8,8 @@ const Encuesta = ({ onSubmit }) => {
         apellidos: '',
         email: '',
         asunto: '',
-        musical: '',
-        valoracion: 0,
+        musical: '', // Inicializar musical como una cadena vacía
+        numEstrellas: 0,
         opinion: ''
     });
 
@@ -18,11 +18,26 @@ const Encuesta = ({ onSubmit }) => {
         apellidos: '',
         email: '',
         asunto: '',
-        valoracion: '',
+        numEstrellas: '',
         opinion: ''
     });
 
     const [mensajeEnviado, setMensajeEnviado] = useState(false);
+    const [musicales, setMusicales] = useState([]); // Estado para guardar los musicales desde la BD
+    const [mostrarDesplegable, setMostrarDesplegable] = useState(false); // Estado para controlar la visibilidad del desplegable
+
+    useEffect(() => {
+        const obtenerMusicales = async () => {
+            try {
+                const response = await axios.get('http://localhost:3001/api/musicales'); // URL de tu API para obtener musicales
+                setMusicales(response.data);
+            } catch (error) {
+                console.error('Error al obtener los musicales:', error);
+            }
+        };
+
+        obtenerMusicales();
+    }, []);
 
     const handleInputChange = (e) => {
         const { name, value } = e.target;
@@ -64,18 +79,18 @@ const Encuesta = ({ onSubmit }) => {
     const handleStarClick = (valor) => {
         setFormulario({
             ...formulario,
-            valoracion: valor
+            numEstrellas: valor
         });
         setErrores({
             ...errores,
-            valoracion: ''
+            numEstrellas: ''
         });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
 
-        const { nombre, apellidos, email, asunto, opinion, valoracion } = formulario;
+        const { nombre, apellidos, email, asunto, opinion, numEstrellas, musical } = formulario;
 
         const erroresFormulario = {};
 
@@ -97,8 +112,8 @@ const Encuesta = ({ onSubmit }) => {
         if (!opinion) {
             erroresFormulario.opinion = "La opinión es obligatoria.";
         }
-        if (!valoracion) {
-            erroresFormulario.valoracion = "La valoración es obligatoria.";
+        if (!numEstrellas) {
+            erroresFormulario.numEstrellas = "La valoración es obligatoria.";
         }
 
         // Mostrar errores acumulados
@@ -110,35 +125,76 @@ const Encuesta = ({ onSubmit }) => {
             return;
         }
 
-        // Si no hay errores, enviar el formulario
-        onSubmit(formulario);
+        // Preparar objeto a enviar
+        const dataToSend = {
+            nombre,
+            apellidos,
+            email,
+            asunto,
+            opinion,
+            numEstrellas
+        };
 
-        // Limpiar formulario después de enviar
-        setFormulario({
-            nombre: '',
-            apellidos: '',
-            email: '',
-            asunto: '',
-            musical: '',
-            valoracion: 0,
-            opinion: ''
-        });
+        // Añadir musical solo si está definido
+        if (musical) {
+            dataToSend.musical = musical;
+        }
 
-        // Mostrar mensaje de formulario enviado correctamente
-        setMensajeEnviado(true);
+        console.log("dataToSend:",dataToSend)
 
-        // Ocultar el mensaje después de unos segundos
-        setTimeout(() => {
-            setMensajeEnviado(false);
-        }, 3000);
+        // Enviar formulario al backend
+        try {
+            const response = await fetch('http://localhost:3001/api/opiniones/crear', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(dataToSend)
+            });
+
+            if (!response.ok) {
+                throw new Error('Error al enviar la opinión');
+            }
+
+            // Limpiar formulario después de enviar
+            setFormulario({
+                nombre: '',
+                apellidos: '',
+                email: '',
+                asunto: '',
+                musical: '',
+                numEstrellas: 0,
+                opinion: ''
+            });
+
+            // Mostrar mensaje de formulario enviado correctamente
+            setMensajeEnviado(true);
+
+            // Ocultar el mensaje después de unos segundos
+            setTimeout(() => {
+                setMensajeEnviado(false);
+            }, 3000);
+
+            // Llamar a la función de callback para actualizar las opiniones en Opinion.js
+            onSubmit({
+                nombre,
+                apellidos,
+                email,
+                asunto,
+                musical,
+                numEstrellas,
+                opinion
+            });
+        } catch (error) {
+            console.error('Error al enviar la opinión:', error);
+            // Manejar el error (mostrar mensaje, etc.)
+        }
     };
 
     const validateEmail = (email) => {
         const re = /\S+@\S+\.\S+/;
         return re.test(email);
     };
-
-    const [mostrarDesplegable, setMostrarDesplegable] = useState(false); // Estado para controlar la visibilidad del desplegable
 
     const toggleDesplegable = () => {
         setMostrarDesplegable(!mostrarDesplegable); // Alternar entre mostrar y ocultar el desplegable
@@ -239,13 +295,13 @@ const Encuesta = ({ onSubmit }) => {
                             <i className='bi bi-caret-down-fill float-end'></i>
                         </button>
                         <div className={`dropdown-menu ${mostrarDesplegable ? 'show' : ''}`}>
-                            {Object.keys(obras).map((key) => (
+                            {musicales.map((musical) => (
                                 <a
-                                    key={key}
+                                    key={musical.id}
                                     className='dropdown-item'
-                                    onClick={() => seleccionarMusical(obras[key].titulo)}
+                                    onClick={() => seleccionarMusical(musical.titulo)}
                                 >
-                                    {obras[key].titulo}
+                                    {musical.titulo}
                                 </a>
                             ))}
                         </div>
@@ -264,14 +320,14 @@ const Encuesta = ({ onSubmit }) => {
                         {[1, 2, 3, 4, 5].map((star) => (
                             <span
                                 key={star}
-                                className={`star ${formulario.valoracion >= star ? 'selected' : ''}`}
+                                className={`star ${formulario.numEstrellas >= star ? 'selected' : ''}`}
                                 onClick={() => handleStarClick(star)}
                             >
                                 &#9733;
                             </span>
                         ))}
                     </div>
-                    {errores.valoracion && <div className='text-danger mb-4'>{errores.valoracion}</div>}
+                    {errores.numEstrellas && <div className='text-danger mb-4'>{errores.numEstrellas}</div>}
                 </div>
             </div>
 

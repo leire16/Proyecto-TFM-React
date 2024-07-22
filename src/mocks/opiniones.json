@@ -1,7 +1,7 @@
 [
     {
         "nombre": "Leire",
-        "fecha": "11 de enero de 2023",
+        "fecha": "2023-01-11",
         "musical": "Grease",
         "asunto": "Critica",
         "opinion": "Me pareció que el vestuario del musical debería haber estado mas currado. La producción fue excelente y las actuaciones estuvieron a la altura. Recomiendo a todos ver este musical.",
@@ -9,7 +9,7 @@
     },
     {
         "nombre": "Jose",
-        "fecha": "22 de Noviembre de 2023",
+        "fecha": "2023-11-22",
         "musical": "El Rey León",
         "asunto": "Espectáculo increíble",
         "opinion": "El espectáculo me pareció muy dinámico y divertido. Lo que si no perdono es la organización!!",
@@ -17,7 +17,7 @@
     },
     {
         "nombre": "Mari Carmen",
-        "fecha": "25 de Noviembre de 2023",
+        "fecha": "2023-11-25",
         "musical": "",
         "asunto": "Impresionante",
         "opinion": "Me ha parecido un espectáculo de 10. Impresionante el elenco, las dos actrices principales brillan con luz propia... vaya vozarrones!! L@s bailarines llenan el pequeño escenario.",
@@ -25,7 +25,7 @@
     },
     {
         "nombre": "Noelia",
-        "fecha": "29 de Diciembre de 2023",
+        "fecha": "2023-12-29",
         "musical": "La Sirenitas",
         "asunto": "No te lo puedes perder",
         "opinion": "Impresionante espectáculo, de los mejores musicales que hemos visto hasta ahora, los músicos increíbles, los decorados espectaculares y los actores buenísimos, el trato del personal el mejor. Mamma Mía te hace reír, llorar, erizar, bailar..... es de 10. Volvería a verlo mil veces más. Quiero dar las Gracias por estar a ahí ❤️",
@@ -33,7 +33,7 @@
     },
     {
         "nombre": "Diego Etxebarria",
-        "fecha": "20 de Junio de 2023",
+        "fecha": "2023-06-20",
         "musical": "El Rey León",
         "asunto": "La ìel de gallina",
         "opinion": "Algo increible de ver, se han superado como nunca antes",
@@ -41,7 +41,7 @@
     },
     {
         "nombre": "Maria González",
-        "fecha": "20 de Junio de 2023",
+        "fecha": "2023-06-20",
         "musical": "Charlie y la Fabrica de Chocolate",
         "asunto": "Familia",
         "opinion": "Como estar en familia, pero con el colegio",
@@ -49,7 +49,7 @@
     },
     {
         "nombre": "Gorka Goirigolzarri",
-        "fecha": "20 de Junio de 2023",
+        "fecha": "2023-06-21",
         "musical": "El Rey León",
         "asunto": "Espectaculo",
         "opinion": "Muy creativo, visualmente espectacular, muy dinamico",
@@ -57,7 +57,7 @@
     },
     {
         "nombre": "Mikel Posada",
-        "fecha": "20 de Junio de 2023",
+        "fecha": "2023-06-22",
         "musical": "",
         "asunto": "Calidad",
         "opinion": "Calidad de actuación muy buena y favorable, muy recomendable",
@@ -65,7 +65,7 @@
     },
     {
         "nombre": "Izaro Onandia",
-        "fecha": "20 de Junio de 2024",
+        "fecha": "2024-06-20",
         "musical": "Grease",
         "asunto": "Divertido",
         "opinion": "Muy divertido porque el publico se entrego cantando y entregado",
@@ -73,7 +73,7 @@
     },
     {
         "nombre": "Leire Robredo",
-        "fecha": "14 de Junio de 2023",
+        "fecha": "2023-06-14",
         "musical": "La Sirenita",
         "asunto": "Me encanto",
         "opinion": "Me encanto, el mejor",
@@ -81,7 +81,7 @@
     },
     {
         "nombre": "Uxue Hidalgo",
-        "fecha": "15 de Julio de 2023",
+        "fecha": "2023-07-15",
         "musical": "Mamma Mia",
         "asunto": "Muy bien",
         "opinion": "La verdad estuvo muy bien, muy bonito",
@@ -89,7 +89,7 @@
     },
     {
         "nombre": "Izaro Aguirrezabal",
-        "fecha": "18 de Junio 2013",
+        "fecha": "2013-06-18",
         "musical": "La Bella y la Bestia",
         "asunto": "Muy bonita",
         "opinion": "Muy bonita",
@@ -97,7 +97,7 @@
     },
     {
         "nombre": "Itsasne Ruiz",
-        "fecha": "20 de Mayo de 2017",
+        "fecha": "2017-05-20",
         "musical": "",
         "asunto": "Sentimental",
         "opinion": "Sentimetal, los actores trasmitian un monton",
@@ -105,7 +105,7 @@
     },
     {
         "nombre": "Naia Robredo",
-        "fecha": "31 de Mayo de 2014",
+        "fecha": "2014-05-31",
         "musical": "El Rey León",
         "asunto": "original",
         "opinion": "Me parecio que los personajes principales que lo hiceron muy bien, y me encanto la coreo y los visuales, muy originales",
@@ -113,7 +113,7 @@
     },
     {
         "nombre": "Leyre Martinez",
-        "fecha": "12 de Mayo de 2018",
+        "fecha": "2018-05-12",
         "musical": "La Sirenita",
         "asunto": "Buenas vibras",
         "opinion": "me parecio muy divertido, muy bien actuado",
@@ -121,7 +121,7 @@
     },
     {
         "nombre": "Eneko Moreno",
-        "fecha": "15 de Mayo de 2019",
+        "fecha": "2019-05-15",
         "musical": "",
         "asunto": "Canciones chulas",
         "opinion": "Esta muy bien porque las canciones eran muy chulas",
@@ -129,7 +129,7 @@
     },
     {
         "nombre": "Irene Uriarte",
-        "fecha": "28 de Mayo de 2019",
+        "fecha": "2019-05-28",
         "musical": "Jesucristo SuperStar",
         "asunto": "llorando",
         "opinion": "Me encanto, estube llorando",
@@ -137,7 +137,7 @@
     },
     {
         "nombre": "Alex Velasco",
-        "fecha": "05 de Junio de 2014",
+        "fecha": "2014-06-05",
         "musical": "El Rey León",
         "asunto": "Timón y Pumba",
         "opinion": "Me gusto mucho sobre todo por Timón y Pumba",
@@ -145,7 +145,7 @@
     },
     {
         "nombre": "June del Barco",
-        "fecha": "06 de Junio 2024",
+        "fecha": "2024-06-06",
         "musical": "Grease",
         "asunto": "Disfrute",
         "opinion": "Ha sido una experiencia super bonita, un musical muy visble y para que la gente disfrute",
@@ -153,7 +153,7 @@
     },
     {
         "nombre": "Aimar Ruiz",
-        "fecha": "17 de Septiembre de 2017",
+        "fecha": "2017-09-17",
         "musical": "",
         "asunto": "Divertido",
         "opinion": "Animo mucho al publico, un musical muy divertido",
@@ -161,7 +161,7 @@
     },
     {
         "nombre": "Sara Fernández",
-        "fecha": "08 de Junio de 2024",
+        "fecha": "2024-06-08",
         "musical": "Grease",
         "asunto": "Entrega",
         "opinion": "Me ha enctando proque tanto la gente como el publico a estado super entregado, muy buen rollo",
@@ -169,7 +169,7 @@
     },
     {
         "nombre": "June Gainza",
-        "fecha": "15 de Junio de 2017",
+        "fecha": "2017-06-17",
         "musical": "Charlie y la Fabrica de Chocolate",
         "asunto": "Primer musical",
         "opinion": "Estuvo muy bien, fue el primer musical que vi y me hizo apunatrme a Askartza Martxa",
@@ -177,7 +177,7 @@
     },
     {
         "nombre": "Maria González",
-        "fecha": "30 de Junio de 2014",
+        "fecha": "2014-06-30",
         "musical": "El Jorobado de Notre Dame",
         "asunto": "Animo apuntarse al grupo",
         "opinion": "Despues de verlo super que queria formar parte del grupo de teatro",

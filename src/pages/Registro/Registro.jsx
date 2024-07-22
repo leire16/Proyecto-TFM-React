@@ -1,42 +1,41 @@
 import React, { useState, useEffect } from 'react';
 import { Modal, Button, Form, Alert } from 'react-bootstrap';
+import axios from 'axios';
 import './Registro.css';
 
 const Registro = ({ show, handleClose }) => {
     const [nombre, setNombre] = useState('');
     const [apellidos, setApellidos] = useState('');
     const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-    const [confirmPassword, setConfirmPassword] = useState('');
+    const [contraseña, setContraseña] = useState('');
+    const [confirmContraseña, setConfirmContraseña] = useState('');
     const [errors, setErrors] = useState([]);
+    const [success, setSuccess] = useState('');
 
-    // Función para limpiar los campos cuando se abre la modal
     const limpiarCampos = () => {
         setNombre('');
         setApellidos('');
         setEmail('');
-        setPassword('');
-        setConfirmPassword('');
+        setContraseña('');
+        setConfirmContraseña('');
         setErrors([]);
+        setSuccess('');
     };
 
-    // Efecto para limpiar campos cuando cambia la visibilidad de la modal
     useEffect(() => {
         if (show) {
             limpiarCampos();
         }
     }, [show]);
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
 
         let formErrors = [];
 
-        // Validar que al menos uno de los campos esté lleno
-        if (!nombre && !apellidos && !email && !password && !confirmPassword) {
+        if (!nombre && !apellidos && !email && !contraseña && !confirmContraseña) {
             formErrors.push('Todos los campos son obligatorios');
         } else {
-            // Validar cada campo individualmente
             if (!nombre) {
                 formErrors.push('El campo Nombre es obligatorio');
             }
@@ -46,17 +45,15 @@ const Registro = ({ show, handleClose }) => {
             if (!email) {
                 formErrors.push('El campo Email es obligatorio');
             } else {
-                // Validar formato de email
                 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
                 if (!emailRegex.test(email)) {
                     formErrors.push('El email ingresado no es válido');
                 }
             }
-            if (!password) {
+            if (!contraseña) {
                 formErrors.push('El campo Contraseña es obligatorio');
             } else {
-                // Validar restricciones de contraseña (ejemplo: longitud mínima, complejidad)
-                if (password.length < 8) {
+                if (contraseña.length < 8) {
                     formErrors.push('La contraseña debe tener al menos 8 caracteres');
                 }
 
@@ -64,40 +61,55 @@ const Registro = ({ show, handleClose }) => {
                 const lowercaseRegex = /[a-z]/;
                 const numberRegex = /[0-9]/;
 
-                if (!uppercaseRegex.test(password)) {
+                if (!uppercaseRegex.test(contraseña)) {
                     formErrors.push('La contraseña debe incluir al menos una letra mayúscula');
                 }
 
-                if (!lowercaseRegex.test(password)) {
+                if (!lowercaseRegex.test(contraseña)) {
                     formErrors.push('La contraseña debe incluir al menos una letra minúscula');
                 }
 
-                if (!numberRegex.test(password)) {
+                if (!numberRegex.test(contraseña)) {
                     formErrors.push('La contraseña debe incluir al menos un número');
                 }
             }
 
-            if (!confirmPassword) {
+            if (!confirmContraseña) {
                 formErrors.push('Debe repetir la contraseña');
             }
 
-            // Validar que las contraseñas coincidan
-            if (password !== confirmPassword) {
+            if (contraseña !== confirmContraseña) {
                 formErrors.push('Las contraseñas no coinciden');
             }
         }
 
-        // Mostrar errores si los hay
         if (formErrors.length > 0) {
             setErrors(formErrors);
             return;
         }
 
-        // Aquí puedes implementar la lógica de registro de usuarios
-        console.log('Formulario de registro enviado:', nombre, apellidos, email, password);
-        // Lógica adicional de registro...
-        // Puedes cerrar la modal después de registrar al usuario
-        handleClose();
+        try {
+            const response = await axios.post('http://localhost:3001/api/auth/register', {
+                nombre,
+                apellidos,
+                email,
+                contraseña,
+                fecha_registro: new Date() // Enviar la fecha actual
+            });
+
+            setSuccess('Usuario registrado exitosamente');
+            setErrors([]);
+
+            setTimeout(() => {
+                handleClose();
+            }, 2000);
+        } catch (error) {
+            if (error.response && error.response.data.message) {
+                setErrors([error.response.data.message]);
+            } else {
+                setErrors(['Error en el registro']);
+            }
+        }
     };
 
     return (
@@ -116,6 +128,7 @@ const Registro = ({ show, handleClose }) => {
                         </ul>
                     </Alert>
                 )}
+                {success && <Alert variant="success">{success}</Alert>}
                 <Form onSubmit={handleSubmit} noValidate>
                     <Form.Group controlId="formBasicNombre" className="mb-4 form-group-horizontal">
                         <h2>Nombre: </h2>
@@ -145,23 +158,23 @@ const Registro = ({ show, handleClose }) => {
                             autoComplete="off" 
                         />
                     </Form.Group>
-                    <Form.Group controlId="formBasicPassword" className="mb-4 form-group-horizontal">
+                    <Form.Group controlId="formBasicContraseña" className="mb-4 form-group-horizontal">
                         <h2>Contraseña: </h2>
                         <Form.Control
                             type="password"
                             placeholder="Introduce tu contraseña"
-                            value={password}
-                            onChange={(e) => setPassword(e.target.value)}
+                            value={contraseña}
+                            onChange={(e) => setContraseña(e.target.value)}
                             autoComplete="off"
                         />
                     </Form.Group>
-                    <Form.Group controlId="formBasicConfirmPassword" className="mb-4 form-group-horizontal">
+                    <Form.Group controlId="formBasicConfirmContraseña" className="mb-4 form-group-horizontal">
                         <h2>Repetir Contraseña: </h2>
                         <Form.Control
                             type="password"
                             placeholder="Repite tu contraseña"
-                            value={confirmPassword}
-                            onChange={(e) => setConfirmPassword(e.target.value)}
+                            value={confirmContraseña}
+                            onChange={(e) => setConfirmContraseña(e.target.value)}
                             autoComplete="off"
                         />
                     </Form.Group>

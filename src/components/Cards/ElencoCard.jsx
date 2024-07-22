@@ -3,11 +3,15 @@ import './ElencoCard.css';
 import ImageLoader from '../Images/ImageLoader.jsx';
 
 const ElencoCard = ({ seccion, personaje, imagen, persona, descripcion }) => {
+
+    // Desestructurar el objeto persona
+    const { nombre, apellido1 } = persona || {};
+
     return (
         <div className={`elenco-card mb-3`}>
             <div className="card-body mb-3">
                 <h5 className='mb-4'>
-                    <strong>{personaje} : {persona}</strong>
+                    <strong>{personaje} : {nombre} {apellido1}</strong>
                 </h5>
                 <div className="row mb-3">
                     <div className="col-md-3 me-3 mt-3 image-container">

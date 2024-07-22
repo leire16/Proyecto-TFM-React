@@ -156,7 +156,7 @@
             },
             {
                 "titulo": "Hakuna Matata",
-                "cantante": "Timón Pumba y Simba",
+                "cantante": "Timón, Pumba y Simba",
                 "duracion": "3:13",
                 "url": "https://www.youtube.com/watch?v=nZa7oX31RBs"
             },
@@ -232,7 +232,7 @@
         "titulo": "Grease",
         "logo": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717596919/Askartza%20Martxa/Grease/logo.webp",
         "fecha": "2023-05-31",
-        "guion": "",
+        "guion": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1720522195/Askartza%20Martxa/Guiones/grease.pdf",
         "video": "https://www.youtube.com/watch?v=c46aKj9nNBk",
         "cartel": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717597197/Askartza%20Martxa/Carteles/grease.webp",
         "sinopsis": "GREASE El Musical es el fenómeno de la cultura pop que narra la vida en el instituto de una pequeña ciudad americana en los años 50, habiéndose convertido en el gran musical del Rock and Roll por excelencia, además de en una de las películas musicales más taquilleras de la historia.\n\n“Situado a finales de los años 50 en el instituto Rydell High, un grupo de estudiantes de clase obrera navega por conflictos atemporales, como las complejidades de la presión de grupo, los valores personales, la amistad, el amor, los devaneos sexuales de la adolescencia y la conciencia de clase, lo que le convierte en el musical adolescente por excelencia y la hace permanecer eternamente joven.”\n\nEn 2021, con motivo del 50 aniversario de su estreno original en Chicago, SOM Produce quiso sumarse a esta efeméride poniendo en marcha una nueva producción con un elenco con una energía arrolladora, unas increíbles coreografías y una ambiciosa e innovadora puesta en escena, a cargo del mismo equipo creativo de BILLY ELLIOT.\n\nGREASE El Musical en su edición Especial 50 aniversario se estrenó el 2 de octubre de 2021 y, tras una temporada completa en el Nuevo Teatro Alcalá y una exitosa gira por las principales ciudades de España, regresa a Madrid al Teatro Apolo, donde solo permanecerá 12 semanas. Esto supondrá el broche de oro a más de 3 años de éxito ininterrumpido y más de 400.000 espectadores. Y lo hará, además, con la incorporación del conocido actor Adrián Lastra en el papel de Vince Fontaine.",
@@ -650,7 +650,7 @@
                 }
             ],
             "Coreografia": "Itziar Alza, Ainhoa Ruiz, Ane Etxebarria, Alazne Pérez, Elena Toka, Andrea Suárez, Goizane Goiriena, Paula Cerrada, Leire Izquierdo, Arrate Merino, Paula Txabarria",
-            "Decorado": "Izaro Martin, Iraide Laria, Aines Gallardo, Ageda Legarra, Koldo"
+            "Decorado": "Izaro Martin, Iraide Laria, Aines Gallardo, Ageda Legarra"
         },
         "canciones": [
             {
@@ -890,13 +890,13 @@
             },
             {
                 "titulo": "Di que no estoy Condenado",
-                "cantante": "Judas, Anás, Caifás, ",
+                "cantante": "Judas, Anás, Caifás",
                 "duracion": "4:32",
                 "url": "https://www.youtube.com/watch?v=xElnKlnvQ1A"
             },
             {
                 "titulo": "La Última Cena",
-                "cantante": "Apostoles, Jesus, Judas, ",
+                "cantante": "Apostoles, Jesus, Judas",
                 "duracion": "7:04",
                 "url": "https://www.youtube.com/watch?v=2yF2gyDJNSM&list=PLgaFNC_I_Zkn_p_EWa5Jn0rhNENBbRe8B&index=14"
             },
@@ -914,7 +914,7 @@
             },
             {
                 "titulo": "Todo ha sido un Sueño",
-                "cantante": "María, Coro, Pedro, María Magdalena, ",
+                "cantante": "María, Coro, Pedro, María Magdalena",
                 "duracion": "2:41",
                 "url": "https://www.youtube.com/watch?v=UluMCBB1ylM&list=PLviGAwf00i9ZvnZiUnZSAvt6_rZctIkDK&index=9"
             },
@@ -926,7 +926,7 @@
             },
             {
                 "titulo": "Juicio Ante Pilato",
-                "cantante": "Piltao, Caifás, Jesus, ",
+                "cantante": "Piltao, Caifás, Jesus",
                 "duracion": "5:46",
                 "url": "https://www.youtube.com/watch?v=YK-rzTgD8VM"
             },
@@ -1078,13 +1078,13 @@
             },
             {
                 "titulo": "Todo al Revés",
-                "cantante": "Clopin y el Coro",
+                "cantante": "Clopin y Coro",
                 "duracion": "5:36",
                 "url": "https://www.youtube.com/watch?v=z9QYxEK7drM&list=PLF45C6A46FBE37D78&index=3"
             },
             {
                 "titulo": "Oración de Esmeralda",
-                "cantante": "Esmeralda, Coro",
+                "cantante": "Esmeralda y Coro",
                 "duracion": "3:42",
                 "url": "https://www.youtube.com/watch?v=DmFrc6ETEFQ&list=PLF45C6A46FBE37D78&index=5"
             },
@@ -1102,7 +1102,7 @@
             },
             {
                 "titulo": "La Corte de los Milagros",
-                "cantante": "Clopin y el Coro",
+                "cantante": "Clopin, Coro",
                 "duracion": "1:25",
                 "url": "https://www.youtube.com/watch?v=vR_vp9F9lN4&list=PLF45C6A46FBE37D78&index=10"
             },

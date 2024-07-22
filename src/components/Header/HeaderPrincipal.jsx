@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './HeaderPrincipal.css';
-import obras from '../../mocks/obras.json';
-
 import InicioSesion from '../../pages/InicioSesion/InicioSesion.jsx';
 
 const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSeccionConParametros }) => {
@@ -9,6 +7,9 @@ const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSecci
   const [subSubProduccionVisible, setSubSubProduccionVisible] = useState({});
   const [intranetVisible, setIntranetVisible] = useState(false); // Estado inicial oculto
   const [showLoginModal, setShowLoginModal] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(false); // Estado para la autenticación
+  const [obrasArray, setObrasArray] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   const mostrarSeccion = (seccion) => {
     toggleHeaderPrincipal();
@@ -52,7 +53,14 @@ const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSecci
   };
 
   const handleLogin = () => {
+    setIsAuthenticated(true); // Cambiar el estado a autenticado
     setIntranetVisible(true);
+    setShowLoginModal(false); // Cerrar el modal de inicio de sesión
+  };
+
+  const handleLogout = () => {
+    setIsAuthenticated(false); // Cambiar el estado a no autenticado
+    setIntranetVisible(false);
   };
 
   const handleCloseLoginModal = () => {
@@ -60,7 +68,7 @@ const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSecci
   };
 
   const descargarPrograma = async (nombreProduccion) => {
-    const obra = obras[nombreProduccion];
+    const obra = obrasArray.find(obra => obra.nombre === nombreProduccion);
     if (obra && obra.programa) {
       try {
         const response = await fetch(obra.programa);
@@ -78,15 +86,34 @@ const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSecci
     }
   };
 
-  // Convertir el objeto en un arreglo de objetos y parsear las fechas
-  const obrasArray = Object.keys(obras).map(key => ({
-    nombre: key,
-    ...obras[key],
-    fecha: new Date(obras[key].fecha)  // Convertir la fecha en objeto Date
-  }));
+  useEffect(() => {
+    const fetchObras = async () => {
+      try {
+        const response = await fetch('http://localhost:3001/api/musicales');
+        const data = await response.json();
+        const obrasData = data.map(obras => ({
+          nombre: obras.titulo,
+          programa: obras.programa_url,
+          fecha: new Date(obras.fecha)  // Convertir la fecha en objeto Date
+        }));
+        obrasData.sort((a, b) => b.fecha - a.fecha);
+        setObrasArray(obrasData);
+        setLoading(false);
+      } catch (error) {
+        console.error('Error al obtener los musicales:', error);
+        setLoading(false); // Asegúrate de actualizar el estado de carga incluso en caso de error
+      }
+    };
+    fetchObras();
+  }, []);
 
-  // Ordenar las obras por fecha (más reciente primero)
-  obrasArray.sort((a, b) => b.fecha - a.fecha);
+  if (loading) {
+    return (
+      <div className="loading">
+        <p>Cargando...</p> {/* Puedes personalizar el indicador de carga aquí */}
+      </div>
+    );
+  }
 
   return (
     <div id="menuVertical" className='MenuVertical bg-dark text-white py-4 mb-0 position-fixed'>
@@ -151,7 +178,9 @@ const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSecci
                 {intranetVisible && <div className="Texto ms-0 ms-2 pointer" onClick={() => mostrarSeccion('intranet')}>Intranet</div>}
               </div>
               <div className="mb-1 d-flex">
-                <div className="Texto ms-0 ms-2 pointer Intranet" onClick={mostrarAccesoUsuarios}>Acceso usuarios</div>
+                <div className="Texto ms-0 ms-2 pointer Intranet" onClick={isAuthenticated ? handleLogout : mostrarAccesoUsuarios}>
+                  {isAuthenticated ? 'Cerrar Sesión' : 'Inicio Sesión'}
+                </div>
               </div>
             </div>
           </div>
