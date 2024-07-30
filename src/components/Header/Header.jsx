@@ -19,8 +19,14 @@ const Header = ({ cambiarSeccion, cambiarSeccionConParametros }) => {
                         </button>
                     </div>
                     <div className="col text-center">
-                        <h1 className="AskartzaMartxa pointer" onClick={() => cambiarSeccion('inicio')}>Askartza Martxa</h1>
+                        <img 
+                            src="https://res.cloudinary.com/dqq0xnj5b/image/upload/v1722336399/Askartza%20Martxa/logotipo.png" 
+                            alt="Askartza Martxa Logo" 
+                            className="AskartzaMartxa pointer"
+                            onClick={() => cambiarSeccion('inicio')} 
+                        />
                     </div>
+
                     <div className="col d-flex justify-content-end">
                         <button className="Hamburgesa btn" onClick={toggleHeaderPrincipal}>
                             <span className="mdi mdi-menu custom-icon"></span>
