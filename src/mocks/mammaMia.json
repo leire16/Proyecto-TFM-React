@@ -1,0 +1,251 @@
+"Mamma Mia": {
+        "img": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718618948/Askartza%20Martxa/Mamma%20Mia/rzthpndyvzhgfvxwrfiq.webp",
+        "titulo": "Mamma Mia",
+        "logo": "",
+        "fecha": "2015-12-18",
+        "guion": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718132324/Askartza%20Martxa/Guiones/MammaMia.pdf",
+        "video": "https://www.youtube.com/watch?v=8P37z4L92GE",
+        "cartel": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1717597200/Askartza%20Martxa/Carteles/MammaMia.webp",
+        "sinopsis": {
+            "Acto I": "En una pintoresca isla griega, Sofi Sheridan está a punto de casarse con su novio Sky. Sofi ha sido criada por su madre soltera, Donna, quien es la dueña de una villa en la isla. Deseando conocer la identidad de su padre para que la acompañe al altar, Sofi descubre el diario de su madre y se entera de que hay tres hombres que podrían ser su padre: Sam Carmichael, Bill Austin y Harry Bright. Sin decirle nada a Donna, Sofi envía invitaciones a los tres hombres, quienes aceptan y llegan a la isla.\n\nLa llegada de los tres posibles padres sorprende a Donna, quien se siente abrumada al enfrentarse a su pasado. Donna recibe el apoyo de sus dos mejores amigas y ex-compañeras de su banda musical, Tanya y Rosie. Mientras tanto, Sofi se siente cada vez más confundida y preocupada sobre su decisión de invitar a los tres hombres, ya que ninguno de ellos sabe la verdadera razón de su invitación. A medida que el día de la boda se acerca, las tensiones aumentan y los secretos comienzan a salir a la luz.",
+            "Acto II": "El segundo acto comienza en la mañana de la boda. Sofi está ansiosa y agobiada por la incertidumbre sobre la identidad de su padre. Los tres hombres se enteran de la posibilidad de ser el padre de Sofi y cada uno tiene una conversación conmovedora con ella, ofreciéndose a acompañarla al altar. Mientras tanto, Donna se enfrenta a sus propios sentimientos hacia los tres hombres y al futuro de su hija.\n\nSofi y Sky tienen una discusión sobre sus planes de futuro y su relación, lo que les lleva a reflexionar sobre sus verdaderos deseos. Durante la ceremonia de la boda, Sofi decide que no necesita conocer la identidad de su padre biológico y que lo importante es el amor y el apoyo de todos los presentes. En un giro sorprendente, Donna y Sam se reconcilian y deciden casarse en lugar de Sofi y Sky. La boda se convierte en una doble celebración del amor y la familia.\n\nEl acto concluye con una gran fiesta en la que todos los personajes cantan y bailan juntos, celebrando la unión y la felicidad."
+        },
+        "elenco": {
+            "Actores Principales": [
+                {
+                    "personaje": "Donna Sheridan",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651295/Askartza%20Martxa/Mamma%20Mia/personajes/donna.jpg",
+                    "persona": "Naira Fernández",
+                    "descripcion": "Donna es la madre de Sofi y dueña de una villa en una isla griega. Es una mujer fuerte y decidida, pero también vulnerable cuando se enfrenta a su pasado."
+                },
+                {
+                    "personaje": "Sofi Sheridan",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651297/Askartza%20Martxa/Mamma%20Mia/personajes/Sofi.jpg",
+                    "persona": "Irune Villafruela",
+                    "descripcion": "Sofi es la hija de Donna y está a punto de casarse con Sky. Ella está determinada a descubrir quién es su padre para que la acompañe al altar, desencadenando eventos inesperados."
+                },
+                {
+                    "personaje": "Sam",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651407/Askartza%20Martxa/Mamma%20Mia/personajes/sam.jpg",
+                    "persona": "Martin Mercado",
+                    "descripcion": "Sam es uno de los posibles padres de Sofi. Es un exitoso hombre de negocios que tiene una historia romántica pasada con Donna, lo que lo lleva a reconsiderar su vida."
+                },
+                {
+                    "personaje": "Bruno",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651257/Askartza%20Martxa/Mamma%20Mia/personajes/bruno.jpg",
+                    "persona": "Endika Gorrotxategi",
+                    "descripcion": "Bruno es otro de los posibles padres de Sofi. Es aventurero y despreocupado, lo que contrasta con la naturaleza más seria de Sam y Javi."
+                },
+                {
+                    "personaje": "Javi",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651295/Askartza%20Martxa/Mamma%20Mia/personajes/Javi.jpg",
+                    "persona": "Xabier Aizpurua",
+                    "descripcion": "Javi es el tercer posible padre de Sofi. Es un hombre encantador y un tanto excéntrico, con un pasado que lo persigue y que debe enfrentar."
+                },
+                {
+                    "personaje": "Tania",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651298/Askartza%20Martxa/Mamma%20Mia/personajes/Tania.jpg",
+                    "persona": "Maialen Mugarra",
+                    "descripcion": "Tania es una de las mejores amigas de Donna y solía ser parte de su banda musical. Es sofisticada, divertida y sabe lo que quiere en la vida."
+                },
+                {
+                    "personaje": "Rosy",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651296/Askartza%20Martxa/Mamma%20Mia/personajes/Rosy.jpg",
+                    "persona": "Enara Ziaran",
+                    "descripcion": "Rosy es otra de las mejores amigas de Donna y también formaba parte de su banda. Es extrovertida, directa y le encanta divertirse, aunque a veces puede ser un poco torpe."
+                }
+            ],
+            "Actores Secundarios": [
+                {
+                    "personaje": "Sky",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651408/Askartza%20Martxa/Mamma%20Mia/personajes/Sky.jpg",
+                    "persona": "Iñigo Balbona",
+                    "descripcion": "Sky es el novio de Sofi y está comprometido con ella. Es cariñoso y apoya los deseos de Sofi, aunque también tiene sus propias dudas y preocupaciones sobre el futuro."
+                },
+                {
+                    "personaje": "Lisa",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651236/Askartza%20Martxa/Mamma%20Mia/personajes/Lisa.jpg",
+                    "persona": "Maialen Basañez",
+                    "descripcion": "Lisa es la mejor amiga de Sofi y está emocionada por su boda. Es joven, alegre y siempre está dispuesta a ayudar a Sofi en sus planes."
+                },
+                {
+                    "personaje": "Ali",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651295/Askartza%20Martxa/Mamma%20Mia/personajes/Ali.jpg",
+                    "persona": "Raquel Antón",
+                    "descripcion": "Ali es otra de las amigas cercanas de Sofi. Es divertida y leal, dispuesta a apoyar a Sofi en todo momento."
+                },
+                {
+                    "personaje": "Shonia",
+                    "imagen": "",
+                    "persona": "Oihane García",
+                    "descripcion": "Shonia es otra de las amigas cercanas de Sofi. Es leal y comprensiva, brindando apoyo emocional durante los momentos importantes de Sofi."
+                },
+                {
+                    "personaje": "Lorraine",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651296/Askartza%20Martxa/Mamma%20Mia/personajes/lorraine.jpg",
+                    "persona": "Ane Toledo",
+                    "descripcion": "Lorraine es la ex esposa de Sam Carmichael. Aunque inicialmente muestra resistencia, eventualmente se une a la celebración de la boda de Sofi con un espíritu amistoso y festivo."
+                },
+                {
+                    "personaje": "Chilly",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651277/Askartza%20Martxa/Mamma%20Mia/personajes/Chilly.jpg",
+                    "persona": "Aitor Aguirre",
+                    "descripcion": "Chilly es un personaje divertido y excéntrico que aporta comedia y energía a las escenas del musical."
+                },
+                {
+                    "personaje": "Cura",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651294/Askartza%20Martxa/Mamma%20Mia/personajes/Cura.jpg",
+                    "persona": "Diego Etxebarria",
+                    "descripcion": "El Cura oficia la ceremonia de la boda y es un personaje importante en el desarrollo de la trama."
+                },
+                {
+                    "personaje": "Stavors",
+                    "imagen": "",
+                    "persona": "Enrique García",
+                    "descripcion": "Stavors es un habitante local de la isla griega, conocido por su amabilidad y su apoyo a los eventos que tienen lugar en la comunidad."
+                },
+                {
+                    "personaje": "Jorroña",
+                    "imagen": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718651295/Askartza%20Martxa/Mamma%20Mia/personajes/Jorro%C3%B1a.jpg",
+                    "persona": "Nieves Amigó",
+                    "descripcion": "Jorroña es otro de los personajes locales de la isla griega, aportando autenticidad y color local al entorno del musical."
+                }
+            ],
+            "Pueblo": "Loyola Muro, Inés Peña, Maitane Martin",
+            "Coreografia": "Leire Fernández, Itziar Alza, Michelle Mendoza, Diego Etxebarria, Ane Etxebarria, Elena Toka, Ainhize Helguera, Andrea Suárez, Goizane Goiriena, Paula Cerrada, Leire Izquierdo, Arrate Merino, Paula Txabarria",
+            "Decorado": "Gorka Bilbao, Izaro Martin, Iraide Laria, Aines Gallardo, Belen Sanchez"
+        },
+        "canciones": [
+            {
+                "titulo": "Obertura/Prólogo",
+                "cantante": "Sofi",
+                "duracion": "3:30",
+                "url": "https://www.youtube.com/watch?v=7QF_4z8_pKU&list=PLI9pPJ-0U0sUpokYX1OqMN7gQ1qL05j9x&index=1"
+            },
+            {
+                "titulo": "Honey Honey",
+                "cantante": "Sofi, Ali, Lisa, Sonia",
+                "duracion": "2:46",
+                "url": "https://www.youtube.com/watch?v=8WJb6_BmQAM"
+            },
+            {
+                "titulo": "Money, Money, Money",
+                "cantante": "Donna, Coro",
+                "duracion": "3:03",
+                "url": "https://www.youtube.com/watch?v=HqcN8iuaco4&list=PLviGAwf00i9Zg4UvziKuMeKC3uGIzqHlP"
+            },
+            {
+                "titulo": "Mamma Mia",
+                "cantante": "Donna, Sam, Bruno, Javi, Coro",
+                "duracion": "3:27",
+                "url": "https://www.youtube.com/watch?v=ee93iXSgcE4&list=PLviGAwf00i9Zg4UvziKuMeKC3uGIzqHlP&index=3"
+            },
+            {
+                "titulo": "Chiquitita",
+                "cantante": "Tania, Rosy",
+                "duracion": "2:31",
+                "url": "https://www.youtube.com/watch?v=EjUN-4XDJc4&list=PLviGAwf00i9Zg4UvziKuMeKC3uGIzqHlP&index=4"
+            },
+            {
+                "titulo": "Dancing Queen",
+                "cantante": "Rosy, Tania, Dona, Coro",
+                "duracion": "3:33",
+                "url": "https://www.youtube.com/watch?v=PiPYeR-4Hm8&list=PLviGAwf00i9Zg4UvziKuMeKC3uGIzqHlP&index=5"
+            },
+            {
+                "titulo": "Un Verano",
+                "cantante": "Javi, Donna",
+                "duracion": "2:43",
+                "url": "https://www.youtube.com/watch?v=FuEYmwJRZC0&list=PLviGAwf00i9Zg4UvziKuMeKC3uGIzqHlP&index=11"
+            },
+            {
+                "titulo": "Fija tu amor en mí",
+                "cantante": "Sky, Sofi",
+                "duracion": "3:37",
+                "url": "https://www.youtube.com/watch?v=RXZLo7PzVnc&list=PLviGAwf00i9Zg4UvziKuMeKC3uGIzqHlP&index=6"
+            },
+            {
+                "titulo": "Super Trouper",
+                "cantante": "Donna, Tania, Rosy",
+                "duracion": "3:54",
+                "url": "https://www.youtube.com/watch?v=85AOV9x75gk&list=PLviGAwf00i9Zg4UvziKuMeKC3uGIzqHlP&index=7"
+            },
+            {
+                "titulo": "¡Dame! ¡Dame! ¡Dame!",
+                "cantante": "Todos",
+                "duracion": "4:15",
+                "url": "https://www.youtube.com/watch?v=-bKRcgHQy_s&list=PLI9pPJ-0U0sUpokYX1OqMN7gQ1qL05j9x&index=10"
+            },
+            {
+                "titulo": "Voulez-Vous",
+                "cantante": "Todos",
+                "duracion": "3:53",
+                "url": "https://www.youtube.com/watch?v=aluq-NXj8Q0&list=PLI9pPJ-0U0sUpokYX1OqMN7gQ1qL05j9x&index=12"
+            },
+            {
+                "titulo": "S.O.S.",
+                "cantante": "Donna, Sam",
+                "duracion": "2:52",
+                "url": "https://www.youtube.com/watch?v=EeCTFi0ReXw&list=PLviGAwf00i9Zg4UvziKuMeKC3uGIzqHlP&index=9"
+            },
+            {
+                "titulo": "Para mí, para tí",
+                "cantante": "Sam, Lorraine, Coro",
+                "duracion": "3:31",
+                "url": "https://www.youtube.com/watch?v=_bnDQ2dOCyc"
+            },
+            {
+                "titulo": "Siento que se aleja",
+                "cantante": "Donna, Sofi, Coro",
+                "duracion": "3:43",
+                "url": "https://www.youtube.com/watch?v=w63noxvyWQ8&list=PLviGAwf00i9Zg4UvziKuMeKC3uGIzqHlP&index=12"
+            },
+            {
+                "titulo": "Va Todo al Ganador",
+                "cantante": "Donna",
+                "duracion": "4:15",
+                "url": "https://www.youtube.com/watch?v=8GfRenrapjA&list=PLviGAwf00i9Zg4UvziKuMeKC3uGIzqHlP&index=13"
+            },
+            {
+                "titulo": "Que Sí, Que Sí, Que Sí",
+                "cantante": "Todos",
+                "duracion": "2:29",
+                "url": "https://www.youtube.com/watch?v=5OA6dX2gE7U"
+            },
+            {
+                "titulo": "Te has Fijado en Mí",
+                "cantante": "Rosy, Bruno",
+                "duracion": "3:38",
+                "url": "https://www.youtube.com/watch?v=1NwPlLuY2JE"
+            },
+            {
+                "titulo": "Ayer Soñe",
+                "cantante": "Sofi, Coro",
+                "duracion": "2:59",
+                "url": "https://www.youtube.com/watch?v=Rv_esz-svec"
+            }
+        ],
+        "equipo_creativo": {
+            "Directora Musical": "Izaskun Gutiérrez",
+            "Adaptación Guión": "Izaskun Gutiérrez",
+            "Coreografia": "Olatz Bilbao, Arantza Ibarretxe",
+            "Guión": "Itziar Contreras, Aitor Laiseka, Nerea Aldekoetxea",
+            "Decorado": "Aitor Landazabal, Izaskun Gutiérrez, Belen Sanchez",
+            "Diseño de Escenografia": "Izaskun Gutiérrez, Bizkunde Auzmendi",
+            "Diseño de Sonido": "Izaskun Gutiérrez",
+            "Diseño de Iluminación": "Izaskun Gutiérrez",
+            "Direccion de Casting": "Izaskun Gutiérrez",
+            "Equipo de Profesores": "Itziar Contreras, Aitor Laiseka, Nerea Aldekoetxea, Aitor Landazabal, Olatz Bilbao, Arantza Ibarretxe, Izaskun Gutiérrez",
+            "Ayuda Especial": "Nieves Amigó, Enrique García, Bizkunde Auzmendia, Eguzki Gaminde, Ayudantes \"anonimos\""
+        },
+        "programa": "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718538214/Askartza%20Martxa/Programas/MammaMia.jpg",
+        "imagenes": [
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718618948/Askartza%20Martxa/Mamma%20Mia/rzthpndyvzhgfvxwrfiq.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718618949/Askartza%20Martxa/Mamma%20Mia/uhnsh8qwlyie1i3o5rjk.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718618948/Askartza%20Martxa/Mamma%20Mia/g9qjaoqsw7qztvkwxil1.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718618948/Askartza%20Martxa/Mamma%20Mia/ygvya0ud7mhtswxzwndo.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718618948/Askartza%20Martxa/Mamma%20Mia/xbspajc0xriow1jsaukj.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718618948/Askartza%20Martxa/Mamma%20Mia/rzthpndyvzhgfvxwrfiq.webp",
+            "https://res.cloudinary.com/dqq0xnj5b/image/upload/v1718620117/Askartza%20Martxa/Mamma%20Mia/vahc96yaqo3hzuvwlhud.webp"
+        ]
+    },

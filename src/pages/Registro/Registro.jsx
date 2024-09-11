@@ -8,6 +8,7 @@ const Registro = ({ show, handleClose }) => {
     const [apellidos, setApellidos] = useState('');
     const [email, setEmail] = useState('');
     const [contraseña, setContraseña] = useState('');
+    const [codigo, setCodigo] = useState('');
     const [confirmContraseña, setConfirmContraseña] = useState('');
     const [errors, setErrors] = useState([]);
     const [success, setSuccess] = useState('');
@@ -17,6 +18,7 @@ const Registro = ({ show, handleClose }) => {
         setApellidos('');
         setEmail('');
         setContraseña('');
+        setCodigo('');
         setConfirmContraseña('');
         setErrors([]);
         setSuccess('');
@@ -81,6 +83,12 @@ const Registro = ({ show, handleClose }) => {
             if (contraseña !== confirmContraseña) {
                 formErrors.push('Las contraseñas no coinciden');
             }
+
+            if (!codigo) {
+                formErrors.push('El campo Código es obligatorio y solo lo saben los miembros del grupo de teatro');
+            } else if (codigo !== '2897') {
+                formErrors.push('El código proporcionado es incorrecto o no válido para miembros del grupo');
+            }           
         }
 
         if (formErrors.length > 0) {
@@ -94,6 +102,7 @@ const Registro = ({ show, handleClose }) => {
                 apellidos,
                 email,
                 contraseña,
+                codigo,
                 fecha_registro: new Date() // Enviar la fecha actual
             });
 
@@ -176,6 +185,15 @@ const Registro = ({ show, handleClose }) => {
                             value={confirmContraseña}
                             onChange={(e) => setConfirmContraseña(e.target.value)}
                             autoComplete="off"
+                        />
+                    </Form.Group>
+                    <Form.Group controlId="formBasicCodigo" className="mb-4 form-group-horizontal">
+                        <h2>Codigo: </h2>
+                        <Form.Control
+                            type="codigo"
+                            placeholder="Introduce el Codigo de teatro"
+                            value={codigo}
+                            onChange={(e) => setCodigo(e.target.value)}
                         />
                     </Form.Group>
                     <div className="text-center">
