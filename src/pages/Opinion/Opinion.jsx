@@ -65,7 +65,7 @@ const Opinion = forwardRef(({ scrollIntoView }, ref) => {
       <div className='mt-4'>
         {!mostrarTodas ? (
           <p className='text-end pointer bold-text' onClick={handleMostrarTodasClick}>
-            MOSTRAR LAS {opinionesData.length} RESEÑAS
+            MOSTRAR LAS {opinionesData.length} OPINIONES
           </p>
         ) : (
           <p className='text-end pointer bold-text' onClick={handleMostrarMenosClick}>

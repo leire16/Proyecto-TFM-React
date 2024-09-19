@@ -188,10 +188,10 @@ const Registro = ({ show, handleClose }) => {
                         />
                     </Form.Group>
                     <Form.Group controlId="formBasicCodigo" className="mb-4 form-group-horizontal">
-                        <h2>Codigo: </h2>
+                        <h2>Código: </h2>
                         <Form.Control
                             type="codigo"
-                            placeholder="Introduce el Codigo de teatro"
+                            placeholder="Introduce el Código de teatro"
                             value={codigo}
                             onChange={(e) => setCodigo(e.target.value)}
                         />
