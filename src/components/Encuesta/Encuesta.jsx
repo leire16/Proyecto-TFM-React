@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import axios from 'axios'; // Usaremos axios para hacer peticiones HTTP
 import './Encuesta.css';
 import apiUrl from '../../config';
 
@@ -29,7 +30,7 @@ const Encuesta = ({ onSubmit }) => {
     useEffect(() => {
         const obtenerMusicales = async () => {
             try {
-                const response = await fetch(`${apiUrl}/api/musicales`); // URL de tu API para obtener musicales
+                const response = await axios.get(`${apiUrl}/api/musicales`);
                 setMusicales(response.data);
             } catch (error) {
                 console.error('Error al obtener los musicales:', error);
@@ -140,17 +141,15 @@ const Encuesta = ({ onSubmit }) => {
             dataToSend.musical = musical;
         }
 
-        console.log("dataToSend:",dataToSend)
-
         // Enviar formulario al backend
         try {
-            const response = await fetch(`${apiUrl}/api/opiniones/crear`, {
+            const response = await fetch('http://localhost:3001/api/opiniones/crear', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify(dataToSend)
-            });            
+            });
 
             if (!response.ok) {
                 throw new Error('Error al enviar la opinión');
