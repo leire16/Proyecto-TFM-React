@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios'; // Usaremos axios para hacer peticiones HTTP
 import './Encuesta.css';
+import apiUrl from '../../config';
 
 const Encuesta = ({ onSubmit }) => {
     const [formulario, setFormulario] = useState({
@@ -29,7 +30,7 @@ const Encuesta = ({ onSubmit }) => {
     useEffect(() => {
         const obtenerMusicales = async () => {
             try {
-                const response = await axios.get('http://localhost:3001/api/musicales'); // URL de tu API para obtener musicales
+                const response = await fetch(`${apiUrl}/api/musicales`); // URL de tu API para obtener musicales
                 setMusicales(response.data);
             } catch (error) {
                 console.error('Error al obtener los musicales:', error);
