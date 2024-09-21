@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Intranet.css';
+import apiUrl from '../../config';
 
 const Intranet = () => {
     const [musicalesOrdenados, setMusicalesOrdenados] = useState([]);
@@ -8,7 +9,7 @@ const Intranet = () => {
     useEffect(() => {
         const obtenerMusicales = async () => {
             try {
-                const response = await fetch('http://localhost:3001/api/musicales');
+                const response = await fetch(`${apiUrl}/api/musicales`);
                 if (!response.ok) {
                     throw new Error('Error al obtener los datos de musicales');
                 }

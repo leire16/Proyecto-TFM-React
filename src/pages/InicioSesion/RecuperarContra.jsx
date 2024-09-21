@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Modal, Button, Form, Alert } from 'react-bootstrap';
 import axios from 'axios';
 import './InicioSesion.css';
+import apiUrl from '../../config';
 
 const RecuperarContra = ({ show, handleClose }) => {
     const [email, setEmail] = useState('');
@@ -46,7 +47,7 @@ const RecuperarContra = ({ show, handleClose }) => {
         }
 
         try {
-            const response = await axios.post('http://localhost:3001/api/password/verify-email', { email });
+            const response = await axios.post(`${apiUrl}/api/password/verify-email`, { email });
             setMessage(response.data.message);
             setErrors([]);
             if (response.data.exists) {

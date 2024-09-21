@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import axios from 'axios';
 import './Galeria.css';
+import apiUrl from '../../config';
 
 const Galeria = ({ parametros }) => {
   const { nombreProduccion } = parametros;
@@ -16,7 +17,7 @@ const Galeria = ({ parametros }) => {
       setSlideIndex(0); // Resetear el índice del carrusel al cambiar de producción
 
       try {
-        const response = await axios.get(`http://localhost:3001/api/imagenes/${nombreProduccion}`);
+        const response = await axios.get(`${apiUrl}/api/imagenes/${nombreProduccion}`);
 
         if (response.status !== 200) {
           throw new Error('Error al obtener las imágenes');

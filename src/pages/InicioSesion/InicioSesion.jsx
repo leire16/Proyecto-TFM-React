@@ -4,6 +4,7 @@ import Registro from '../Registro/Registro';
 import './InicioSesion.css';
 import RecuperarContra from './RecuperarContra.jsx';
 import axios from 'axios';
+import apiUrl from '../../config';
 
 const LoginModal = ({ show, handleClose, handleLogin }) => {
     const [email, setEmail] = useState('');
@@ -30,11 +31,11 @@ const LoginModal = ({ show, handleClose, handleLogin }) => {
         e.preventDefault();
 
         try {
-            const response = await axios.post('http://localhost:3001/api/auth/login', {
+            const response = await axios.post(`${apiUrl}/api/auth/login`, {
                 email,
                 password
             });
-
+            
             // Almacenar el token en localStorage
             localStorage.setItem('token', response.data.token);
 

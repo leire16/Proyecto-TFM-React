@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import OpinionCard from '../../components/Cards/OpinionCard';
 import { MusicalEnProduccion, InformacionAskartzaMartxa, Producciones } from '../../components/Inicio/Index';
+import apiUrl from '../../config';
 
 const Inicio = ({ cambiarSeccionConParametros, onVerMas }) => {
 
@@ -11,7 +12,7 @@ const Inicio = ({ cambiarSeccionConParametros, onVerMas }) => {
   useEffect(() => {
     const fetchOpiniones = async () => {
       try {
-        const response = await fetch('http://localhost:3001/api/opiniones/ordenadasFecha');
+        const response = await fetch(`${apiUrl}/api/opiniones/ordenadasFecha`);
         const data = await response.json();
         setTotalOpiniones(data.length);
         setOpiniones(data.slice(0, 3));

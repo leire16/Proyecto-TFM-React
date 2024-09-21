@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import CancionCard from '../../components/Cards/CancionCard';
+import apiUrl from '../../config';
 
 const Canciones = ({ parametros }) => {
   const { nombreProduccion } = parametros;
@@ -13,7 +14,7 @@ const Canciones = ({ parametros }) => {
     // Función para obtener canciones desde la API
     const obtenerCanciones = async () => {
       try {
-        const response = await fetch(`http://localhost:3001/api/canciones/${nombreProduccion}`);
+        const response = await fetch(`${apiUrl}/api/canciones/${nombreProduccion}`);
 
         if (response.status !== 200) {
           throw new Error(`Error al obtener las canciones. Estado: ${response.status}`);

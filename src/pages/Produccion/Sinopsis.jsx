@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Sinopsis.css';
 import ImageLoader from '../../components/Images/ImageLoader.jsx';
 import axios from 'axios';
+import apiUrl from '../../config';
 
 const Sinopsis = ({ parametros }) => {
   const { nombreProduccion } = parametros;
@@ -11,7 +12,7 @@ const Sinopsis = ({ parametros }) => {
   useEffect(() => {
     const obtenerSinopsisDesdeAPI = async () => {
       try {
-        const response = await axios.get(`http://localhost:3001/api/sinopsis/${nombreProduccion}`);
+        const response = await axios.get(`${apiUrl}/api/sinopsis/${nombreProduccion}`);
 
         if (response.status !== 200) {
           throw new Error('Error al obtener las sinopsis');

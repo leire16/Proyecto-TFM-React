@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import ElencoCard from '../../components/Cards/ElencoCard';
+import apiUrl from '../../config';
 
 const Elenco = ({ parametros }) => {
     const { nombreProduccion } = parametros;
@@ -10,7 +11,7 @@ const Elenco = ({ parametros }) => {
     useEffect(() => {
         const obtenerElenco = async () => {
             try {
-                const response = await axios.get(`http://localhost:3001/api/elenco/${nombreProduccion}`);
+                const response = await axios.get(`${apiUrl}/api/elenco/${nombreProduccion}`);
 
                 if (response.status !== 200) {
                     throw new Error(`Error al obtener el elenco. Estado: ${response.status}`);

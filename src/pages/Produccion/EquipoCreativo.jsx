@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import EquipoCard from '../../components/Cards/EquipoCard';
+import apiUrl from '../../config';
 
 const EquipoCreativo = ({ parametros }) => {
   const { nombreProduccion } = parametros;
@@ -11,7 +12,7 @@ const EquipoCreativo = ({ parametros }) => {
   useEffect(() => {
     const obtenerEquipoCreativo = async () => {
       try {
-        const response = await axios.get(`http://localhost:3001/api/equiposCreativos/${nombreProduccion}`);
+        const response = await axios.get(`${apiUrl}/api/equiposCreativos/${nombreProduccion}`);
         if (response.status !== 200) {
           throw new Error(`Error al obtener el equipo Creativo. Estado: ${response.status}`);
         }

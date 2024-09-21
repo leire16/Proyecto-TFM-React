@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Modal, Button, Form, Alert } from 'react-bootstrap';
 import axios from 'axios';
 import './Registro.css';
+import apiUrl from '../../config';
 
 const Registro = ({ show, handleClose }) => {
     const [nombre, setNombre] = useState('');
@@ -97,14 +98,14 @@ const Registro = ({ show, handleClose }) => {
         }
 
         try {
-            const response = await axios.post('http://localhost:3001/api/auth/register', {
+            const response = await axios.post(`${apiUrl}/api/auth/register`, {
                 nombre,
                 apellidos,
                 email,
                 contraseña,
                 codigo,
                 fecha_registro: new Date() // Enviar la fecha actual
-            });
+            });            
 
             setSuccess('Usuario registrado exitosamente');
             setErrors([]);

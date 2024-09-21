@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './PreguntasFrecuentes.css';
 import Preguntas from '../../components/Preguntas/Preguntas';
+import apiUrl from '../../config';
 
 const PreguntasFrecuentes = () => {
     const [preguntasMusical, setPreguntasMusical] = useState([]);
@@ -13,7 +14,7 @@ const PreguntasFrecuentes = () => {
 
     const obtenerPreguntasFrecuentes = async () => {
         try {
-            const response = await fetch('http://localhost:3001/api/preguntas/preguntas-frecuentes');
+            const response = await fetch(`${apiUrl}/api/preguntas/preguntas-frecuentes`);
             if (!response.ok) {
                 throw new Error('Error al obtener las preguntas frecuentes');
             }

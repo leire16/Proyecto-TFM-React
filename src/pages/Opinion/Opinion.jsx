@@ -1,6 +1,7 @@
 import React, { useEffect, useState, forwardRef } from 'react';
 import OpinionCard from '../../components/Cards/OpinionCard';
 import Encuesta from '../../components/Encuesta/Encuesta';
+import apiUrl from '../../config';
 
 const Opinion = forwardRef(({ scrollIntoView }, ref) => {
   const [mostrarTodas, setMostrarTodas] = useState(false);
@@ -12,7 +13,7 @@ const Opinion = forwardRef(({ scrollIntoView }, ref) => {
 
   const obtenerOpiniones = async () => {
     try {
-      const response = await fetch('http://localhost:3001/api/opiniones/ordenadasFecha');
+      const response = await fetch(`${apiUrl}/api/opiniones/ordenadasFecha`);
       if (!response.ok) {
         throw new Error('Error al obtener las opiniones');
       }
