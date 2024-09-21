@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './HeaderPrincipal.css';
 import InicioSesion from '../../pages/InicioSesion/InicioSesion.jsx';
+import apiUrl from '../../config';
 
 const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSeccionConParametros }) => {
   const [subProduccionesVisible, setSubProduccionesVisible] = useState(false);
@@ -89,7 +90,7 @@ const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSecci
   useEffect(() => {
     const fetchObras = async () => {
       try {
-        const response = await fetch('http://localhost:3001/api/musicales');
+        const response = await fetch(`${apiUrl}/api/musicales`);
         const data = await response.json();
         const obrasData = data.map(obras => ({
           nombre: obras.titulo,
