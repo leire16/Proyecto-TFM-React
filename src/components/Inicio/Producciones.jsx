@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import ImageLoader from '../../components/Images/ImageLoader.jsx';
+import apiUrl from '../../config';
 
 const Producciones = ({ cambiarSeccionConParametros }) => {
     const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -22,7 +23,7 @@ const Producciones = ({ cambiarSeccionConParametros }) => {
     useEffect(() => {
         const fetchObras = async () => {
             try {
-                const response = await fetch('http://localhost:3001/api/musicales');
+                const response = await fetch(`${apiUrl}/api/musicales`);
                 const data = await response.json();
                 const obrasData = data.map(obras => ({
                     nombre: obras.titulo,
