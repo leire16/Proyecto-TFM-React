@@ -48,7 +48,7 @@ const Opinion = forwardRef(({ scrollIntoView }, ref) => {
     <div className='container my-5'>
       <h1 className="mb-5 uppercase">Opiniones</h1>
 
-      <h2 className='uppercase mb-4'>Dejanos tu Opinión</h2>
+      <h2 className='uppercase mb-4'>Déjanos tu Opinión</h2>
       <Encuesta onSubmit={handleEncuestaSubmit} />
 
       <h2 ref={ref} className="mb-5 uppercase">Opiniones</h2>
@@ -56,7 +56,7 @@ const Opinion = forwardRef(({ scrollIntoView }, ref) => {
         <OpinionCard
           key={opinion.id}
           nombre={opinion.nombre}
-          fecha={opinion.fecha}
+          fecha={new Date(opinion.fecha).toLocaleDateString('es-ES')} // Formatear fecha
           musical={opinion.musical}
           asunto={opinion.asunto}
           opinion={opinion.opinion}

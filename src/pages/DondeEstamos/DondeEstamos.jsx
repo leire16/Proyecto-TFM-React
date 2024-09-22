@@ -13,7 +13,7 @@ const DondeEstamos = () => {
       <h1 className='mb-5 uppercase'>Dónde Estamos</h1>
       <p>
         Somos un grupo de teatro amateur afiliado al colegio Claret Askartza, ubicado en Sarriena Auzoa, 173, Leioa, Vizcaya.
-        Nos reunimos para ensayar en el Cinema Areto del colegio, creando magia teatral en este espacio inspirador.
+        Nos reunimos para ensayar en el Zinema Areto del colegio, creando magia teatral en este espacio inspirador.
       </p>
       <p>
         <strong>Dirección: </strong>Sarriena Auzoa, 173 48940 Leioa, Vizcaya
@@ -41,14 +41,14 @@ const DondeEstamos = () => {
         <div className="col-md-5 col-sm-12">
           <div className="mb-1 mt-2 d-flex align-items-center">
             <i className="mdi mdi-bus mr-2 Icono"></i>
-            <h5 className='uppercase'><strong>Autobus</strong></h5>
+            <h5 className='uppercase'><strong>Autobús</strong></h5>
           </div>
           <p className="mb-5">Líneas A2161, A3471 o A3531.</p>
           <div className="mb-1 d-flex align-items-center">
             <i className="mdi mdi-subway-variant mr-2 Icono"></i>
             <h5 className='uppercase'><strong>Metro</strong></h5>
           </div>
-          <p className="mb-5">Linea L1 del metro, parada en Leioa, donde coger bus o subir andando.</p>
+          <p className="mb-5">Línea L1 del metro, parada en Leioa, donde coger bus o subir andando.</p>
           <div className="mb-1 d-flex align-items-center">
             <i className="mdi mdi-parking mr-2 Icono"></i>
             <h5 className='uppercase'><strong>Parking</strong></h5>

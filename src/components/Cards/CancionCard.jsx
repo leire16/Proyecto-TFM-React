@@ -27,7 +27,7 @@ const CancionCard = ({ titulo, interpretes, duracion, url, detalle }) => {
                 <h2 className='pointer mb-4' onClick={handleClick}>{titulo}</h2>
                 {detalleTexto && (
                     <p className="mb-3">
-                        <strong>Interpretes:</strong> {detalleTexto}
+                        <strong>Intérpretes:</strong> {detalleTexto}
                     </p>
                 )}
                 <p className="mb-1"><strong>Duración:</strong> {duracion}</p>

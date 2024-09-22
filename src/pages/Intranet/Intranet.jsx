@@ -78,7 +78,7 @@ const Intranet = () => {
                     <div key={obra._id} className="mb-4">
                         <h2 className='mb-4'>{obra.titulo}</h2>
                         <p className='p-guion mb-3'>
-                            <strong>Guión: </strong>
+                            <strong>Guion: </strong>
                             <button onClick={() => descargarGuion(obra._id)} className="btn btn-link">
                                 Descargar
                             </button>
