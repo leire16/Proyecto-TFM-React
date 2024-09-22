@@ -42,7 +42,6 @@ const Intranet = () => {
 
             const { guion_url, titulo } = data;
 
-            //console.log("Guion:", guion_url)
 
             // Convertir el enlace de Google Drive a un enlace de descarga directa
             const obtenerEnlaceDeDescarga = (url) => {
@@ -52,27 +51,8 @@ const Intranet = () => {
 
             const enlaceDeDescarga = obtenerEnlaceDeDescarga(guion_url);
 
-            //console.log("enlaceDeDescarga: ",enlaceDeDescarga)
-
             // Abrir el enlace de descarga en una nueva pestaña
             window.open(enlaceDeDescarga, '_blank');
-
-            // Comprobar que la URL del guion está disponible
-            /* if (!guion_url) {
-                throw new Error('URL del guion no disponible');
-            }
-
-            // Convertir la respuesta del archivo a un blob
-            const respuesta = await fetch(guion_url);
-            const blob = await respuesta.blob();
-            const link = document.createElement('a');
-            link.href = window.URL.createObjectURL(blob);
-            link.download = `Guión-${titulo || 'Desconocido'}.pdf`;
-            //no se descarag bien, tiene 0 bytes
-            link.style.display = 'none';
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link); */
         } catch (error) {
             console.error('Error al descargar el guion:', error);
         }

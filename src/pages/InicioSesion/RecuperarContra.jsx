@@ -113,7 +113,7 @@ const RecuperarContra = ({ show, handleClose }) => {
         }
 
         try {
-            const response = await axios.post('http://localhost:3001/api/password/reset-password', { email, password });
+            const response = await axios.post(`${apiUrl}/api/password/reset-password`, { email, password });
             setMessage(response.data.message);
             setErrors([]);
             handleClose(); // Cerrar la modal después de restablecer la contraseña

@@ -24,7 +24,6 @@ const Sinopsis = ({ parametros }) => {
           throw new Error('No se encontraron sinopsis para mostrar');
         }
 
-        console.log("sinopsisDesdeAPI: ", sinopsisDesdeAPI)
         setSinopsis(sinopsisDesdeAPI);
 
       } catch (error) {
