@@ -6,9 +6,11 @@ import apiUrl from '../../config';
 const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSeccionConParametros }) => {
   const [subProduccionesVisible, setSubProduccionesVisible] = useState(false);
   const [subSubProduccionVisible, setSubSubProduccionVisible] = useState({});
-  const [intranetVisible, setIntranetVisible] = useState(false); // Estado inicial oculto
   const [showLoginModal, setShowLoginModal] = useState(false);
-  const [isAuthenticated, setIsAuthenticated] = useState(false); // Estado para la autenticación
+  // Estado de autenticación y pestaña activa
+  const [isAuthenticated, setIsAuthenticated] = useState(
+    localStorage.getItem('isAuthenticated') === 'true'
+  );
   const [obrasArray, setObrasArray] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -53,15 +55,19 @@ const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSecci
     setShowLoginModal(true);
   };
 
+  // Manejar inicio de sesión
   const handleLogin = () => {
-    setIsAuthenticated(true); // Cambiar el estado a autenticado
-    setIntranetVisible(true);
+    setIsAuthenticated(true); // Cambiar el estado ha autenticado
+    localStorage.setItem('isAuthenticated', 'true');
     setShowLoginModal(false); // Cerrar el modal de inicio de sesión
   };
 
+  // Manejar cierre de sesión
   const handleLogout = () => {
-    setIsAuthenticated(false); // Cambiar el estado a no autenticado
-    setIntranetVisible(false);
+    setIsAuthenticated(false);  // Cambiar el estado ha no autenticado
+    localStorage.removeItem('isAuthenticated'); 
+    toggleHeaderPrincipal(); // Ocultar el encabezado
+    onMostrarSeccion('inicio'); // Cambiar a la pestaña 'Inicio'
   };
 
   const handleCloseLoginModal = () => {
@@ -176,11 +182,17 @@ const HeaderPrincipal = ({ toggleHeaderPrincipal, onMostrarSeccion, cambiarSecci
                 <div className="Texto ms-0 ms-2 pointer" onClick={() => mostrarSeccion('opinion')}>Opiniones</div>
               </div>
               <div className="mb-1 d-flex">
-                {intranetVisible && <div className="Texto ms-0 ms-2 pointer" onClick={() => mostrarSeccion('intranet')}>Intranet</div>}
+              {isAuthenticated && (
+                <div className="Texto ms-0 ms-2 pointer" onClick={() => mostrarSeccion('intranet')}>Intranet</div>
+              )}
               </div>
               <div className="mb-1 d-flex">
-                <div className="Texto ms-0 ms-2 pointer Intranet" onClick={isAuthenticated ? handleLogout : mostrarAccesoUsuarios}>
-                  {isAuthenticated ? 'Cerrar Sesión' : 'Inicio Sesión'}
+                <div className="Texto ms-0 ms-2 pointer">
+                  {isAuthenticated ? (
+                    <span className="Texto" onClick={handleLogout}>Cerrar sesión</span>
+                  ) : (
+                    <span className="Texto" onClick={mostrarAccesoUsuarios}>Iniciar sesión</span>
+                  )}
                 </div>
               </div>
             </div>

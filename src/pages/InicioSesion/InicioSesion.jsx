@@ -35,9 +35,6 @@ const LoginModal = ({ show, handleClose, handleLogin }) => {
                 email,
                 password
             });
-            
-            // Almacenar el token en localStorage
-            localStorage.setItem('token', response.data.token);
 
             //Mostrar opcion Intranet
             handleLogin();
