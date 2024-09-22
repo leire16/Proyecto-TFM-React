@@ -19,7 +19,7 @@ const DondeEstamos = () => {
         <strong>Dirección: </strong>Sarriena Auzoa, 173 48940 Leioa, Vizcaya
       </p>
       <p>
-        <strong>Horario de ensayos: </strong>Los ensayos se llevan a cabo todos los viernes durante el periodo escolar en el Cinema Areto del colegio,
+        <strong>Horario de ensayos: </strong>Los ensayos se llevan a cabo todos los viernes durante el periodo escolar en el Zinema Areto del colegio,
         de 13:00 a 14:00. Además, se realizan ensayos generales en días festivos o fines de semana, en fechas establecidas al comienzo
         de cada curso y acordadas con todos los participantes.
       </p>
