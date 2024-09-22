@@ -143,7 +143,7 @@ const Encuesta = ({ onSubmit }) => {
 
         // Enviar formulario al backend
         try {
-            const response = await fetch('http://localhost:3001/api/opiniones/crear', {
+            const response = await fetch(`${apiUrl}/api/opiniones/crear`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
