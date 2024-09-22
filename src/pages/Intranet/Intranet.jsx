@@ -32,7 +32,7 @@ const Intranet = () => {
     const descargarGuion = async (id) => {
         try {
             // Solicitar los datos del musical
-            const response = await fetch(`http://localhost:3001/api/musicales/guion/${encodeURIComponent(id)}`);
+            const response = await fetch(`${apiUrl}/api/musicales/guion/${encodeURIComponent(id)}`);
             if (!response.ok) {
                 throw new Error('Error al obtener la URL del guion');
             }
@@ -41,7 +41,6 @@ const Intranet = () => {
             const data = await response.json();
 
             const { guion_url, titulo } = data;
-
 
             // Convertir el enlace de Google Drive a un enlace de descarga directa
             const obtenerEnlaceDeDescarga = (url) => {
@@ -66,7 +65,6 @@ const Intranet = () => {
         }
         return `https://www.youtube.com/embed/${videoId}?start=0`;
     };
-
 
     const handleVideoLoad = (key) => {
         setVideosCargados((prev) => ({ ...prev, [key]: true }));
