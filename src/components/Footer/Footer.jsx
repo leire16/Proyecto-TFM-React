@@ -15,7 +15,7 @@ const Footer = ({ onMostrarAvisoLegal, onMostrarPoliticaPrivacidad, onMostrarPol
               </div>
               <div className="mb-1 d-flex align-items-center justify-content-start justify-content-md-start justify-content-center">
                 <span className="mdi mdi-email me-2 IconoMail"></span>
-                <div className="TextoMail ms-1">askartzamartxa@gmail.com</div>
+                <div className="TextoMail ms-1">askartza.martxa@gmail.com</div>
               </div>
             </div>
 
